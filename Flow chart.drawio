@@ -1,0 +1,97 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="GnFqZtrAkqSOCok2yL_e">
+    <mxGraphModel dx="1414" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Login" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="if user in db" vertex="1">
+          <mxGeometry height="100" width="100" x="170" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-5" edge="1" parent="1" source="HCGX95ThhOR98oJTZ6rq-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="690" y="450" as="sourcePoint" />
+            <mxPoint x="320" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="(no) show error" vertex="1">
+          <mxGeometry height="40" width="120" x="320" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-7" edge="1" parent="1" source="HCGX95ThhOR98oJTZ6rq-6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="HCGX95ThhOR98oJTZ6rq-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="180" />
+            </Array>
+            <mxPoint x="690" y="450" as="sourcePoint" />
+            <mxPoint x="740" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-10" edge="1" parent="1" source="HCGX95ThhOR98oJTZ6rq-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="HCGX95ThhOR98oJTZ6rq-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="690" y="330" as="sourcePoint" />
+            <mxPoint x="740" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-11" edge="1" parent="1" source="HCGX95ThhOR98oJTZ6rq-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="HCGX95ThhOR98oJTZ6rq-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="690" y="330" as="sourcePoint" />
+            <mxPoint x="740" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="set user in globals" vertex="1">
+          <mxGeometry height="40" width="120" x="160" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-22" edge="1" parent="1" source="HCGX95ThhOR98oJTZ6rq-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HCGX95ThhOR98oJTZ6rq-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="790" y="340" as="sourcePoint" />
+            <mxPoint x="840" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="yes" vertex="1">
+          <mxGeometry height="30" width="60" x="210" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Main" vertex="1">
+          <mxGeometry height="40" width="120" x="240" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;DB sync&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-28" edge="1" parent="1" source="HCGX95ThhOR98oJTZ6rq-27" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="480" as="sourcePoint" />
+            <mxPoint x="140" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="...In the config folder" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="390" width="160" x="60" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="for every file that has &quot;_subject_&quot;" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="load last question&#39;s ID" vertex="1">
+          <mxGeometry height="40" width="140" x="70" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="send querry" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="Select * from questions&lt;div&gt;where subject = subjectName and id &amp;gt; lastID&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="70" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="To Json" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="HCGX95ThhOR98oJTZ6rq-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Add to file" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="980" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
