@@ -5,7 +5,6 @@ import com.testgen.demo.core.config.Settings;
 import com.testgen.demo.core.threads.ThreadManager;
 import tools.jackson.databind.ObjectMapper;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.sql.Connection;
@@ -25,7 +24,7 @@ public class Main {
             // user login
             String tempName = "", tempSurname = "", tempEmail = "";
             // opt 1 settings
-            InputStream configStream = Main.class.getResourceAsStream("/com/testgen/demo/config/settings.json");
+            InputStream configStream = Main.class.getResourceAsStream("/config/settings.json");
 
             if (configStream == null) {
                 try {
