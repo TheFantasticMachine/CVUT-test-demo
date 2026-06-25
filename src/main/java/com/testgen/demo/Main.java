@@ -70,8 +70,9 @@ public class Main {
                     System.out.println("User logged in: " + globals.getUserName() + " " + globals.getUserSurname() + " | " + globals.getUserEmail());
 
                     // start thread manager
-                    ThreadManager threadManager = new ThreadManager();
-                    Thread questionSyncThread = new Thread(threadManager);
+                    Thread questionSyncThread = new Thread(new ThreadManager());
+                    questionSyncThread.setDaemon(false);
+                    questionSyncThread.setName("threadManager");
                     questionSyncThread.start();
 
                     loggedIn = true;
