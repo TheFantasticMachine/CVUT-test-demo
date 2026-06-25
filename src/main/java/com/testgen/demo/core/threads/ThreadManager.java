@@ -1,29 +1,35 @@
 package com.testgen.demo.core.threads;
 
+import com.testgen.demo.Globals;
 import com.testgen.demo.Helper;
 import com.testgen.demo.core.config.FileHandler;
 import com.testgen.demo.core.config.Settings;
 import tools.jackson.databind.ObjectMapper;
 
 import java.io.*;
-import java.text.SimpleDateFormat;
 
 public class ThreadManager implements Runnable{
     private Helper help = new Helper();
+    private FileHandler fileHandler = new FileHandler();
     @Override
     public void run() {
         try {
             // start log
-            SimpleDateFormat dateTimeFormat = new SimpleDateFormat("yyyy-mm-dd-hh-mm");
-            FileHandler.createFile("/logs/threads.txt");
-            File log = new File("/logs/threads.txt");
+            String logPath = fileHandler.getLogFile("threads");
+            fileHandler.createFile(new String[] {"logs/threads.txt"});
+            File log = new File(logPath);
+            Globals globals = new Globals();
+            globals.setTheadLog(log);
+
+            // start first sync
+            fileHandler.write(log, "started question sync");
+            Thread threadQuestionSync = new Thread(new QuestionSync());
+            threadQuestionSync.setName("QuestionSync");
+            threadQuestionSync.start();
 
                 // time to decide what to do
                 while (true) {
                     // we will sync questions every 30 min
-                    Thread threadQuestionSync = new Thread(new QuestionSync());
-                    threadQuestionSync.setDaemon(true);
-                    threadQuestionSync.setName("QuestionSync");
                     threadQuestionSync.start();
 
                     // load a test if there is any

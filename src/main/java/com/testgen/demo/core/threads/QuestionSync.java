@@ -1,6 +1,7 @@
 package com.testgen.demo.core.threads;
 
 import com.testgen.demo.Helper;
+import com.testgen.demo.core.config.FileHandler;
 import com.testgen.demo.core.engine.DatabaseLoader;
 
 import java.io.File;
@@ -28,7 +29,7 @@ public class QuestionSync implements Runnable{
             while (subjectNames.next()) {
                 try {
                     String currentSubjectName = subjectNames.getString("name");
-                    File file = new File(help.getConfigFile("subject_" + currentSubjectName));
+                    File file = new File(FileHandler.getConfigFile("subject_" + currentSubjectName));
 
                     // Try to create the file
                     if (file.createNewFile()) {

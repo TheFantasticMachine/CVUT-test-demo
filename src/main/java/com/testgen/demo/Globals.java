@@ -1,5 +1,7 @@
 package com.testgen.demo;
 
+import java.io.File;
+
 public class Globals {
 
     // user
@@ -14,4 +16,9 @@ public class Globals {
     public void setUserName (String name) { userName = name; }
     public void setUserSurname (String surname) { userSurname = surname; }
     public void setUserEmail (String email) { userEmail = email; }
+
+    private File theadLog;
+
+    public File getTheadLog() { return theadLog; }
+    public void setTheadLog(File file) { theadLog = file; }
 }
