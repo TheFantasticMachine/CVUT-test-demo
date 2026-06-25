@@ -1,5 +1,5 @@
 {
-  "remember_me": false,
-  "save_last_tests": 5,
-  "user_data": ["ari", "neko", "ari.neko@cvut.cz"]
+  "remember_me": true,
+  "user_data": ["ari", "neko", "ari.neko@cvut.cz"],
+  "save_last_tests": 5
 }
