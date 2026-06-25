@@ -84,7 +84,7 @@ public class ThreadManager implements Runnable{
 
 
                     // wait 2 minutes to check again
-                    Thread.sleep(1 * 1 * 1000);
+                    Thread.sleep(2 * 60 * 1000);
                 }
             } catch (InterruptedException ex) {
             throw new RuntimeException(ex);
