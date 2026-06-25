@@ -1,5 +1,6 @@
 package com.testgen.demo.core.threads;
 
+import com.testgen.demo.Globals;
 import com.testgen.demo.Helper;
 import com.testgen.demo.core.config.FileHandler;
 import com.testgen.demo.core.engine.DatabaseLoader;
@@ -10,12 +11,20 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class QuestionSync implements Runnable{
-    private Helper help = new Helper();
+    private Globals globals = new Globals();
+    private FileHandler fileHandler = new FileHandler();
     @Override
     public void run() {
         try {
+            // write to log
+            DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+            LocalDateTime now = LocalDateTime.now();
+            fileHandler.write(globals.getTheadLog(),"[" + now.format(dateTimeFormatter) + "] started: question sync");
+
             // first get db
             DatabaseLoader databaseLoader = new DatabaseLoader();
             Connection db = databaseLoader.getConnector();
@@ -29,7 +38,7 @@ public class QuestionSync implements Runnable{
             while (subjectNames.next()) {
                 try {
                     String currentSubjectName = subjectNames.getString("name");
-                    File file = new File(FileHandler.getConfigFile("subject_" + currentSubjectName));
+                    File file = new File(fileHandler.getConfigFile("subject_" + currentSubjectName));
 
                     // Try to create the file
                     if (file.createNewFile()) {

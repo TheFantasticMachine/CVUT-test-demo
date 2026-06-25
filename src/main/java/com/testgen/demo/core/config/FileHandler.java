@@ -1,11 +1,10 @@
 package com.testgen.demo.core.config;
 
 import com.testgen.demo.Globals;
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -13,6 +12,8 @@ public class FileHandler {
     private static String workingDir = "src/main/resources/";
 
     // Clean relative project paths (no leading slashes)
+    @NotNull
+    @Contract(pure = true)
     public static String getConfigFile(String filename) {
         return workingDir + "config/" + filename + ".json";
     }
@@ -21,14 +22,14 @@ public class FileHandler {
         return workingDir + "logs/" + filename + ".txt";
     }
 
-    public static void createFile(String[] filenames) {
+    public static void createFile(@NotNull String[] filenames) {
         for (int i = 0; i < filenames.length; i++) {
             File file = new File(workingDir + filenames[i]);
 
             try {
                 boolean doesExist = file.createNewFile();
                 if (!doesExist) {
-                    System.out.println("New File made: " + file.getName());
+                    System.out.println("New File made: " + file.getPath());
                 }
                 else {
                     System.out.println("The file " + file.getName() + " already exists");
@@ -61,7 +62,7 @@ public class FileHandler {
         return directory.mkdir();
     }
 
-    public void write(File file, String text) {
+    public void write(@NotNull File file, String text) {
         try {
             if (!file.exists()) { this.createFile( new String[] {file.getPath()} ); }
 
@@ -72,5 +73,29 @@ public class FileHandler {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public String findInFile (File file, String find) {
+        String output = "";
+        try (BufferedReader reader = new BufferedReader( new FileReader(file) )) {
+            // reading
+            System.out.println("reading " + file.getPath());
+            System.out.println("\t --- <" + file.getName() + "> ---");
+
+            String line;
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+
+                if (line.contains(find)) {
+                    output = line;
+                }
+            }
+
+            System.out.println("\t --- < end > ---");
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        return output;
     }
 }

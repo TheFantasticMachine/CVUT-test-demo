@@ -7,6 +7,11 @@ import com.testgen.demo.core.config.Settings;
 import tools.jackson.databind.ObjectMapper;
 
 import java.io.*;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
 
 public class ThreadManager implements Runnable{
     private Helper help = new Helper();
@@ -16,13 +21,17 @@ public class ThreadManager implements Runnable{
         try {
             // start log
             String logPath = fileHandler.getLogFile("threads");
-            fileHandler.createFile(new String[] {"logs/threads.txt"});
-            File log = new File(logPath);
+            fileHandler.createFile(new String[] {logPath});
+            File log = new File(fileHandler.getLogFile("threads"));
+
             Globals globals = new Globals();
             globals.setTheadLog(log);
 
             // start first sync
-            fileHandler.write(log, "started question sync");
+            DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+            LocalDateTime now = LocalDateTime.now();
+
+            fileHandler.write(log,"[" + now.format(dateTimeFormatter) + "] started: question sync");
             Thread threadQuestionSync = new Thread(new QuestionSync());
             threadQuestionSync.setName("QuestionSync");
             threadQuestionSync.start();
@@ -30,7 +39,15 @@ public class ThreadManager implements Runnable{
                 // time to decide what to do
                 while (true) {
                     // we will sync questions every 30 min
-                    threadQuestionSync.start();
+                    now = LocalDateTime.now(); // get current time
+
+                    String lastInstance = fileHandler.findInFile(globals.getTheadLog(), "started: question sync");
+                    String lastInstanceTimeAsString = lastInstance.substring(0, lastInstance.indexOf("]")).trim();
+                    LocalDateTime lastInstanceTime = LocalDateTime.parse(lastInstanceTimeAsString);
+
+                    if (!lastInstanceTime.plusMinutes(30).isAfter(now)) {
+                        threadQuestionSync.start();
+                    }
 
                     // load a test if there is any
                     System.out.println("1");

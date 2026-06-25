@@ -4,6 +4,7 @@ module com.testgen.demo {
     requires com.fasterxml.jackson.annotation;
     requires tools.jackson.databind;
     requires java.sql;
+    requires annotations;
 
 
     opens com.testgen.demo to javafx.fxml;
