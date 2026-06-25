@@ -1,6 +1,5 @@
 package com.testgen.demo.core.threads;
 
-import com.testgen.demo.Helper;
 import com.testgen.demo.core.engine.DatabaseLoader;
 
 import java.io.File;

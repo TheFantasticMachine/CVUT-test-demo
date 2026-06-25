@@ -14,7 +14,6 @@ import java.sql.Statement;
 import java.util.Scanner;
 
 public class Main {
-    static Helper help = new Helper();
     static Globals globals = new Globals();
 
     public static void main(String[] args) {

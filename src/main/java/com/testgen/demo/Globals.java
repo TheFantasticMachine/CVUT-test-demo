@@ -17,7 +17,7 @@ public class Globals {
     public void setUserSurname (String surname) { userSurname = surname; }
     public void setUserEmail (String email) { userEmail = email; }
 
-    private File theadLog;
+    private static File theadLog;
 
     public File getTheadLog() { return theadLog; }
     public void setTheadLog(File file) { theadLog = file; }

@@ -1,19 +1,11 @@
 package com.testgen.demo.core.config;
 
-import com.testgen.demo.Globals;
-import org.jetbrains.annotations.Contract;
-import org.jetbrains.annotations.NotNull;
-
 import java.io.*;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 public class FileHandler {
     private static String workingDir = "src/main/resources/";
 
     // Clean relative project paths (no leading slashes)
-    @NotNull
-    @Contract(pure = true)
     public static String getConfigFile(String filename) {
         return workingDir + "config/" + filename + ".json";
     }
@@ -22,27 +14,35 @@ public class FileHandler {
         return workingDir + "logs/" + filename + ".txt";
     }
 
-    public static void createFile(@NotNull String[] filenames) {
+    public static void createFile(String[] filenames) {
         for (int i = 0; i < filenames.length; i++) {
-            File file = new File(workingDir + filenames[i]);
+            String filepath = workingDir + filenames[i];
 
-            try {
-                boolean doesExist = file.createNewFile();
-                if (!doesExist) {
-                    System.out.println("New File made: " + file.getPath());
-                }
-                else {
-                    System.out.println("The file " + file.getName() + " already exists");
-                }
+            if (filepath.indexOf(workingDir) != filepath.lastIndexOf(workingDir)) {
+                filepath = filenames[i];
             }
-            catch (IOException e) {
-                mkdir(file.getParent());
+            File file = new File(filepath);
+            if (!file.exists()) {
                 try {
-                    if (!file.createNewFile()) {
-                        throw new RuntimeException(e);
+                    if (file.getParentFile() != null) {
+                        file.getParentFile().mkdirs();
                     }
-                } catch (IOException ex) {
-                    throw new RuntimeException(ex);
+
+                    boolean doesExist = file.createNewFile();
+                    if (!doesExist) {
+                        System.out.println("New File made: " + file.getPath());
+                    } else {
+                        System.out.println("The file " + file.getName() + " already exists");
+                    }
+                } catch (IOException e) {
+                    mkdir(file.getParent());
+                    try {
+                        if (!file.createNewFile()) {
+                            throw new RuntimeException(e);
+                        }
+                    } catch (IOException ex) {
+                        throw new RuntimeException(ex);
+                    }
                 }
             }
         }
@@ -62,11 +62,11 @@ public class FileHandler {
         return directory.mkdir();
     }
 
-    public void write(@NotNull File file, String text) {
+    public void write(File file, String text) {
         try {
             if (!file.exists()) { this.createFile( new String[] {file.getPath()} ); }
 
-            BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
             writer.write(text);
             writer.close();
 

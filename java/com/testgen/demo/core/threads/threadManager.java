@@ -1,7 +1,5 @@
 package com.testgen.demo.core.threads;
 
-import com.testgen.demo.Helper;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
