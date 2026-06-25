@@ -6,6 +6,8 @@ import com.testgen.demo.core.threads.ThreadManager;
 import tools.jackson.databind.ObjectMapper;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -22,9 +24,16 @@ public class Main {
             // user login
             String tempName = "", tempSurname = "", tempEmail = "";
             // opt 1 settings
+            InputStream configStream = Main.class.getResourceAsStream("/com/testgen/demo/config/settings.json");
+            if (configStream == null) {
+                try {
+                    throw new FileNotFoundException("Could not find settings.json inside the project resources!");
+                } catch (FileNotFoundException e) {
+                    throw new RuntimeException(e);
+                }
+            }
             ObjectMapper mapper = new ObjectMapper();
-            File settingsFile = new File(help.getConfigFile("settings"));
-            Settings settings = mapper.readValue(settingsFile, Settings.class);
+            Settings settings = mapper.readValue(configStream, Settings.class);
             if (settings.rememberMe) {
                 tempName = settings.userData[0];
                 tempSurname = settings.userData[1];
@@ -63,6 +72,8 @@ public class Main {
                     ThreadManager threadManager = new ThreadManager();
                     Thread questionSyncThread = new Thread(threadManager);
                     questionSyncThread.start();
+
+                    loggedIn = true;
                 }
             } catch (SQLException e) {
                 throw new RuntimeException(e);
