@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class threadManager implements Runnable{
+public class ThreadManager implements Runnable{
     private Helper help = new Helper();
     @Override
     public void run() {
