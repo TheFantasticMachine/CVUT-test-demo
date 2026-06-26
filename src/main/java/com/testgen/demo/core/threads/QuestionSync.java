@@ -4,7 +4,6 @@ import com.testgen.demo.Globals;
 import com.testgen.demo.core.config.FileHandler;
 import com.testgen.demo.core.engine.DatabaseLoader;
 import com.testgen.demo.core.model.Subject;
-import javafx.scene.shape.Rectangle;
 
 import java.io.File;
 import java.sql.Connection;
@@ -13,63 +12,83 @@ import java.sql.Statement;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class QuestionSync implements Runnable{
+public class QuestionSync implements Runnable {
     private Globals globals = new Globals();
     private FileHandler fileHandler = new FileHandler();
+
     @Override
     public void run() {
-        try {
-            // write to log
-            DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
-            LocalDateTime now = LocalDateTime.now();
-            fileHandler.write(globals.getTheadLog(), "\n[" + now.format(dateTimeFormatter) + "] started: question sync");
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+        LocalDateTime now = LocalDateTime.now();
 
-            // 1) get all subjects as raw result set
-            Connection connection = DatabaseLoader.getConnector();
-            Statement statement = connection.createStatement();
+        // Write initial boot trace out to the shared background thread log
+        fileHandler.write(globals.getTheadLog(), "\n[" + now.format(dateTimeFormatter) + "] started: question sync");
 
-            String sql = "select name from subjects";
-            ResultSet rawSubjects = statement.executeQuery(sql);
-            Subject[] subjects = null;
+        // Use try-with-resources to ensure our database connections close automatically
+        try (Connection connection = DatabaseLoader.getConnector()) {
 
-            sql = "select count(1) from subjects";
-            ResultSet numberInfoRaw = statement.executeQuery(sql);
-            numberInfoRaw.next();
-            int subjectsTotal = numberInfoRaw.getInt(1);
+            int subjectsTotal = 0;
+
+            // FIX 1: Use an isolated statement block to calculate the row count ahead of the loop
+            try (Statement countStatement = connection.createStatement();
+                 ResultSet countResult = countStatement.executeQuery("SELECT COUNT(1) FROM subjects")) {
+                if (countResult.next()) {
+                    subjectsTotal = countResult.getInt(1);
+                }
+            }
+
+            // If there are no subjects present in the system, exit early to prevent math anomalies
+            if (subjectsTotal == 0) {
+                now = LocalDateTime.now();
+                fileHandler.write(globals.getTheadLog(), "\n[" + now.format(dateTimeFormatter) + "] question sync: Aborted (No subjects discovered).");
+                return;
+            }
+
             int subjectCurrentIndex = 0;
 
-            // 2) start the full setup
-            while (rawSubjects.next()) {
-                subjectCurrentIndex++;
+            // FIX 2: Pull BOTH the name and subjectID in a single row query to avoid nested loop queries
+            String sql = "SELECT subjectID, name FROM subjects";
 
-                // 2.1 load the name
-                String subjectName = rawSubjects.getString("name");
-                SubjectConfig subjectConfigClass = new SubjectConfig();
-                subjectConfigClass.subjectSQLName = subjectName;
+            try (Statement loopStatement = connection.createStatement();
+                 ResultSet rawSubjects = loopStatement.executeQuery(sql)) {
 
-                sql = "select subjectID from subjects where name = \'" + subjectName + "\'";
-                ResultSet resultSet = statement.executeQuery(sql);
-                resultSet.next();
-                int subjectID = rawSubjects.getInt("subjectID");
-                subjectConfigClass.subjectID = subjectID;
+                while (rawSubjects.next()) {
+                    subjectCurrentIndex++;
 
-                subjectName = subjectName.replaceAll(" ", "-").toLowerCase().trim();
-                subjectConfigClass.subjectName = subjectName;
+                    // Extract values directly from our active loop cursor row
+                    int subjectID = rawSubjects.getInt("subjectID");
+                    String subjectName = rawSubjects.getString("name");
 
-                // 2.2 load and update the config
-                fileHandler.createFile(new String[] {fileHandler.getConfigFile(subjectName + File.separator + subjectName + "-config")});
-                Subject subject = new Subject();
-                subject.setConfigFile( new File(fileHandler.getConfigFile(subjectName + File.separator + subjectName + "-config")) );
+                    SubjectConfig subjectConfigClass = new SubjectConfig();
+                    subjectConfigClass.subjectSQLName = subjectName;
+                    subjectConfigClass.subjectID = subjectID;
 
-                // report
-                now = LocalDateTime.now();
-                fileHandler.write(globals.getTheadLog(), "\n[" + now.format(dateTimeFormatter) + "] question sync: " + subjectName + " done (" + Math.floor ((subjectCurrentIndex / subjectsTotal) * 100) + "%)") ;
+                    // Clean the string properties to match local file naming conventions
+                    String formattedSubjectName = subjectName.replaceAll(" ", "-").toLowerCase().trim();
+                    subjectConfigClass.subjectName = formattedSubjectName;
+
+                    // Compute the relative file configuration path for this subject module
+                    String configPath = FileHandler.getConfigFile(formattedSubjectName + File.separator + formattedSubjectName + "-config");
+
+                    // Create the local workspace properties file on disk filesystem tracks
+                    FileHandler.createFile(new String[]{configPath});
+
+                    Subject subject = new Subject();
+                    subject.setConfigFile(new File(configPath));
+
+                    // FIX 3: Cast to double to prevent integer division dropping percentages down to zero
+                    double progressPercentage = Math.floor(((double) subjectCurrentIndex / subjectsTotal) * 100);
+
+                    now = LocalDateTime.now();
+                    fileHandler.write(globals.getTheadLog(), "\n[" + now.format(dateTimeFormatter) + "] question sync: " + formattedSubjectName + " done (" + (int) progressPercentage + "%)");
+                }
             }
 
             now = LocalDateTime.now();
-            fileHandler.write(globals.getTheadLog(), "\n[" + now.format(dateTimeFormatter) + "] question sync: 100% done");
-        }
-        catch (Exception e) {
+            fileHandler.write(globals.getTheadLog(), "\n[" + now.format(dateTimeFormatter) + "] question sync: finished");
+
+        } catch (Exception e) {
+            System.err.println("QuestionSync worker encountered an unrecoverable database stream execution error.");
             e.printStackTrace();
         }
     }
