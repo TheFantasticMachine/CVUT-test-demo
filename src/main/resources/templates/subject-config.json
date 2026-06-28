@@ -1,0 +1,19 @@
+{
+  "subjectID" : 1,
+  "subjectName": "name",
+  "lastSync" : "time",
+  "categories" : [
+    {
+      "categoryID": 101,
+      "categoryName" : "category",
+      "questionSet": [
+        {
+          "questionID": 1,
+          "questionText": "lorem ipsum",
+          "correct" : "dolor sit amet",
+          "wrong" : ["text1", "text2", "text3"]
+        }
+      ]
+    }
+  ]
+}

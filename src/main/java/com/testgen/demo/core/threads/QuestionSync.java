@@ -11,6 +11,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 
 public class QuestionSync implements Runnable {
     private Globals globals = new Globals();
@@ -45,9 +46,10 @@ public class QuestionSync implements Runnable {
             }
 
             int subjectCurrentIndex = 0;
+            ArrayList<Subject> subjects = new ArrayList<>();
 
             // FIX 2: Pull BOTH the name and subjectID in a single row query to avoid nested loop queries
-            String sql = "SELECT subjectID, name FROM subjects";
+            String sql = "SELECT * FROM subjects";
 
             try (Statement loopStatement = connection.createStatement();
                  ResultSet rawSubjects = loopStatement.executeQuery(sql)) {
@@ -75,6 +77,10 @@ public class QuestionSync implements Runnable {
 
                     Subject subject = new Subject();
                     subject.setConfigFile(new File(configPath));
+                    subject.setAdminID(rawSubjects.getInt("adminID"));
+                    subject.setSubjectName(formattedSubjectName);
+
+                    subjects.add(subject);
 
                     // FIX 3: Cast to double to prevent integer division dropping percentages down to zero
                     double progressPercentage = Math.floor(((double) subjectCurrentIndex / subjectsTotal) * 100);
@@ -82,6 +88,14 @@ public class QuestionSync implements Runnable {
                     now = LocalDateTime.now();
                     fileHandler.write(globals.getTheadLog(), "\n[" + now.format(dateTimeFormatter) + "] question sync: " + formattedSubjectName + " done (" + (int) progressPercentage + "%)");
                 }
+            }
+
+            globals.setAllSubjects(subjects);
+
+            subjects = globals.getAllSubjects();
+
+            for (Subject subject : subjects) {
+
             }
 
             now = LocalDateTime.now();
@@ -99,4 +113,11 @@ class SubjectConfig {
     public String subjectSQLName;
     public String subjectName;
     public String[] categories;
+}
+
+class CategoryConfig {
+    public int categoryID;
+    public String categorySQLName;
+    public String categoryName;
+    public int parentSubjectID;
 }

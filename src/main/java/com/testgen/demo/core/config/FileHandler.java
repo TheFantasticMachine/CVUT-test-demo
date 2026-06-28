@@ -75,6 +75,12 @@ public class FileHandler {
         }
     }
 
+    public void writeJSON(File file, String[] json) {
+        for (String jsonString : json) {
+            write(file, jsonString);
+        }
+    }
+
     public String findInFile (File file, String find) {
         String output = "";
         try (BufferedReader reader = new BufferedReader( new FileReader(file) )) {
