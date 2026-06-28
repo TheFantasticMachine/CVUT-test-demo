@@ -5,6 +5,7 @@ module com.testgen.demo {
     requires tools.jackson.databind;
     requires java.sql;
     requires annotations;
+    requires org.apache.commons.lang3;
 
 
     opens com.testgen.demo to javafx.fxml;

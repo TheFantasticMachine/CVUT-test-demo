@@ -12,6 +12,7 @@ import java.sql.Statement;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class QuestionSync implements Runnable {
     private Globals globals = new Globals();
@@ -46,7 +47,7 @@ public class QuestionSync implements Runnable {
             }
 
             int subjectCurrentIndex = 0;
-            ArrayList<Subject> subjects = new ArrayList<>();
+            HashMap<String, Subject> subjects = new HashMap<>();
 
             // FIX 2: Pull BOTH the name and subjectID in a single row query to avoid nested loop queries
             String sql = "SELECT * FROM subjects";
@@ -80,7 +81,7 @@ public class QuestionSync implements Runnable {
                     subject.setAdminID(rawSubjects.getInt("adminID"));
                     subject.setSubjectName(formattedSubjectName);
 
-                    subjects.add(subject);
+                    subjects.put(formattedSubjectName, subject);
 
                     // FIX 3: Cast to double to prevent integer division dropping percentages down to zero
                     double progressPercentage = Math.floor(((double) subjectCurrentIndex / subjectsTotal) * 100);
@@ -93,9 +94,6 @@ public class QuestionSync implements Runnable {
             globals.setAllSubjects(subjects);
 
             subjects = globals.getAllSubjects();
-
-            for (Subject subject : subjects) {
-            }
 
             now = LocalDateTime.now();
             fileHandler.write(globals.getTheadLog(), "\n[" + now.format(dateTimeFormatter) + "] question sync: finished");
