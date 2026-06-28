@@ -95,7 +95,6 @@ public class QuestionSync implements Runnable {
             subjects = globals.getAllSubjects();
 
             for (Subject subject : subjects) {
-
             }
 
             now = LocalDateTime.now();
