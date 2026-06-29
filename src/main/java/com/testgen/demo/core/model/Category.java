@@ -1,6 +1,7 @@
 package com.testgen.demo.core.model;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.testgen.demo.core.engine.DatabaseLoader;
 
 import java.sql.Connection;
@@ -36,6 +37,7 @@ public class Category {
         return questions;
     }
 
+    @JsonIgnore
     public Question getQuestion() {
         Question selected = null;
         try {

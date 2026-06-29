@@ -8,13 +8,6 @@ public class Question {
     private String correct;
     private ArrayList<String> wrong;
 
-    public Question(int questionID, String questionText, String correct, ArrayList<String> wrong) {
-        this.questionID = questionID;
-        this.questionText = questionText;
-        this.correct = correct;
-        this.wrong = wrong;
-    }
-
     public int getQuestionID() {
         return questionID;
     }
@@ -29,5 +22,21 @@ public class Question {
 
     public ArrayList<String> getWrong() {
         return wrong;
+    }
+
+    public void setQuestionID(int questionID) {
+        this.questionID = questionID;
+    }
+
+    public void setQuestionText(String questionText) {
+        this.questionText = questionText;
+    }
+
+    public void setCorrect(String correct) {
+        this.correct = correct;
+    }
+
+    public void setWrong(ArrayList<String> wrong) {
+        this.wrong = wrong;
     }
 }
