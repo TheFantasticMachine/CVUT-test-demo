@@ -3,13 +3,11 @@ package com.testgen.demo.core.engine;
 import com.testgen.demo.core.model.Category;
 import com.testgen.demo.core.model.Question;
 import com.testgen.demo.core.model.Subject;
-import com.testgen.demo.core.model.Teacher;
 import org.apache.commons.lang3.RandomStringUtils;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.Random;
 
 public class Test {
@@ -28,12 +26,6 @@ public class Test {
 
     public void createTest() {
         Random random = new Random();
-
-        int length = 10;
-        boolean useLetters = true;
-        boolean useNumbers = false;
-        String generatedString = RandomStringUtils.random(length, useLetters, useNumbers);
-
 
         for (int i = 0; i < variants; i++) {
             // select subjects - forced select

@@ -1,0 +1,16 @@
+{
+  "sessionCode" : "A1B2C3D4E5",
+  "subjects" : [
+    {
+      "subjectID" : 1,
+      "subjectName": "Mathematics",
+      "categories" : [
+        {
+          "categoryID": 1,
+          "categoryName" : "Stereometry",
+          "usedQuestions": [1, 4, 12, 15]
+        }
+      ]
+    }
+  ]
+}

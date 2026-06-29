@@ -2,6 +2,9 @@ package com.testgen.demo;
 
 import com.testgen.demo.core.engine.DatabaseLoader;
 import com.testgen.demo.core.config.Settings;
+import com.testgen.demo.core.model.Category;
+import com.testgen.demo.core.model.Question;
+import com.testgen.demo.core.model.Subject;
 import com.testgen.demo.core.threads.ThreadManager;
 import tools.jackson.databind.ObjectMapper;
 
