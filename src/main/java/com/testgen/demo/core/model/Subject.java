@@ -1,5 +1,7 @@
 package com.testgen.demo.core.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.io.File;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -7,10 +9,13 @@ import java.util.ArrayList;
 public class Subject {
 
     private ArrayList<Category> categories;
+    @JsonIgnore
     private File configFile;
-    private int adminID, subjectID;
+    private int adminID;
+    private int subjectID;
     private String subjectName;
     private LocalDateTime lastSync;
+    @JsonIgnore
     public boolean isGettingSynced = false;
 
     public void setConfigFile(File configFile) { this.configFile = configFile; }

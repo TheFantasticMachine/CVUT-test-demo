@@ -57,34 +57,13 @@ public class QuestionSync implements Runnable {
 
                 while (rawSubjects.next()) {
                     subjectCurrentIndex++;
-
-                    // Extract values directly from our active loop cursor row
-                    int subjectID = rawSubjects.getInt("subjectID");
-                    String subjectName = rawSubjects.getString("name");
-
-                    SubjectConfig subjectConfigClass = new SubjectConfig();
-                    subjectConfigClass.subjectSQLName = subjectName;
-                    subjectConfigClass.subjectID = subjectID;
-
-                    // Clean the string properties to match local file naming conventions
-                    String formattedSubjectName = subjectName.replaceAll(" ", "-").toLowerCase().trim();
-                    subjectConfigClass.subjectName = formattedSubjectName;
-
-                    // Compute the relative file configuration path for this subject module
-                    String configPath = FileHandler.getConfigFile(formattedSubjectName + File.separator + formattedSubjectName + "-config");
-
-                    // Create the local workspace properties file on disk filesystem tracks
-                    FileHandler.createFile(new String[]{configPath});
-
-                    Subject subject = new Subject();
-                    subject.setConfigFile(new File(configPath));
-                    subject.setAdminID(rawSubjects.getInt("adminID"));
-                    subject.setSubjectName(formattedSubjectName);
-
-                    subjects.put(formattedSubjectName, subject);
-
-                    // FIX 3: Cast to double to prevent integer division dropping percentages down to zero
                     double progressPercentage = Math.floor(((double) subjectCurrentIndex / subjectsTotal) * 100);
+
+                    // 1) get the subject name so we can start building it
+                    Subject subject = new Subject();
+
+                    String name = rawSubjects.getString("name");
+                    String formattedSubjectName = name.replaceAll(" ", "-").toLowerCase();
 
                     now = LocalDateTime.now();
                     fileHandler.write(globals.getTheadLog(), "\n[" + now.format(dateTimeFormatter) + "] question sync: " + formattedSubjectName + " done (" + (int) progressPercentage + "%)");
@@ -92,8 +71,6 @@ public class QuestionSync implements Runnable {
             }
 
             globals.setAllSubjects(subjects);
-
-            subjects = globals.getAllSubjects();
 
             now = LocalDateTime.now();
             fileHandler.write(globals.getTheadLog(), "\n[" + now.format(dateTimeFormatter) + "] question sync: finished");
@@ -103,18 +80,4 @@ public class QuestionSync implements Runnable {
             e.printStackTrace();
         }
     }
-}
-
-class SubjectConfig {
-    public int subjectID;
-    public String subjectSQLName;
-    public String subjectName;
-    public String[] categories;
-}
-
-class CategoryConfig {
-    public int categoryID;
-    public String categorySQLName;
-    public String categoryName;
-    public int parentSubjectID;
 }

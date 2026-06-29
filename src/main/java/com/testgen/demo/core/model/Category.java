@@ -1,5 +1,6 @@
 package com.testgen.demo.core.model;
 
+import com.fasterxml.jackson.annotation.JsonAlias;
 import com.testgen.demo.core.engine.DatabaseLoader;
 
 import java.sql.Connection;
@@ -12,6 +13,7 @@ public class Category {
 
     private String categoryName;
     private int categoryID;
+    @JsonAlias({"questions", "myQuestions", "questionSet"})
     private ArrayList<Question> questions;
 
     public void setQuestions(ArrayList<Question> questions) {
