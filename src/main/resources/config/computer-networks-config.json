@@ -1,0 +1,151 @@
+{
+  "categories" : [ {
+    "categoryID" : 11,
+    "categoryName" : "OSI Model Layers",
+    "questions" : [ {
+      "correct" : "Layer 6 - Presentation Layer",
+      "questionID" : 51,
+      "questionText" : "Which OSI layer is responsible for translating data between application formatting and network encoding?",
+      "wrong" : [ "Layer 5 - Session Layer", "Layer 7 - Application Layer", "Layer 4 - Transport Layer" ]
+    }, {
+      "correct" : "Layer 3 - Network Layer",
+      "questionID" : 52,
+      "questionText" : "At which OSI layer do network routers primarily operate to forward packages?",
+      "wrong" : [ "Layer 2 - Data Link Layer", "Layer 4 - Transport Layer", "Layer 1 - Physical Layer" ]
+    }, {
+      "correct" : "Frame",
+      "questionID" : 53,
+      "questionText" : "What is the exact Protocol Data Unit (PDU) name processed at Layer 2 of the OSI model?",
+      "wrong" : [ "Packet", "Segment", "Bit data block" ]
+    }, {
+      "correct" : "Hub",
+      "questionID" : 54,
+      "questionText" : "Which of the following network infrastructure components is bounded strictly to Layer 1 operations?",
+      "wrong" : [ "Switch", "Router", "Gateway proxy" ]
+    }, {
+      "correct" : "End-to-end communication flow control, segmentation, and error checking",
+      "questionID" : 55,
+      "questionText" : "What is the core responsibility of Layer 4 (Transport Layer) inside connection pipelines?",
+      "wrong" : [ "Physical line signals encoding management", "Logical path selection across separate routing nodes", "Mapping human-readable domains to server IP values" ]
+    } ]
+  }, {
+    "categoryID" : 12,
+    "categoryName" : "IP Addressing & Subnetting",
+    "questions" : [ {
+      "correct" : "32 bits",
+      "questionID" : 56,
+      "questionText" : "How many total bit blocks form a standard IPv4 address structure?",
+      "wrong" : [ "64 bits", "128 bits", "16 bits" ]
+    }, {
+      "correct" : "10.0.0.0 to 10.255.255.255",
+      "questionID" : 57,
+      "questionText" : "What is the default private IP address range category bounded to Class A network topologies?",
+      "wrong" : [ "172.16.0.0 to 172.31.255.255", "192.168.0.0 to 192.168.255.255", "169.254.0.0 to 169.254.255.255" ]
+    }, {
+      "correct" : "62 hosts",
+      "questionID" : 58,
+      "questionText" : "If a host configuration has an IP of 192.168.1.50 with a subnet mask of /26, how many hosts are available?",
+      "wrong" : [ "64 hosts", "126 hosts", "30 hosts" ]
+    }, {
+      "correct" : "To discover the physical MAC address matching a known logical IP address",
+      "questionID" : 59,
+      "questionText" : "What is the primary role of the Address Resolution Protocol (ARP) inside a subnet?",
+      "wrong" : [ "To assign dynamic IP configurations automatically", "To forward data packages across different global public networks", "To map text-based domain strings" ]
+    }, {
+      "correct" : "Network Address Translation (NAT)",
+      "questionID" : 60,
+      "questionText" : "Which mechanism enables multiple private local network clients to share a single public IP mapping parameter?",
+      "wrong" : [ "Dynamic Host Configuration (DHCP)", "Domain Name Resolution (DNS)", "Virtual Local Architecture (VLAN)" ]
+    } ]
+  }, {
+    "categoryID" : 13,
+    "categoryName" : "Routing Protocols",
+    "questions" : [ {
+      "correct" : "Border Gateway Protocol (BGP)",
+      "questionID" : 61,
+      "questionText" : "Which of the following routing protocols operates as an Exterior Gateway Protocol (EGP) to handle internet traffic?",
+      "wrong" : [ "Open Shortest Path First (OSPF)", "Routing Information Protocol (RIP)", "Enhanced Interior Gateway (EIGRP)" ]
+    }, {
+      "correct" : "Hop count",
+      "questionID" : 62,
+      "questionText" : "What metric parameter does the Routing Information Protocol (RIP) utilize to determine the best path?",
+      "wrong" : [ "Bandwidth capacity", "Link cost speed calculations", "Total circuit delay latency" ]
+    }, {
+      "correct" : "Link-State routing protocol",
+      "questionID" : 63,
+      "questionText" : "What classification defines the Open Shortest Path First (OSPF) routing protocol engine?",
+      "wrong" : [ "Distance-Vector routing protocol", "Path-Vector configuration format", "Static lookup layout interface" ]
+    }, {
+      "correct" : "The destination path used for traffic traveling outside the local network subnet boundary",
+      "questionID" : 64,
+      "questionText" : "What is the role of a default gateway entry inside a client machine's routing profile?",
+      "wrong" : [ "The physical hardware switch port connected to the line", "The backup DNS server utilized when primary queries fail", "The local database server recording updates" ]
+    }, {
+      "correct" : "Dijkstra's Algorithm",
+      "questionID" : 65,
+      "questionText" : "What algorithm forms the mathematical engine used by OSPF to compute shortest path trees?",
+      "wrong" : [ "Bellman-Ford Algorithm", "Banker's Algorithm", "Floyd-Warshall Routine" ]
+    } ]
+  }, {
+    "categoryID" : 14,
+    "categoryName" : "Transport Layer (TCP/UDP)",
+    "questions" : [ {
+      "correct" : "FIN, ACK, FIN, ACK",
+      "questionID" : 66,
+      "questionText" : "What flag sequence handles a standard connection teardown/closure inside TCP transport logic?",
+      "wrong" : [ "SYN, SYN-ACK, ACK", "RST, ACK", "PSH, ACK, URG" ]
+    }, {
+      "correct" : "Connectionless, lightweight, and lacks delivery guarantees or sequencing",
+      "questionID" : 67,
+      "questionText" : "Which of the following traits characterizes the User Datagram Protocol (UDP) data stream?",
+      "wrong" : [ "Reliable, connection-oriented, and features heavy window sizing flows", "Operates exclusively inside Layer 3 routing tracks", "Mandates manual packet handshakes before transmission" ]
+    }, {
+      "correct" : "Dynamic flow control to regulate how much data a sender can transmit before an ACK is required",
+      "questionID" : 68,
+      "questionText" : "What does the 'Sliding Window' mechanism accomplish inside a TCP session tracking pipeline?",
+      "wrong" : [ "Cryptographic block rotations to shield payload fields", "Horizontal expansion of port bounds when traffic spikes occur", "Automatic file segment translations" ]
+    }, {
+      "correct" : "Port 22",
+      "questionID" : 69,
+      "questionText" : "What is the standard port allocation value for secure SSH remote shell terminal sessions?",
+      "wrong" : [ "Port 23", "Port 80", "Port 443" ]
+    }, {
+      "correct" : "The connection is instantly terminated due to an unrecoverable error mismatch condition",
+      "questionID" : 70,
+      "questionText" : "What occurs when a TCP host triggers a Reset (RST) flag parameter inside its header field?",
+      "wrong" : [ "The sender requests a temporary pause in traffic flow", "The receiver reports that a data segment contains corrupt checksum blocks", "The pipeline starts a context synchronization sequence" ]
+    } ]
+  }, {
+    "categoryID" : 15,
+    "categoryName" : "Network Security Basics",
+    "questions" : [ {
+      "correct" : "Stateful Inspection Firewall",
+      "questionID" : 71,
+      "questionText" : "What type of firewall monitors the state of active connections to determine whether to block a packet?",
+      "wrong" : [ "Packet Filtering Firewall", "Application Proxy Gateway", "Stateless Lookups Interface" ]
+    }, {
+      "correct" : "It uses a public key to encrypt data and a matching separate private key to decrypt it",
+      "questionID" : 72,
+      "questionText" : "How does Asymmetric Encryption handle session key setup operations?",
+      "wrong" : [ "It relies on a single shared symmetric key rotated periodically", "It hashes password strings using random salt variables", "It restricts traffic lanes to specific local MAC configurations" ]
+    }, {
+      "correct" : "Man-in-the-Middle (MitM) attack",
+      "questionID" : 73,
+      "questionText" : "What type of intrusion occurs when an attacker intercepts and modifies communications between two endpoints?",
+      "wrong" : [ "Cross-Site Request Forgery (CSRF)", "Denial of Service (DDoS)", "SQL Injection (SQLi)" ]
+    }, {
+      "correct" : "To isolate public-facing servers from the secure internal private network infrastructure",
+      "questionID" : 74,
+      "questionText" : "What is the primary role of a demilitarized zone (DMZ) inside an enterprise network layout?",
+      "wrong" : [ "To host local user database management tables securely", "To store system application logs data fields away from internet paths", "To balance bandwidth distributions across edge switch routing points" ]
+    }, {
+      "correct" : "HTTPS",
+      "questionID" : 75,
+      "questionText" : "Which protocol encapsulates web traffic inside an encrypted SSL/TLS session framework layer?",
+      "wrong" : [ "HTTP", "SFTP", "SNMP" ]
+    } ]
+  } ],
+  "lastSync" : "2026-06-30T11:15:28.857550076",
+  "subjectID" : 3,
+  "subjectName" : "computer-networks"
+}

@@ -8,13 +8,14 @@ import java.util.ArrayList;
 
 public class Subject {
 
-    private ArrayList<Category> categories;
     @JsonIgnore
     private File configFile;
+    @JsonIgnore
     private int adminID;
     private int subjectID;
     private String subjectName;
     private LocalDateTime lastSync;
+    private ArrayList<Category> categories;
     @JsonIgnore
     public boolean isGettingSynced = false;
 

@@ -81,7 +81,7 @@ public class FileHandler {
         }
     }
 
-    public String findInFile (File file, String find) {
+    public static String findInFile(File file, String find) {
         String output = "";
         try (BufferedReader reader = new BufferedReader( new FileReader(file) )) {
             // reading

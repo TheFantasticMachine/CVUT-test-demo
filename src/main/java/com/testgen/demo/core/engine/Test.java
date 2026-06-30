@@ -3,12 +3,9 @@ package com.testgen.demo.core.engine;
 import com.testgen.demo.core.model.Category;
 import com.testgen.demo.core.model.Question;
 import com.testgen.demo.core.model.Subject;
-import org.apache.commons.lang3.RandomStringUtils;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Random;
+import java.util.*;
 
 public class Test {
 
@@ -49,7 +46,23 @@ public class Test {
                 selectedCategories.replace(selectedKey, selectedVal, selectedVal++);
             }
 
-            Question[] testQuestions;
+            Set<Question> testQuestions = new HashSet<>();
+
+            for (Category selectedCategory : selectedCategories.keySet()) {
+               List<Question> questions = selectedCategory.getUniqueQuestions(selectedCategories.get(selectedCategory));
+               questions.forEach(question -> testQuestions.add(question));
+            }
+
+            System.out.println("\t -----< test start >-----");
+            testQuestions.forEach(question -> {
+                System.out.println("(" + question.getQuestionID() + ") " + question.getQuestionText());
+                System.out.println("(correct) - " + question.getCorrect());
+                for (String wrong : question.getWrong()) {
+                    System.out.println("(wrong) - " + wrong);
+                }
+                System.out.println("\t\t -----");
+            });
+            System.out.println("\t -----< test end >-----");
         }
     }
 }
