@@ -24,9 +24,7 @@ import java.util.List;
 public class QuestionSync implements Runnable {
     private Globals globals = new Globals();
     private FileHandler fileHandler = new FileHandler();
-    private ObjectMapper mapper = JsonMapper.builder()
-            .enable(SerializationFeature.INDENT_OUTPUT)
-            .build();
+    private ObjectMapper mapper = globals.getMapper();
 
     @Override
     public void run() {

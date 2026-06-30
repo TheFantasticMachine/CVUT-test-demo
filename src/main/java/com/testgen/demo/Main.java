@@ -2,6 +2,7 @@ package com.testgen.demo;
 
 import com.testgen.demo.core.engine.DatabaseLoader;
 import com.testgen.demo.core.config.Settings;
+import com.testgen.demo.core.engine.Test;
 import com.testgen.demo.core.model.Category;
 import com.testgen.demo.core.model.Question;
 import com.testgen.demo.core.model.Subject;
@@ -78,7 +79,15 @@ public class Main {
 
                     loggedIn = true;
                 }
+
+                Thread.sleep(5000);
+
+                Test test = new Test(10, 3, 3, Globals.getAllSubjects().get("mathematics"), Globals.getAllSubjects().get("mathematics").getCategories());
+                test.createTest();
+
             } catch (SQLException e) {
+                throw new RuntimeException(e);
+            } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
         }

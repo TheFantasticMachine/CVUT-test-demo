@@ -1,9 +1,14 @@
 package com.testgen.demo;
 
 import com.testgen.demo.core.model.Subject;
+import tools.jackson.databind.ObjectMapper;
+import tools.jackson.databind.SerializationFeature;
+import tools.jackson.databind.json.JsonMapper;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class Globals {
 
@@ -33,7 +38,27 @@ public class Globals {
     // subjects
     private static HashMap<String, Subject> allSubjects;
 
-    public HashMap<String,Subject> getAllSubjects() { return allSubjects; }
+    public static HashMap<String,Subject> getAllSubjects() { return allSubjects; }
 
     public void setAllSubjects(HashMap<String, Subject> allSubjects) { Globals.allSubjects = allSubjects; }
+
+    private final ObjectMapper mapper = JsonMapper.builder()
+            .enable(SerializationFeature.INDENT_OUTPUT)
+            .build();
+
+    public ObjectMapper getMapper() {
+        return mapper;
+    }
+
+    private static final List<Integer> usedQuestionIDs = new ArrayList<>();
+
+    public static List<Integer> getUsedQuestionIDs() {
+        return usedQuestionIDs;
+    }
+
+    public static void markQuestionAsUsed(int id) {
+        if (!usedQuestionIDs.contains(id)) {
+            usedQuestionIDs.add(id);
+        }
+    }
 }
