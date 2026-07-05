@@ -1,4 +1,4 @@
-package com.testgen.demo.core.config;
+package com.testgen.demo;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

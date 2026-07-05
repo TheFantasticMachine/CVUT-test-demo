@@ -1,4 +1,4 @@
-package com.testgen.demo.core.threads;
+package com.testgen.demo.threads;
 
 import com.testgen.demo.Globals;
 import com.testgen.demo.core.config.FileHandler;
@@ -7,8 +7,6 @@ import com.testgen.demo.core.model.Category;
 import com.testgen.demo.core.model.Question;
 import com.testgen.demo.core.model.Subject;
 import tools.jackson.databind.ObjectMapper;
-import tools.jackson.databind.SerializationFeature;
-import tools.jackson.databind.json.JsonMapper;
 
 import java.io.File;
 import java.sql.Connection;

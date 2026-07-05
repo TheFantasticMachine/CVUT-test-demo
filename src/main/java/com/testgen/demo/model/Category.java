@@ -1,4 +1,4 @@
-package com.testgen.demo.core.model;
+package com.testgen.demo.model;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnore;

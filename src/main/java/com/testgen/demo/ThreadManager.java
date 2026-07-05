@@ -1,11 +1,11 @@
-package com.testgen.demo.core.threads;
+package com.testgen.demo;
 
-import com.testgen.demo.Globals;
 import com.testgen.demo.core.config.FileHandler;
 import com.testgen.demo.core.config.Settings;
 import tools.jackson.databind.ObjectMapper;
 
-import java.io.*;
+import java.io.File;
+import java.io.FilenameFilter;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 

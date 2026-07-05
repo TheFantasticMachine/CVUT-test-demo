@@ -1,4 +1,4 @@
-package com.testgen.demo.core.model;
+package com.testgen.demo.model;
 
 import java.io.File;
 
