@@ -1,4 +1,4 @@
-package com.testgen.demo.model;
+package com.testgen.demo.core.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

@@ -1,4 +1,4 @@
-package com.testgen.demo.config;
+package com.testgen.demo.core.config;
 
 import java.io.*;
 

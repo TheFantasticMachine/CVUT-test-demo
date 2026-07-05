@@ -1,4 +1,4 @@
-package com.testgen.demo.threads;
+package com.testgen.demo.core.threads;
 
 import com.testgen.demo.Globals;
 import com.testgen.demo.core.config.FileHandler;

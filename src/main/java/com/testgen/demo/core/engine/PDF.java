@@ -1,4 +1,4 @@
-package com.testgen.demo.engine;
+package com.testgen.demo.core.engine;
 
 // FIXED: Clean iText 8 package structures
 import com.itextpdf.io.image.ImageData;

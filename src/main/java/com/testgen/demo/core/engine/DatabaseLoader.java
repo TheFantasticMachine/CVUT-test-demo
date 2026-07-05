@@ -1,4 +1,4 @@
-package com.testgen.demo.engine;
+package com.testgen.demo.core.engine;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

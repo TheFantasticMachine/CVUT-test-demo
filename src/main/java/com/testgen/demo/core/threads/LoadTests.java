@@ -1,4 +1,4 @@
-package com.testgen.demo.threads;
+package com.testgen.demo.core.threads;
 
 public class LoadTests implements Runnable {
     @Override

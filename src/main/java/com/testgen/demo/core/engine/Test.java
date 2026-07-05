@@ -1,5 +1,6 @@
-package com.testgen.demo;
+package com.testgen.demo.core.engine;
 
+import com.testgen.demo.Globals;
 import com.testgen.demo.core.config.FileHandler;
 import com.testgen.demo.core.model.*;
 import tools.jackson.databind.ObjectMapper;
