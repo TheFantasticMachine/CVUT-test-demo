@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "05-07-2026_13:29:12",
+  "variant" : 3,
+  "subjectName" : "operating-systems",
+  "categories" : [ "Kernel Architecture", "File Systems", "Process Scheduling" ],
+  "questions" : [ {
+    "question" : "What is a major advantage of a microkernel compared to a monolithic design?",
+    "answers" : [ "Lower context switching overhead costs", "Higher system stability and isolation of corrupted drivers", "Faster execution performance speeds", "Smaller total storage size footprint" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What happens during a hardware interrupt?",
+    "answers" : [ "Virtual memory maps flush physical hard drive tracks", "The operating system completely reboots its kernel", "The active process is terminated and marked as a zombie", "The CPU suspends its execution stream to run an interrupt service routine" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What privilege layer does the operating system kernel run in on modern CPUs?",
+    "answers" : [ "Hypervisor mode", "Kernel mode (Ring 0)", "Safe mode", "User mode (Ring 3)" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What characterizes a monolithic kernel architecture?",
+    "answers" : [ "All operating system services run inside a single privileged kernel space", "It eliminates context switching overhead entirely", "OS services are moved to separate user-space modules", "It runs exclusively on virtual machines" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is a major advantage of a journaling file system like ext4?",
+    "answers" : [ "It records changes in a log to prevent corruption during sudden power losses", "It compresses text files to half their initial disk sector allocations", "It speeds up graphics card rendering rates", "It encrypts all user credentials automatically" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What does an inode store in a Unix-like file system?",
+    "answers" : [ "The human-readable file name and directory path string", "The literal plain-text contents of the target file", "The encryption keys used for secure network transmissions", "File metadata, size, permissions, and block pointers, but not the file name" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is a major disadvantage of the Shortest Job First scheduling algorithm?",
+    "answers" : [ "High context-switching processing overhead", "It requires specialized graphical hardware layers", "Long-running processes can suffer from starvation", "Massive memory cache utilization footprints" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What information is tracked inside a Process Control Block (PCB)?",
+    "answers" : [ "Network interface card MAC address parameters", "Local database storage tables metadata", "Process state, program counter, CPU registers, and memory boundaries", "The user web browser cache profiles" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "Which scheduling algorithm runs processes based on a fixed time-slice quantum rotation?",
+    "answers" : [ "Multilevel Feedback Queue", "Shortest Job First (SJF)", "Round Robin (RR)", "First-Come, First-Served (FCFS)" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What state does a process enter if it is waiting for an I/O operation to finish?",
+    "answers" : [ "Ready state", "Running state", "Zombie state", "Blocked / Waiting state" ],
+    "correctIndex" : 3
+  } ]
+}

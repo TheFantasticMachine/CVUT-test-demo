@@ -1,4 +1,4 @@
 CVUT test generator
 --
 
-IDK
+IDK...
