@@ -7,9 +7,10 @@ import com.testgen.demo.core.model.Subject;
 import com.testgen.demo.core.threads.ThreadManager;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import tools.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -43,7 +44,12 @@ public class Main {
             }
 
             ObjectMapper mapper = new ObjectMapper();
-            Settings settings = mapper.readValue(configStream, Settings.class);
+            Settings settings = null;
+            try {
+                settings = mapper.readValue(configStream, Settings.class);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
 
             String tempName = "", tempSurname = "", tempEmail = "";
             if (settings.rememberMe) {

@@ -3,7 +3,7 @@ package com.testgen.demo.core.engine;
 import com.testgen.demo.Globals;
 import com.testgen.demo.core.config.FileHandler;
 import com.testgen.demo.core.model.*;
-import tools.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
 import java.time.LocalDateTime;

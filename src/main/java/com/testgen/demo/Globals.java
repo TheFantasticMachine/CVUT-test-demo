@@ -1,9 +1,8 @@
 package com.testgen.demo;
 
 import com.testgen.demo.core.model.Subject;
-import tools.jackson.databind.ObjectMapper;
-import tools.jackson.databind.SerializationFeature;
-import tools.jackson.databind.json.JsonMapper;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -42,9 +41,8 @@ public class Globals {
 
     public void setAllSubjects(HashMap<String, Subject> allSubjects) { Globals.allSubjects = allSubjects; }
 
-    private static ObjectMapper mapper = JsonMapper.builder()
-            .enable(SerializationFeature.INDENT_OUTPUT)
-            .build();
+    private static final ObjectMapper mapper = new ObjectMapper()
+            .enable(SerializationFeature.INDENT_OUTPUT);
 
     public static ObjectMapper getMapper() {
         return mapper;

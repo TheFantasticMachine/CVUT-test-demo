@@ -1,12 +1,15 @@
 package com.testgen.demo.core.threads;
 
+import com.fasterxml.jackson.core.exc.StreamReadException;
+import com.fasterxml.jackson.databind.DatabindException;
 import com.testgen.demo.Globals;
 import com.testgen.demo.core.config.FileHandler;
 import com.testgen.demo.core.config.Settings;
-import tools.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
 import java.io.FilenameFilter;
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -89,6 +92,12 @@ public class ThreadManager implements Runnable{
                 }
             } catch (InterruptedException ex) {
             throw new RuntimeException(ex);
+        } catch (StreamReadException e) {
+            throw new RuntimeException(e);
+        } catch (DatabindException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 }

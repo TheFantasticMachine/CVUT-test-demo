@@ -6,7 +6,7 @@ import com.testgen.demo.core.engine.DatabaseLoader;
 import com.testgen.demo.core.model.Category;
 import com.testgen.demo.core.model.Question;
 import com.testgen.demo.core.model.Subject;
-import tools.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
 import java.sql.Connection;
