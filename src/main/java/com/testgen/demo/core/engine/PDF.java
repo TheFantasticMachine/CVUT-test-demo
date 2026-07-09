@@ -58,4 +58,12 @@ public class PDF {
             throw new RuntimeException(e);
         }
     }
+
+    public static void createPdfWithHTML() {
+        File html = new File(FileHandler.getHtmlFile("test_template"));
+        Document doc = Jsoup.prase(html, "UTF-8");
+        doc.outputSettings().syntax(Document.OutputSettings.Syntax.xml);
+
+        try { OutputStream os = new FileOutputStream }
+    }
 }

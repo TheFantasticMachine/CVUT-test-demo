@@ -9,12 +9,11 @@ public class FileHandler {
     public static String getConfigFile(String filename) {
         return workingDir + "config/" + filename + ".json";
     }
-
     public String getLogFile(String filename) {
         return workingDir + "logs/" + filename + ".txt";
     }
-
     public static String getTestJson (String filename) { return workingDir + "tests/" + filename + ".json"; }
+    public String getHtmlFile (String filename) { return workingDir + "templates/" + filename + ".html"; }
 
     public static String getWorkingDir() { return workingDir; }
 
