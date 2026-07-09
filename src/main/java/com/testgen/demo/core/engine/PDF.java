@@ -1,6 +1,9 @@
 package com.testgen.demo.core.engine;
 
 // FIXED: Clean iText 8 package structures
+import com.itextpdf.html2pdf.ConverterProperties;
+import com.itextpdf.html2pdf.HtmlConverter;
+import com.itextpdf.html2pdf.resolver.font.DefaultFontProvider;
 import com.itextpdf.io.image.ImageData;
 import com.itextpdf.io.image.ImageDataFactory;
 import com.itextpdf.kernel.pdf.PdfDocument;
@@ -8,15 +11,16 @@ import com.itextpdf.kernel.pdf.PdfWriter;
 import com.itextpdf.layout.Document;
 import com.itextpdf.layout.element.Image;
 import com.itextpdf.layout.element.Paragraph;
+import com.itextpdf.styledxmlparser.jsoup.Jsoup;
+import com.testgen.demo.core.config.FileHandler;
+import org.springframework.stereotype.Service;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 
+import static com.testgen.demo.core.config.FileHandler.getPdfFile;
+
+@Service
 public class PDF {
-
-    public static String getPdfFile(String filename) {
-        return "src/main/resources/pdf/" + filename + ".pdf";
-    }
 
     public static void createPDF(String filename, String text) {
         if (text.isEmpty()) {
@@ -59,11 +63,30 @@ public class PDF {
         }
     }
 
-    public static void createPdfWithHTML() {
-        File html = new File(FileHandler.getHtmlFile("test_template"));
-        Document doc = Jsoup.prase(html, "UTF-8");
-        doc.outputSettings().syntax(Document.OutputSettings.Syntax.xml);
+    public static void createPdfWithHTML(String processedHtml) {
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 
-        try { OutputStream os = new FileOutputStream }
+        try {
+            PdfWriter pdfWriter = new PdfWriter(byteArrayOutputStream);
+            DefaultFontProvider defaultFont = new DefaultFontProvider(false, true, false);
+
+            ConverterProperties converterProperties = new ConverterProperties();
+            converterProperties.setFontProvider(defaultFont);
+
+            HtmlConverter.convertToPdf(processedHtml, pdfWriter, converterProperties);
+
+            FileOutputStream fileOutputStream = new FileOutputStream("");
+            byteArrayOutputStream.write(fileOutputStream);
+            byteArrayOutputStream.close();
+
+            byteArrayOutputStream.flush();
+            fileOutputStream.close();
+
+            return;
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+        return;
     }
 }

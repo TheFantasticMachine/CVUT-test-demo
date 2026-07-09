@@ -20,8 +20,6 @@ public class TestData {
     @JsonAlias ({"questions"})
     private List<TestQuestion> questions;
 
-    public TestData() {}
-
     public TestData(String creator, String subjectName, String timestamp, int variant, List<TestQuestion> questions, List<String> categories) {
         this.creator = creator;
         this.subjectName = subjectName;

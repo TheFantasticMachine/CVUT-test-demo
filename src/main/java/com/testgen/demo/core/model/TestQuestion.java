@@ -1,6 +1,7 @@
 package com.testgen.demo.core.model;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import java.util.List;
@@ -11,13 +12,15 @@ public class TestQuestion {
     private String question;
     private List<String> answers;
     private int correctIndex;
-
-    public TestQuestion() {}
+    @JsonIgnore
+    private String correctAnswer;
 
     public TestQuestion(String question, List<String> answers, int correctIndex) {
         this.question = question;
         this.answers = answers;
         this.correctIndex = correctIndex;
+
+        this.correctAnswer = answers.get(correctIndex);
     }
 
     public String getQuestion() { return question; }

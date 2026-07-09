@@ -13,7 +13,10 @@ public class FileHandler {
         return workingDir + "logs/" + filename + ".txt";
     }
     public static String getTestJson (String filename) { return workingDir + "tests/" + filename + ".json"; }
-    public String getHtmlFile (String filename) { return workingDir + "templates/" + filename + ".html"; }
+    public static String getHtmlFile(String filename) { return workingDir + "templates/" + filename + ".html"; }
+    public static String getPdfFile(String filename) {
+        return "src/main/resources/pdf/" + filename + ".pdf";
+    }
 
     public static String getWorkingDir() { return workingDir; }
 
