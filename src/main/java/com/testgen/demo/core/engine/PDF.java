@@ -1,6 +1,5 @@
 package com.testgen.demo.core.engine;
 
-// FIXED: Clean iText 8 package structures
 import com.itextpdf.html2pdf.ConverterProperties;
 import com.itextpdf.html2pdf.HtmlConverter;
 import com.itextpdf.html2pdf.resolver.font.DefaultFontProvider;
@@ -11,17 +10,19 @@ import com.itextpdf.kernel.pdf.PdfWriter;
 import com.itextpdf.layout.Document;
 import com.itextpdf.layout.element.Image;
 import com.itextpdf.layout.element.Paragraph;
-import com.itextpdf.styledxmlparser.jsoup.Jsoup;
 import com.testgen.demo.core.config.FileHandler;
 import org.springframework.stereotype.Service;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 import static com.testgen.demo.core.config.FileHandler.getPdfFile;
 
 @Service
 public class PDF {
 
+    // Old manual paragraph/image builder method
     public static void createPDF(String filename, String text) {
         if (text.isEmpty()) {
             text = "Test Generation Sheet Template Workspace";
@@ -34,27 +35,24 @@ public class PDF {
             file.getParentFile().mkdirs();
         }
 
-        try {
-            PdfWriter pdfWriter = new PdfWriter(file);
-            PdfDocument pdfDocument = new PdfDocument(pdfWriter);
+        try (PdfWriter pdfWriter = new PdfWriter(file);
+             PdfDocument pdfDocument = new PdfDocument(pdfWriter)) {
 
             pdfDocument.addNewPage();
-
             Document document = new Document(pdfDocument);
 
-            // add paragraph
             Paragraph paragraph = new Paragraph(text);
             document.add(paragraph);
 
-            // add  image
             String imgSrc = "src/main/resources/templates/image.jpg";
-            ImageData imageData = ImageDataFactory.create(imgSrc);
-            Image image = new Image(imageData);
-
-            document.add(image);
+            File imageFile = new File(imgSrc);
+            if (imageFile.exists()) {
+                ImageData imageData = ImageDataFactory.create(imgSrc);
+                Image image = new Image(imageData);
+                document.add(image);
+            }
 
             document.close();
-
             System.out.println("[PDF ENGINE] Successfully generated modern iText 8 document: " + file.getName());
 
         } catch (IOException e) {
@@ -63,30 +61,37 @@ public class PDF {
         }
     }
 
-    public static void createPdfWithHTML(String processedHtml) {
-        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+    // FIXED: Takes a target filename string, handles folder creation, and streams HTML direct to disk
+    public static void createPdfWithHTML(String filename, String processedHtml) {
+        if (processedHtml == null || processedHtml.isEmpty()) {
+            System.err.println("[PDF ENGINE] Aborting compile: Processed HTML payload data content string is empty.");
+            return;
+        }
 
-        try {
-            PdfWriter pdfWriter = new PdfWriter(byteArrayOutputStream);
+        // Generate absolute resource save path matching your project schema
+        String path = getPdfFile(filename);
+        File targetFile = new File(path);
+
+        // Ensure directories exist on your machine before opening file streams
+        if (targetFile.getParentFile() != null) {
+            targetFile.getParentFile().mkdirs();
+        }
+
+        // Try-with-resources handles closing your FileOutputStream automatically!
+        try (FileOutputStream fileOutputStream = new FileOutputStream(targetFile)) {
+
             DefaultFontProvider defaultFont = new DefaultFontProvider(false, true, false);
-
             ConverterProperties converterProperties = new ConverterProperties();
             converterProperties.setFontProvider(defaultFont);
 
-            HtmlConverter.convertToPdf(processedHtml, pdfWriter, converterProperties);
+            // Directly converts the template string into the file on your disk drive
+            HtmlConverter.convertToPdf(processedHtml, fileOutputStream, converterProperties);
 
-            FileOutputStream fileOutputStream = new FileOutputStream("");
-            byteArrayOutputStream.write(fileOutputStream);
-            byteArrayOutputStream.close();
+            System.out.println("[PDF ENGINE] Flawlessly compiled Thymeleaf HTML template directly into PDF: " + targetFile.getName());
 
-            byteArrayOutputStream.flush();
-            fileOutputStream.close();
-
-            return;
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
+            System.err.println("[PDF ENGINE] Failed to compile HTML context stream directly to disk.");
             e.printStackTrace();
         }
-        return;
     }
 }
