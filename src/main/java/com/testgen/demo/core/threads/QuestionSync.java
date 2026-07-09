@@ -26,6 +26,7 @@ public class QuestionSync implements Runnable {
 
     @Override
     public void run() {
+        mapper.findAndRegisterModules();
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
 

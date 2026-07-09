@@ -119,3 +119,1017 @@
 [09-07-2026 17:30:01] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
 [09-07-2026 17:30:01] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
 [09-07-2026 17:30:01] question sync: finished successfully
+[09-07-2026 17:32:58] started: question sync
+[09-07-2026 17:32:58] question sync: mathematics initialized (25%)
+[09-07-2026 17:32:58] question sync: operating-systems initialized (50%)
+[09-07-2026 17:32:58] question sync: computer-networks initialized (75%)
+[09-07-2026 17:32:58] question sync: java-programming initialized (100%)
+[09-07-2026 17:32:58] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:32:58] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:32:58] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:32:58] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:32:58] question sync: finished successfully
+[09-07-2026 17:35:44] started: question sync
+[09-07-2026 17:35:44] question sync: mathematics initialized (25%)
+[09-07-2026 17:35:44] question sync: operating-systems initialized (50%)
+[09-07-2026 17:35:44] question sync: computer-networks initialized (75%)
+[09-07-2026 17:35:44] question sync: java-programming initialized (100%)
+[09-07-2026 17:35:44] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:35:44] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:35:44] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:35:44] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:35:44] question sync: finished successfully
+[09-07-2026 17:36:28] started: question sync
+[09-07-2026 17:36:28] question sync: mathematics initialized (25%)
+[09-07-2026 17:36:28] question sync: operating-systems initialized (50%)
+[09-07-2026 17:36:28] question sync: computer-networks initialized (75%)
+[09-07-2026 17:36:28] question sync: java-programming initialized (100%)
+[09-07-2026 17:36:28] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:36:28] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:36:28] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:36:28] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:36:28] question sync: finished successfully
+[09-07-2026 17:43:50] started: question sync
+[09-07-2026 17:43:50] question sync: mathematics initialized (25%)
+[09-07-2026 17:43:50] question sync: operating-systems initialized (50%)
+[09-07-2026 17:43:50] question sync: computer-networks initialized (75%)
+[09-07-2026 17:43:50] question sync: java-programming initialized (100%)
+[09-07-2026 17:43:50] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:43:50] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:43:50] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:43:50] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:43:50] question sync: finished successfully
+[09-07-2026 17:45:32] started: question sync
+[09-07-2026 17:45:32] question sync: mathematics initialized (25%)
+[09-07-2026 17:45:32] question sync: operating-systems initialized (50%)
+[09-07-2026 17:45:32] question sync: computer-networks initialized (75%)
+[09-07-2026 17:45:32] question sync: java-programming initialized (100%)
+[09-07-2026 17:45:32] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:45:32] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:45:32] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:45:32] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:45:32] question sync: finished successfully
+[09-07-2026 17:55:20] started: question sync
+[09-07-2026 17:55:20] question sync: mathematics initialized (25%)
+[09-07-2026 17:55:20] question sync: operating-systems initialized (50%)
+[09-07-2026 17:55:20] question sync: computer-networks initialized (75%)
+[09-07-2026 17:55:20] question sync: java-programming initialized (100%)
+[09-07-2026 17:55:20] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:55:20] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:55:20] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:55:20] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:55:20] question sync: finished successfully
+[09-07-2026 17:59:03] started: question sync
+[09-07-2026 17:59:03] question sync: mathematics initialized (25%)
+[09-07-2026 17:59:03] question sync: operating-systems initialized (50%)
+[09-07-2026 17:59:03] question sync: computer-networks initialized (75%)
+[09-07-2026 17:59:03] question sync: java-programming initialized (100%)
+[09-07-2026 17:59:03] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:59:03] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:59:03] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:59:03] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:59:03] question sync: finished successfully
+[09-07-2026 18:01:21] started: question sync
+[09-07-2026 18:01:21] question sync: mathematics initialized (25%)
+[09-07-2026 18:01:21] question sync: operating-systems initialized (50%)
+[09-07-2026 18:01:21] question sync: computer-networks initialized (75%)
+[09-07-2026 18:01:21] question sync: java-programming initialized (100%)
+[09-07-2026 18:01:21] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 18:01:21] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 18:01:21] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 18:01:21] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 18:01:21] question sync: finished successfully
+[09-07-2026 18:06:10] started: question sync
+[09-07-2026 18:06:10] question sync: mathematics initialized (25%)
+[09-07-2026 18:06:10] question sync: operating-systems initialized (50%)
+[09-07-2026 18:06:10] question sync: computer-networks initialized (75%)
+[09-07-2026 18:06:10] question sync: java-programming initialized (100%)
+[09-07-2026 18:06:10] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 18:06:10] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 18:06:10] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 18:06:10] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 18:06:10] question sync: finished successfully
+[09-07-2026 18:21:23] started: question sync
+[09-07-2026 18:21:23] question sync: mathematics initialized (25%)
+[09-07-2026 18:21:23] question sync: operating-systems initialized (50%)
+[09-07-2026 18:21:23] question sync: computer-networks initialized (75%)
+[09-07-2026 18:21:23] question sync: java-programming initialized (100%)
+[09-07-2026 18:21:23] question sync: finished successfully
+[09-07-2026 18:22:11] started: question sync
+[09-07-2026 18:22:11] question sync: mathematics initialized (25%)
+[09-07-2026 18:22:11] question sync: operating-systems initialized (50%)
+[09-07-2026 18:22:11] question sync: computer-networks initialized (75%)
+[09-07-2026 18:22:11] question sync: java-programming initialized (100%)
+[09-07-2026 18:22:11] question sync: finished successfully
+[09-07-2026 18:22:50] started: question sync
+[09-07-2026 18:22:50] question sync: mathematics initialized (25%)
+[09-07-2026 18:22:50] question sync: operating-systems initialized (50%)
+[09-07-2026 18:22:50] question sync: computer-networks initialized (75%)
+[09-07-2026 18:22:50] question sync: java-programming initialized (100%)
+[09-07-2026 18:22:50] question sync: finished successfully
+[09-07-2026 18:26:49] started: question sync
+[09-07-2026 18:26:49] question sync: mathematics initialized (25%)
+[09-07-2026 18:26:49] question sync: operating-systems initialized (50%)
+[09-07-2026 18:26:49] question sync: computer-networks initialized (75%)
+[09-07-2026 18:26:49] question sync: java-programming initialized (100%)
+[09-07-2026 18:26:49] question sync: finished successfully
+[09-07-2026 18:27:59] started: question sync
+[09-07-2026 18:27:59] question sync: mathematics initialized (25%)
+[09-07-2026 18:27:59] question sync: operating-systems initialized (50%)
+[09-07-2026 18:27:59] question sync: computer-networks initialized (75%)
+[09-07-2026 18:27:59] question sync: java-programming initialized (100%)
+[09-07-2026 18:27:59] question sync: finished successfully
+[09-07-2026 18:31:38] started: question sync
+[09-07-2026 18:31:38] question sync: mathematics initialized (25%)
+[09-07-2026 18:31:38] question sync: operating-systems initialized (50%)
+[09-07-2026 18:31:38] question sync: computer-networks initialized (75%)
+[09-07-2026 18:31:38] question sync: java-programming initialized (100%)
+[09-07-2026 18:31:38] question sync: finished successfully
+[09-07-2026 18:31:54] started: question sync
+[09-07-2026 18:31:54] question sync: mathematics initialized (25%)
+[09-07-2026 18:31:54] question sync: operating-systems initialized (50%)
+[09-07-2026 18:31:54] question sync: computer-networks initialized (75%)
+[09-07-2026 18:31:54] question sync: java-programming initialized (100%)
+[09-07-2026 18:31:54] question sync: finished successfully
+[09-07-2026 18:32:04] started: question sync
+[09-07-2026 18:32:04] question sync: mathematics initialized (25%)
+[09-07-2026 18:32:04] question sync: operating-systems initialized (50%)
+[09-07-2026 18:32:04] question sync: computer-networks initialized (75%)
+[09-07-2026 18:32:04] question sync: java-programming initialized (100%)
+[09-07-2026 18:32:04] question sync: finished successfully
+[09-07-2026 18:37:44] started: question sync
+[09-07-2026 18:37:44] question sync: mathematics initialized (25%)
+[09-07-2026 18:37:44] question sync: operating-systems initialized (50%)
+[09-07-2026 18:37:44] question sync: computer-networks initialized (75%)
+[09-07-2026 18:37:44] question sync: java-programming initialized (100%)
+[09-07-2026 18:37:44] question sync: finished successfully
+[09-07-2026 18:47:44] started: question sync
+[09-07-2026 18:47:44] question sync: mathematics initialized (25%)
+[09-07-2026 18:47:44] question sync: operating-systems initialized (50%)
+[09-07-2026 18:47:44] question sync: computer-networks initialized (75%)
+[09-07-2026 18:47:44] question sync: java-programming initialized (100%)
+[09-07-2026 18:47:44] question sync: finished successfully
+[09-07-2026 18:57:44] started: question sync
+[09-07-2026 18:57:44] question sync: mathematics initialized (25%)
+[09-07-2026 18:57:44] question sync: operating-systems initialized (50%)
+[09-07-2026 18:57:44] question sync: computer-networks initialized (75%)
+[09-07-2026 18:57:44] question sync: java-programming initialized (100%)
+[09-07-2026 18:57:44] question sync: finished successfully
+[09-07-2026 19:07:44] started: question sync
+[09-07-2026 19:07:44] question sync: mathematics initialized (25%)
+[09-07-2026 19:07:44] question sync: operating-systems initialized (50%)
+[09-07-2026 19:07:44] question sync: computer-networks initialized (75%)
+[09-07-2026 19:07:44] question sync: java-programming initialized (100%)
+[09-07-2026 19:07:44] question sync: finished successfully
+[09-07-2026 19:17:44] started: question sync
+[09-07-2026 19:17:44] question sync: mathematics initialized (25%)
+[09-07-2026 19:17:44] question sync: operating-systems initialized (50%)
+[09-07-2026 19:17:44] question sync: computer-networks initialized (75%)
+[09-07-2026 19:17:44] question sync: java-programming initialized (100%)
+[09-07-2026 19:17:44] question sync: finished successfully
+[09-07-2026 19:27:44] started: question sync
+[09-07-2026 19:27:44] question sync: mathematics initialized (25%)
+[09-07-2026 19:27:44] question sync: operating-systems initialized (50%)
+[09-07-2026 19:27:44] question sync: computer-networks initialized (75%)
+[09-07-2026 19:27:44] question sync: java-programming initialized (100%)
+[09-07-2026 19:27:44] question sync: finished successfully
+[09-07-2026 19:37:44] started: question sync
+[09-07-2026 19:37:44] question sync: mathematics initialized (25%)
+[09-07-2026 19:37:44] question sync: operating-systems initialized (50%)
+[09-07-2026 19:37:44] question sync: computer-networks initialized (75%)
+[09-07-2026 19:37:44] question sync: java-programming initialized (100%)
+[09-07-2026 19:37:44] question sync: finished successfully
+[09-07-2026 19:47:44] started: question sync
+[09-07-2026 19:47:44] question sync: mathematics initialized (25%)
+[09-07-2026 19:47:44] question sync: operating-systems initialized (50%)
+[09-07-2026 19:47:44] question sync: computer-networks initialized (75%)
+[09-07-2026 19:47:44] question sync: java-programming initialized (100%)
+[09-07-2026 19:47:44] question sync: finished successfully
+[09-07-2026 19:57:44] started: question sync
+[09-07-2026 19:57:44] question sync: mathematics initialized (25%)
+[09-07-2026 19:57:44] question sync: operating-systems initialized (50%)
+[09-07-2026 19:57:44] question sync: computer-networks initialized (75%)
+[09-07-2026 19:57:44] question sync: java-programming initialized (100%)
+[09-07-2026 19:57:44] question sync: finished successfully
+[09-07-2026 20:07:44] started: question sync
+[09-07-2026 20:07:44] question sync: mathematics initialized (25%)
+[09-07-2026 20:07:44] question sync: operating-systems initialized (50%)
+[09-07-2026 20:07:44] question sync: computer-networks initialized (75%)
+[09-07-2026 20:07:44] question sync: java-programming initialized (100%)
+[09-07-2026 20:07:44] question sync: finished successfully
+[09-07-2026 20:17:44] started: question sync
+[09-07-2026 20:17:44] question sync: mathematics initialized (25%)
+[09-07-2026 20:17:44] question sync: operating-systems initialized (50%)
+[09-07-2026 20:17:44] question sync: computer-networks initialized (75%)
+[09-07-2026 20:17:44] question sync: java-programming initialized (100%)
+[09-07-2026 20:17:44] question sync: finished successfully
+[09-07-2026 20:27:44] started: question sync
+[09-07-2026 20:27:44] question sync: mathematics initialized (25%)
+[09-07-2026 20:27:44] question sync: operating-systems initialized (50%)
+[09-07-2026 20:27:44] question sync: computer-networks initialized (75%)
+[09-07-2026 20:27:44] question sync: java-programming initialized (100%)
+[09-07-2026 20:27:44] question sync: finished successfully
+[09-07-2026 20:37:44] started: question sync
+[09-07-2026 20:37:44] question sync: mathematics initialized (25%)
+[09-07-2026 20:37:44] question sync: operating-systems initialized (50%)
+[09-07-2026 20:37:44] question sync: computer-networks initialized (75%)
+[09-07-2026 20:37:44] question sync: java-programming initialized (100%)
+[09-07-2026 20:37:44] question sync: finished successfully
+[09-07-2026 20:47:44] started: question sync
+[09-07-2026 20:47:44] question sync: mathematics initialized (25%)
+[09-07-2026 20:47:44] question sync: operating-systems initialized (50%)
+[09-07-2026 20:47:44] question sync: computer-networks initialized (75%)
+[09-07-2026 20:47:44] question sync: java-programming initialized (100%)
+[09-07-2026 20:47:44] question sync: finished successfully
+[09-07-2026 20:57:44] started: question sync
+[09-07-2026 20:57:44] question sync: mathematics initialized (25%)
+[09-07-2026 20:57:44] question sync: operating-systems initialized (50%)
+[09-07-2026 20:57:44] question sync: computer-networks initialized (75%)
+[09-07-2026 20:57:44] question sync: java-programming initialized (100%)
+[09-07-2026 20:57:44] question sync: finished successfully
+[09-07-2026 21:07:44] started: question sync
+[09-07-2026 21:07:44] question sync: mathematics initialized (25%)
+[09-07-2026 21:07:44] question sync: operating-systems initialized (50%)
+[09-07-2026 21:07:44] question sync: computer-networks initialized (75%)
+[09-07-2026 21:07:44] question sync: java-programming initialized (100%)
+[09-07-2026 21:07:44] question sync: finished successfully
+[09-07-2026 21:17:44] started: question sync
+[09-07-2026 21:17:44] question sync: mathematics initialized (25%)
+[09-07-2026 21:17:44] question sync: operating-systems initialized (50%)
+[09-07-2026 21:17:44] question sync: computer-networks initialized (75%)
+[09-07-2026 21:17:44] question sync: java-programming initialized (100%)
+[09-07-2026 21:17:44] question sync: finished successfully
+[09-07-2026 21:27:44] started: question sync
+[09-07-2026 21:27:44] question sync: mathematics initialized (25%)
+[09-07-2026 21:27:44] question sync: operating-systems initialized (50%)
+[09-07-2026 21:27:44] question sync: computer-networks initialized (75%)
+[09-07-2026 21:27:44] question sync: java-programming initialized (100%)
+[09-07-2026 21:27:44] question sync: finished successfully
+[09-07-2026 21:37:44] started: question sync
+[09-07-2026 21:37:44] question sync: mathematics initialized (25%)
+[09-07-2026 21:37:44] question sync: operating-systems initialized (50%)
+[09-07-2026 21:37:44] question sync: computer-networks initialized (75%)
+[09-07-2026 21:37:44] question sync: java-programming initialized (100%)
+[09-07-2026 21:37:44] question sync: finished successfully
+[09-07-2026 21:47:44] started: question sync
+[09-07-2026 21:47:44] question sync: mathematics initialized (25%)
+[09-07-2026 21:47:44] question sync: operating-systems initialized (50%)
+[09-07-2026 21:47:44] question sync: computer-networks initialized (75%)
+[09-07-2026 21:47:44] question sync: java-programming initialized (100%)
+[09-07-2026 21:47:44] question sync: finished successfully
+[09-07-2026 21:57:44] started: question sync
+[09-07-2026 21:57:44] question sync: mathematics initialized (25%)
+[09-07-2026 21:57:44] question sync: operating-systems initialized (50%)
+[09-07-2026 21:57:44] question sync: computer-networks initialized (75%)
+[09-07-2026 21:57:44] question sync: java-programming initialized (100%)
+[09-07-2026 21:57:44] question sync: finished successfully
+[09-07-2026 22:07:44] started: question sync
+[09-07-2026 22:07:44] question sync: mathematics initialized (25%)
+[09-07-2026 22:07:44] question sync: operating-systems initialized (50%)
+[09-07-2026 22:07:44] question sync: computer-networks initialized (75%)
+[09-07-2026 22:07:44] question sync: java-programming initialized (100%)
+[09-07-2026 22:07:44] question sync: finished successfully
+[09-07-2026 22:17:44] started: question sync
+[09-07-2026 22:17:44] question sync: mathematics initialized (25%)
+[09-07-2026 22:17:44] question sync: operating-systems initialized (50%)
+[09-07-2026 22:17:44] question sync: computer-networks initialized (75%)
+[09-07-2026 22:17:44] question sync: java-programming initialized (100%)
+[09-07-2026 22:17:44] question sync: finished successfully
+[09-07-2026 22:27:44] started: question sync
+[09-07-2026 22:27:44] question sync: mathematics initialized (25%)
+[09-07-2026 22:27:44] question sync: operating-systems initialized (50%)
+[09-07-2026 22:27:44] question sync: computer-networks initialized (75%)
+[09-07-2026 22:27:44] question sync: java-programming initialized (100%)
+[09-07-2026 22:27:44] question sync: finished successfully
+[09-07-2026 22:37:44] started: question sync
+[09-07-2026 22:37:44] question sync: mathematics initialized (25%)
+[09-07-2026 22:37:44] question sync: operating-systems initialized (50%)
+[09-07-2026 22:37:44] question sync: computer-networks initialized (75%)
+[09-07-2026 22:37:44] question sync: java-programming initialized (100%)
+[09-07-2026 22:37:44] question sync: finished successfully
+[09-07-2026 22:47:44] started: question sync
+[09-07-2026 22:47:44] question sync: mathematics initialized (25%)
+[09-07-2026 22:47:44] question sync: operating-systems initialized (50%)
+[09-07-2026 22:47:44] question sync: computer-networks initialized (75%)
+[09-07-2026 22:47:44] question sync: java-programming initialized (100%)
+[09-07-2026 22:47:44] question sync: finished successfully
+[09-07-2026 22:57:44] started: question sync
+[09-07-2026 22:57:44] question sync: mathematics initialized (25%)
+[09-07-2026 22:57:44] question sync: operating-systems initialized (50%)
+[09-07-2026 22:57:44] question sync: computer-networks initialized (75%)
+[09-07-2026 22:57:44] question sync: java-programming initialized (100%)
+[09-07-2026 22:57:44] question sync: finished successfully
+[09-07-2026 23:07:44] started: question sync
+[09-07-2026 23:07:44] question sync: mathematics initialized (25%)
+[09-07-2026 23:07:44] question sync: operating-systems initialized (50%)
+[09-07-2026 23:07:44] question sync: computer-networks initialized (75%)
+[09-07-2026 23:07:44] question sync: java-programming initialized (100%)
+[09-07-2026 23:07:44] question sync: finished successfully
+[09-07-2026 23:17:44] started: question sync
+[09-07-2026 23:17:44] question sync: mathematics initialized (25%)
+[09-07-2026 23:17:44] question sync: operating-systems initialized (50%)
+[09-07-2026 23:17:44] question sync: computer-networks initialized (75%)
+[09-07-2026 23:17:44] question sync: java-programming initialized (100%)
+[09-07-2026 23:17:44] question sync: finished successfully
+[09-07-2026 23:27:44] started: question sync
+[09-07-2026 23:27:44] question sync: mathematics initialized (25%)
+[09-07-2026 23:27:44] question sync: operating-systems initialized (50%)
+[09-07-2026 23:27:44] question sync: computer-networks initialized (75%)
+[09-07-2026 23:27:44] question sync: java-programming initialized (100%)
+[09-07-2026 23:27:44] question sync: finished successfully
+[09-07-2026 23:37:44] started: question sync
+[09-07-2026 23:37:44] question sync: mathematics initialized (25%)
+[09-07-2026 23:37:44] question sync: operating-systems initialized (50%)
+[09-07-2026 23:37:44] question sync: computer-networks initialized (75%)
+[09-07-2026 23:37:44] question sync: java-programming initialized (100%)
+[09-07-2026 23:37:44] question sync: finished successfully
+[09-07-2026 23:47:44] started: question sync
+[09-07-2026 23:47:44] question sync: mathematics initialized (25%)
+[09-07-2026 23:47:44] question sync: operating-systems initialized (50%)
+[09-07-2026 23:47:44] question sync: computer-networks initialized (75%)
+[09-07-2026 23:47:44] question sync: java-programming initialized (100%)
+[09-07-2026 23:47:44] question sync: finished successfully
+[09-07-2026 23:57:44] started: question sync
+[09-07-2026 23:57:44] question sync: mathematics initialized (25%)
+[09-07-2026 23:57:44] question sync: operating-systems initialized (50%)
+[09-07-2026 23:57:44] question sync: computer-networks initialized (75%)
+[09-07-2026 23:57:44] question sync: java-programming initialized (100%)
+[09-07-2026 23:57:44] question sync: finished successfully
+[10-07-2026 00:07:44] started: question sync
+[10-07-2026 00:07:44] question sync: mathematics initialized (25%)
+[10-07-2026 00:07:44] question sync: operating-systems initialized (50%)
+[10-07-2026 00:07:44] question sync: computer-networks initialized (75%)
+[10-07-2026 00:07:44] question sync: java-programming initialized (100%)
+[10-07-2026 00:07:44] question sync: finished successfully
+[10-07-2026 00:17:44] started: question sync
+[10-07-2026 00:17:44] question sync: mathematics initialized (25%)
+[10-07-2026 00:17:44] question sync: operating-systems initialized (50%)
+[10-07-2026 00:17:44] question sync: computer-networks initialized (75%)
+[10-07-2026 00:17:44] question sync: java-programming initialized (100%)
+[10-07-2026 00:17:44] question sync: finished successfully
+[10-07-2026 00:27:44] started: question sync
+[10-07-2026 00:27:44] question sync: mathematics initialized (25%)
+[10-07-2026 00:27:44] question sync: operating-systems initialized (50%)
+[10-07-2026 00:27:44] question sync: computer-networks initialized (75%)
+[10-07-2026 00:27:44] question sync: java-programming initialized (100%)
+[10-07-2026 00:27:44] question sync: finished successfully
+[10-07-2026 00:37:44] started: question sync
+[10-07-2026 00:37:44] question sync: mathematics initialized (25%)
+[10-07-2026 00:37:44] question sync: operating-systems initialized (50%)
+[10-07-2026 00:37:44] question sync: computer-networks initialized (75%)
+[10-07-2026 00:37:44] question sync: java-programming initialized (100%)
+[10-07-2026 00:37:44] question sync: finished successfully
+[10-07-2026 00:47:44] started: question sync
+[10-07-2026 00:47:44] question sync: mathematics initialized (25%)
+[10-07-2026 00:47:44] question sync: operating-systems initialized (50%)
+[10-07-2026 00:47:44] question sync: computer-networks initialized (75%)
+[10-07-2026 00:47:44] question sync: java-programming initialized (100%)
+[10-07-2026 00:47:44] question sync: finished successfully
+[10-07-2026 00:57:44] started: question sync
+[10-07-2026 00:57:44] question sync: mathematics initialized (25%)
+[10-07-2026 00:57:44] question sync: operating-systems initialized (50%)
+[10-07-2026 00:57:44] question sync: computer-networks initialized (75%)
+[10-07-2026 00:57:44] question sync: java-programming initialized (100%)
+[10-07-2026 00:57:44] question sync: finished successfully
+[10-07-2026 01:07:44] started: question sync
+[10-07-2026 01:07:44] question sync: mathematics initialized (25%)
+[10-07-2026 01:07:44] question sync: operating-systems initialized (50%)
+[10-07-2026 01:07:44] question sync: computer-networks initialized (75%)
+[10-07-2026 01:07:44] question sync: java-programming initialized (100%)
+[10-07-2026 01:07:44] question sync: finished successfully
+[10-07-2026 01:17:44] started: question sync
+[10-07-2026 01:17:44] question sync: mathematics initialized (25%)
+[10-07-2026 01:17:44] question sync: operating-systems initialized (50%)
+[10-07-2026 01:17:44] question sync: computer-networks initialized (75%)
+[10-07-2026 01:17:44] question sync: java-programming initialized (100%)
+[10-07-2026 01:17:44] question sync: finished successfully
+[10-07-2026 01:27:44] started: question sync
+[10-07-2026 01:27:44] question sync: mathematics initialized (25%)
+[10-07-2026 01:27:44] question sync: operating-systems initialized (50%)
+[10-07-2026 01:27:44] question sync: computer-networks initialized (75%)
+[10-07-2026 01:27:44] question sync: java-programming initialized (100%)
+[10-07-2026 01:27:44] question sync: finished successfully
+[10-07-2026 01:37:44] started: question sync
+[10-07-2026 01:37:44] question sync: mathematics initialized (25%)
+[10-07-2026 01:37:44] question sync: operating-systems initialized (50%)
+[10-07-2026 01:37:44] question sync: computer-networks initialized (75%)
+[10-07-2026 01:37:44] question sync: java-programming initialized (100%)
+[10-07-2026 01:37:44] question sync: finished successfully
+[10-07-2026 01:47:44] started: question sync
+[10-07-2026 01:47:44] question sync: mathematics initialized (25%)
+[10-07-2026 01:47:44] question sync: operating-systems initialized (50%)
+[10-07-2026 01:47:44] question sync: computer-networks initialized (75%)
+[10-07-2026 01:47:44] question sync: java-programming initialized (100%)
+[10-07-2026 01:47:44] question sync: finished successfully
+[10-07-2026 01:57:44] started: question sync
+[10-07-2026 01:57:44] question sync: mathematics initialized (25%)
+[10-07-2026 01:57:44] question sync: operating-systems initialized (50%)
+[10-07-2026 01:57:44] question sync: computer-networks initialized (75%)
+[10-07-2026 01:57:44] question sync: java-programming initialized (100%)
+[10-07-2026 01:57:44] question sync: finished successfully
+[10-07-2026 02:07:44] started: question sync
+[10-07-2026 02:07:44] question sync: mathematics initialized (25%)
+[10-07-2026 02:07:44] question sync: operating-systems initialized (50%)
+[10-07-2026 02:07:44] question sync: computer-networks initialized (75%)
+[10-07-2026 02:07:44] question sync: java-programming initialized (100%)
+[10-07-2026 02:07:44] question sync: finished successfully
+[10-07-2026 02:17:44] started: question sync
+[10-07-2026 02:17:44] question sync: mathematics initialized (25%)
+[10-07-2026 02:17:44] question sync: operating-systems initialized (50%)
+[10-07-2026 02:17:44] question sync: computer-networks initialized (75%)
+[10-07-2026 02:17:44] question sync: java-programming initialized (100%)
+[10-07-2026 02:17:44] question sync: finished successfully
+[10-07-2026 02:27:44] started: question sync
+[10-07-2026 02:27:44] question sync: mathematics initialized (25%)
+[10-07-2026 02:27:44] question sync: operating-systems initialized (50%)
+[10-07-2026 02:27:44] question sync: computer-networks initialized (75%)
+[10-07-2026 02:27:44] question sync: java-programming initialized (100%)
+[10-07-2026 02:27:44] question sync: finished successfully
+[10-07-2026 02:37:44] started: question sync
+[10-07-2026 02:37:44] question sync: mathematics initialized (25%)
+[10-07-2026 02:37:44] question sync: operating-systems initialized (50%)
+[10-07-2026 02:37:44] question sync: computer-networks initialized (75%)
+[10-07-2026 02:37:44] question sync: java-programming initialized (100%)
+[10-07-2026 02:37:44] question sync: finished successfully
+[10-07-2026 02:47:44] started: question sync
+[10-07-2026 02:47:44] question sync: mathematics initialized (25%)
+[10-07-2026 02:47:44] question sync: operating-systems initialized (50%)
+[10-07-2026 02:47:44] question sync: computer-networks initialized (75%)
+[10-07-2026 02:47:44] question sync: java-programming initialized (100%)
+[10-07-2026 02:47:44] question sync: finished successfully
+[10-07-2026 02:57:44] started: question sync
+[10-07-2026 02:57:44] question sync: mathematics initialized (25%)
+[10-07-2026 02:57:44] question sync: operating-systems initialized (50%)
+[10-07-2026 02:57:44] question sync: computer-networks initialized (75%)
+[10-07-2026 02:57:44] question sync: java-programming initialized (100%)
+[10-07-2026 02:57:44] question sync: finished successfully
+[10-07-2026 03:07:44] started: question sync
+[10-07-2026 03:07:44] question sync: mathematics initialized (25%)
+[10-07-2026 03:07:44] question sync: operating-systems initialized (50%)
+[10-07-2026 03:07:44] question sync: computer-networks initialized (75%)
+[10-07-2026 03:07:44] question sync: java-programming initialized (100%)
+[10-07-2026 03:07:44] question sync: finished successfully
+[10-07-2026 03:17:44] started: question sync
+[10-07-2026 03:17:44] question sync: mathematics initialized (25%)
+[10-07-2026 03:17:44] question sync: operating-systems initialized (50%)
+[10-07-2026 03:17:44] question sync: computer-networks initialized (75%)
+[10-07-2026 03:17:44] question sync: java-programming initialized (100%)
+[10-07-2026 03:17:44] question sync: finished successfully
+[10-07-2026 03:27:44] started: question sync
+[10-07-2026 03:27:44] question sync: mathematics initialized (25%)
+[10-07-2026 03:27:44] question sync: operating-systems initialized (50%)
+[10-07-2026 03:27:44] question sync: computer-networks initialized (75%)
+[10-07-2026 03:27:44] question sync: java-programming initialized (100%)
+[10-07-2026 03:27:44] question sync: finished successfully
+[10-07-2026 03:37:44] started: question sync
+[10-07-2026 03:37:44] question sync: mathematics initialized (25%)
+[10-07-2026 03:37:44] question sync: operating-systems initialized (50%)
+[10-07-2026 03:37:44] question sync: computer-networks initialized (75%)
+[10-07-2026 03:37:44] question sync: java-programming initialized (100%)
+[10-07-2026 03:37:44] question sync: finished successfully
+[10-07-2026 03:47:44] started: question sync
+[10-07-2026 03:47:44] question sync: mathematics initialized (25%)
+[10-07-2026 03:47:44] question sync: operating-systems initialized (50%)
+[10-07-2026 03:47:44] question sync: computer-networks initialized (75%)
+[10-07-2026 03:47:44] question sync: java-programming initialized (100%)
+[10-07-2026 03:47:44] question sync: finished successfully
+[10-07-2026 03:57:44] started: question sync
+[10-07-2026 03:57:44] question sync: mathematics initialized (25%)
+[10-07-2026 03:57:44] question sync: operating-systems initialized (50%)
+[10-07-2026 03:57:44] question sync: computer-networks initialized (75%)
+[10-07-2026 03:57:44] question sync: java-programming initialized (100%)
+[10-07-2026 03:57:44] question sync: finished successfully
+[10-07-2026 04:07:44] started: question sync
+[10-07-2026 04:07:44] question sync: mathematics initialized (25%)
+[10-07-2026 04:07:44] question sync: operating-systems initialized (50%)
+[10-07-2026 04:07:44] question sync: computer-networks initialized (75%)
+[10-07-2026 04:07:44] question sync: java-programming initialized (100%)
+[10-07-2026 04:07:44] question sync: finished successfully
+[10-07-2026 04:17:44] started: question sync
+[10-07-2026 04:17:44] question sync: mathematics initialized (25%)
+[10-07-2026 04:17:44] question sync: operating-systems initialized (50%)
+[10-07-2026 04:17:44] question sync: computer-networks initialized (75%)
+[10-07-2026 04:17:44] question sync: java-programming initialized (100%)
+[10-07-2026 04:17:44] question sync: finished successfully
+[10-07-2026 04:27:44] started: question sync
+[10-07-2026 04:27:44] question sync: mathematics initialized (25%)
+[10-07-2026 04:27:44] question sync: operating-systems initialized (50%)
+[10-07-2026 04:27:44] question sync: computer-networks initialized (75%)
+[10-07-2026 04:27:44] question sync: java-programming initialized (100%)
+[10-07-2026 04:27:44] question sync: finished successfully
+[10-07-2026 04:37:44] started: question sync
+[10-07-2026 04:37:44] question sync: mathematics initialized (25%)
+[10-07-2026 04:37:44] question sync: operating-systems initialized (50%)
+[10-07-2026 04:37:44] question sync: computer-networks initialized (75%)
+[10-07-2026 04:37:44] question sync: java-programming initialized (100%)
+[10-07-2026 04:37:44] question sync: finished successfully
+[10-07-2026 04:47:44] started: question sync
+[10-07-2026 04:47:44] question sync: mathematics initialized (25%)
+[10-07-2026 04:47:44] question sync: operating-systems initialized (50%)
+[10-07-2026 04:47:44] question sync: computer-networks initialized (75%)
+[10-07-2026 04:47:44] question sync: java-programming initialized (100%)
+[10-07-2026 04:47:44] question sync: finished successfully
+[10-07-2026 04:57:44] started: question sync
+[10-07-2026 04:57:44] question sync: mathematics initialized (25%)
+[10-07-2026 04:57:44] question sync: operating-systems initialized (50%)
+[10-07-2026 04:57:44] question sync: computer-networks initialized (75%)
+[10-07-2026 04:57:44] question sync: java-programming initialized (100%)
+[10-07-2026 04:57:44] question sync: finished successfully
+[10-07-2026 05:07:44] started: question sync
+[10-07-2026 05:07:44] question sync: mathematics initialized (25%)
+[10-07-2026 05:07:44] question sync: operating-systems initialized (50%)
+[10-07-2026 05:07:44] question sync: computer-networks initialized (75%)
+[10-07-2026 05:07:44] question sync: java-programming initialized (100%)
+[10-07-2026 05:07:45] question sync: finished successfully
+[10-07-2026 05:17:45] started: question sync
+[10-07-2026 05:17:45] question sync: mathematics initialized (25%)
+[10-07-2026 05:17:45] question sync: operating-systems initialized (50%)
+[10-07-2026 05:17:45] question sync: computer-networks initialized (75%)
+[10-07-2026 05:17:45] question sync: java-programming initialized (100%)
+[10-07-2026 05:17:45] question sync: finished successfully
+[10-07-2026 05:27:45] started: question sync
+[10-07-2026 05:27:45] question sync: mathematics initialized (25%)
+[10-07-2026 05:27:45] question sync: operating-systems initialized (50%)
+[10-07-2026 05:27:45] question sync: computer-networks initialized (75%)
+[10-07-2026 05:27:45] question sync: java-programming initialized (100%)
+[10-07-2026 05:27:45] question sync: finished successfully
+[10-07-2026 05:37:45] started: question sync
+[10-07-2026 05:37:45] question sync: mathematics initialized (25%)
+[10-07-2026 05:37:45] question sync: operating-systems initialized (50%)
+[10-07-2026 05:37:45] question sync: computer-networks initialized (75%)
+[10-07-2026 05:37:45] question sync: java-programming initialized (100%)
+[10-07-2026 05:37:45] question sync: finished successfully
+[10-07-2026 05:47:45] started: question sync
+[10-07-2026 05:47:45] question sync: mathematics initialized (25%)
+[10-07-2026 05:47:45] question sync: operating-systems initialized (50%)
+[10-07-2026 05:47:45] question sync: computer-networks initialized (75%)
+[10-07-2026 05:47:45] question sync: java-programming initialized (100%)
+[10-07-2026 05:47:45] question sync: finished successfully
+[10-07-2026 05:57:45] started: question sync
+[10-07-2026 05:57:45] question sync: mathematics initialized (25%)
+[10-07-2026 05:57:45] question sync: operating-systems initialized (50%)
+[10-07-2026 05:57:45] question sync: computer-networks initialized (75%)
+[10-07-2026 05:57:45] question sync: java-programming initialized (100%)
+[10-07-2026 05:57:45] question sync: finished successfully
+[10-07-2026 06:07:45] started: question sync
+[10-07-2026 06:07:45] question sync: mathematics initialized (25%)
+[10-07-2026 06:07:45] question sync: operating-systems initialized (50%)
+[10-07-2026 06:07:45] question sync: computer-networks initialized (75%)
+[10-07-2026 06:07:45] question sync: java-programming initialized (100%)
+[10-07-2026 06:07:45] question sync: finished successfully
+[10-07-2026 06:17:45] started: question sync
+[10-07-2026 06:17:45] question sync: mathematics initialized (25%)
+[10-07-2026 06:17:45] question sync: operating-systems initialized (50%)
+[10-07-2026 06:17:45] question sync: computer-networks initialized (75%)
+[10-07-2026 06:17:45] question sync: java-programming initialized (100%)
+[10-07-2026 06:17:45] question sync: finished successfully
+[10-07-2026 06:27:45] started: question sync
+[10-07-2026 06:27:45] question sync: mathematics initialized (25%)
+[10-07-2026 06:27:45] question sync: operating-systems initialized (50%)
+[10-07-2026 06:27:45] question sync: computer-networks initialized (75%)
+[10-07-2026 06:27:45] question sync: java-programming initialized (100%)
+[10-07-2026 06:27:45] question sync: finished successfully
+[10-07-2026 06:37:45] started: question sync
+[10-07-2026 06:37:45] question sync: mathematics initialized (25%)
+[10-07-2026 06:37:45] question sync: operating-systems initialized (50%)
+[10-07-2026 06:37:45] question sync: computer-networks initialized (75%)
+[10-07-2026 06:37:45] question sync: java-programming initialized (100%)
+[10-07-2026 06:37:45] question sync: finished successfully
+[10-07-2026 06:47:45] started: question sync
+[10-07-2026 06:47:45] question sync: mathematics initialized (25%)
+[10-07-2026 06:47:45] question sync: operating-systems initialized (50%)
+[10-07-2026 06:47:45] question sync: computer-networks initialized (75%)
+[10-07-2026 06:47:45] question sync: java-programming initialized (100%)
+[10-07-2026 06:47:45] question sync: finished successfully
+[10-07-2026 06:57:45] started: question sync
+[10-07-2026 06:57:45] question sync: mathematics initialized (25%)
+[10-07-2026 06:57:45] question sync: operating-systems initialized (50%)
+[10-07-2026 06:57:45] question sync: computer-networks initialized (75%)
+[10-07-2026 06:57:45] question sync: java-programming initialized (100%)
+[10-07-2026 06:57:45] question sync: finished successfully
+[10-07-2026 07:07:45] started: question sync
+[10-07-2026 07:07:45] question sync: mathematics initialized (25%)
+[10-07-2026 07:07:45] question sync: operating-systems initialized (50%)
+[10-07-2026 07:07:45] question sync: computer-networks initialized (75%)
+[10-07-2026 07:07:45] question sync: java-programming initialized (100%)
+[10-07-2026 07:07:45] question sync: finished successfully
+[10-07-2026 07:17:45] started: question sync
+[10-07-2026 07:17:45] question sync: mathematics initialized (25%)
+[10-07-2026 07:17:45] question sync: operating-systems initialized (50%)
+[10-07-2026 07:17:45] question sync: computer-networks initialized (75%)
+[10-07-2026 07:17:45] question sync: java-programming initialized (100%)
+[10-07-2026 07:17:45] question sync: finished successfully
+[10-07-2026 07:27:45] started: question sync
+[10-07-2026 07:27:45] question sync: mathematics initialized (25%)
+[10-07-2026 07:27:45] question sync: operating-systems initialized (50%)
+[10-07-2026 07:27:45] question sync: computer-networks initialized (75%)
+[10-07-2026 07:27:45] question sync: java-programming initialized (100%)
+[10-07-2026 07:27:45] question sync: finished successfully
+[10-07-2026 07:37:45] started: question sync
+[10-07-2026 07:37:45] question sync: mathematics initialized (25%)
+[10-07-2026 07:37:45] question sync: operating-systems initialized (50%)
+[10-07-2026 07:37:45] question sync: computer-networks initialized (75%)
+[10-07-2026 07:37:45] question sync: java-programming initialized (100%)
+[10-07-2026 07:37:45] question sync: finished successfully
+[10-07-2026 07:47:45] started: question sync
+[10-07-2026 07:47:45] question sync: mathematics initialized (25%)
+[10-07-2026 07:47:45] question sync: operating-systems initialized (50%)
+[10-07-2026 07:47:45] question sync: computer-networks initialized (75%)
+[10-07-2026 07:47:45] question sync: java-programming initialized (100%)
+[10-07-2026 07:47:45] question sync: finished successfully
+[10-07-2026 07:57:45] started: question sync
+[10-07-2026 07:57:45] question sync: mathematics initialized (25%)
+[10-07-2026 07:57:45] question sync: operating-systems initialized (50%)
+[10-07-2026 07:57:45] question sync: computer-networks initialized (75%)
+[10-07-2026 07:57:45] question sync: java-programming initialized (100%)
+[10-07-2026 07:57:45] question sync: finished successfully
+[10-07-2026 08:07:45] started: question sync
+[10-07-2026 08:07:45] question sync: mathematics initialized (25%)
+[10-07-2026 08:07:45] question sync: operating-systems initialized (50%)
+[10-07-2026 08:07:45] question sync: computer-networks initialized (75%)
+[10-07-2026 08:07:45] question sync: java-programming initialized (100%)
+[10-07-2026 08:07:45] question sync: finished successfully
+[10-07-2026 08:17:45] started: question sync
+[10-07-2026 08:17:45] question sync: mathematics initialized (25%)
+[10-07-2026 08:17:45] question sync: operating-systems initialized (50%)
+[10-07-2026 08:17:45] question sync: computer-networks initialized (75%)
+[10-07-2026 08:17:45] question sync: java-programming initialized (100%)
+[10-07-2026 08:17:45] question sync: finished successfully
+[10-07-2026 08:27:45] started: question sync
+[10-07-2026 08:27:45] question sync: mathematics initialized (25%)
+[10-07-2026 08:27:45] question sync: operating-systems initialized (50%)
+[10-07-2026 08:27:45] question sync: computer-networks initialized (75%)
+[10-07-2026 08:27:45] question sync: java-programming initialized (100%)
+[10-07-2026 08:27:45] question sync: finished successfully
+[10-07-2026 08:37:45] started: question sync
+[10-07-2026 08:37:45] question sync: mathematics initialized (25%)
+[10-07-2026 08:37:45] question sync: operating-systems initialized (50%)
+[10-07-2026 08:37:45] question sync: computer-networks initialized (75%)
+[10-07-2026 08:37:45] question sync: java-programming initialized (100%)
+[10-07-2026 08:37:45] question sync: finished successfully
+[10-07-2026 08:47:45] started: question sync
+[10-07-2026 08:47:45] question sync: mathematics initialized (25%)
+[10-07-2026 08:47:45] question sync: operating-systems initialized (50%)
+[10-07-2026 08:47:45] question sync: computer-networks initialized (75%)
+[10-07-2026 08:47:45] question sync: java-programming initialized (100%)
+[10-07-2026 08:47:45] question sync: finished successfully
+[10-07-2026 08:57:45] started: question sync
+[10-07-2026 08:57:45] question sync: mathematics initialized (25%)
+[10-07-2026 08:57:45] question sync: operating-systems initialized (50%)
+[10-07-2026 08:57:45] question sync: computer-networks initialized (75%)
+[10-07-2026 08:57:45] question sync: java-programming initialized (100%)
+[10-07-2026 08:57:45] question sync: finished successfully
+[10-07-2026 09:07:45] started: question sync
+[10-07-2026 09:07:45] question sync: mathematics initialized (25%)
+[10-07-2026 09:07:45] question sync: operating-systems initialized (50%)
+[10-07-2026 09:07:45] question sync: computer-networks initialized (75%)
+[10-07-2026 09:07:45] question sync: java-programming initialized (100%)
+[10-07-2026 09:07:45] question sync: finished successfully
+[10-07-2026 09:17:45] started: question sync
+[10-07-2026 09:17:45] question sync: mathematics initialized (25%)
+[10-07-2026 09:17:45] question sync: operating-systems initialized (50%)
+[10-07-2026 09:17:45] question sync: computer-networks initialized (75%)
+[10-07-2026 09:17:45] question sync: java-programming initialized (100%)
+[10-07-2026 09:17:45] question sync: finished successfully
+[10-07-2026 09:27:45] started: question sync
+[10-07-2026 09:27:45] question sync: mathematics initialized (25%)
+[10-07-2026 09:27:45] question sync: operating-systems initialized (50%)
+[10-07-2026 09:27:45] question sync: computer-networks initialized (75%)
+[10-07-2026 09:27:45] question sync: java-programming initialized (100%)
+[10-07-2026 09:27:45] question sync: finished successfully
+[10-07-2026 09:37:45] started: question sync
+[10-07-2026 09:37:45] question sync: mathematics initialized (25%)
+[10-07-2026 09:37:45] question sync: operating-systems initialized (50%)
+[10-07-2026 09:37:45] question sync: computer-networks initialized (75%)
+[10-07-2026 09:37:45] question sync: java-programming initialized (100%)
+[10-07-2026 09:37:45] question sync: finished successfully
+[10-07-2026 09:47:45] started: question sync
+[10-07-2026 09:47:45] question sync: mathematics initialized (25%)
+[10-07-2026 09:47:45] question sync: operating-systems initialized (50%)
+[10-07-2026 09:47:45] question sync: computer-networks initialized (75%)
+[10-07-2026 09:47:45] question sync: java-programming initialized (100%)
+[10-07-2026 09:47:45] question sync: finished successfully
+[10-07-2026 09:57:45] started: question sync
+[10-07-2026 09:57:45] question sync: mathematics initialized (25%)
+[10-07-2026 09:57:45] question sync: operating-systems initialized (50%)
+[10-07-2026 09:57:45] question sync: computer-networks initialized (75%)
+[10-07-2026 09:57:45] question sync: java-programming initialized (100%)
+[10-07-2026 09:57:45] question sync: finished successfully
+[10-07-2026 10:07:45] started: question sync
+[10-07-2026 10:07:45] question sync: mathematics initialized (25%)
+[10-07-2026 10:07:45] question sync: operating-systems initialized (50%)
+[10-07-2026 10:07:45] question sync: computer-networks initialized (75%)
+[10-07-2026 10:07:45] question sync: java-programming initialized (100%)
+[10-07-2026 10:07:45] question sync: finished successfully
+[10-07-2026 10:17:45] started: question sync
+[10-07-2026 10:17:45] question sync: mathematics initialized (25%)
+[10-07-2026 10:17:45] question sync: operating-systems initialized (50%)
+[10-07-2026 10:17:45] question sync: computer-networks initialized (75%)
+[10-07-2026 10:17:45] question sync: java-programming initialized (100%)
+[10-07-2026 10:17:45] question sync: finished successfully
+[10-07-2026 10:27:45] started: question sync
+[10-07-2026 10:27:45] question sync: mathematics initialized (25%)
+[10-07-2026 10:27:45] question sync: operating-systems initialized (50%)
+[10-07-2026 10:27:45] question sync: computer-networks initialized (75%)
+[10-07-2026 10:27:45] question sync: java-programming initialized (100%)
+[10-07-2026 10:27:45] question sync: finished successfully
+[10-07-2026 10:37:45] started: question sync
+[10-07-2026 10:37:45] question sync: mathematics initialized (25%)
+[10-07-2026 10:37:45] question sync: operating-systems initialized (50%)
+[10-07-2026 10:37:45] question sync: computer-networks initialized (75%)
+[10-07-2026 10:37:45] question sync: java-programming initialized (100%)
+[10-07-2026 10:37:45] question sync: finished successfully
+[10-07-2026 10:47:45] started: question sync
+[10-07-2026 10:47:45] question sync: mathematics initialized (25%)
+[10-07-2026 10:47:45] question sync: operating-systems initialized (50%)
+[10-07-2026 10:47:45] question sync: computer-networks initialized (75%)
+[10-07-2026 10:47:45] question sync: java-programming initialized (100%)
+[10-07-2026 10:47:45] question sync: finished successfully
+[10-07-2026 10:57:45] started: question sync
+[10-07-2026 10:57:45] question sync: mathematics initialized (25%)
+[10-07-2026 10:57:45] question sync: operating-systems initialized (50%)
+[10-07-2026 10:57:45] question sync: computer-networks initialized (75%)
+[10-07-2026 10:57:45] question sync: java-programming initialized (100%)
+[10-07-2026 10:57:45] question sync: finished successfully
+[10-07-2026 11:07:45] started: question sync
+[10-07-2026 11:07:45] question sync: mathematics initialized (25%)
+[10-07-2026 11:07:45] question sync: operating-systems initialized (50%)
+[10-07-2026 11:07:45] question sync: computer-networks initialized (75%)
+[10-07-2026 11:07:45] question sync: java-programming initialized (100%)
+[10-07-2026 11:07:45] question sync: finished successfully
+[10-07-2026 11:17:45] started: question sync
+[10-07-2026 11:17:45] question sync: mathematics initialized (25%)
+[10-07-2026 11:17:45] question sync: operating-systems initialized (50%)
+[10-07-2026 11:17:45] question sync: computer-networks initialized (75%)
+[10-07-2026 11:17:45] question sync: java-programming initialized (100%)
+[10-07-2026 11:17:45] question sync: finished successfully
+[10-07-2026 11:27:45] started: question sync
+[10-07-2026 11:27:45] question sync: mathematics initialized (25%)
+[10-07-2026 11:27:45] question sync: operating-systems initialized (50%)
+[10-07-2026 11:27:45] question sync: computer-networks initialized (75%)
+[10-07-2026 11:27:45] question sync: java-programming initialized (100%)
+[10-07-2026 11:27:45] question sync: finished successfully
+[10-07-2026 11:37:45] started: question sync
+[10-07-2026 11:37:45] question sync: mathematics initialized (25%)
+[10-07-2026 11:37:45] question sync: operating-systems initialized (50%)
+[10-07-2026 11:37:45] question sync: computer-networks initialized (75%)
+[10-07-2026 11:37:45] question sync: java-programming initialized (100%)
+[10-07-2026 11:37:45] question sync: finished successfully
+[10-07-2026 11:47:45] started: question sync
+[10-07-2026 11:47:45] question sync: mathematics initialized (25%)
+[10-07-2026 11:47:45] question sync: operating-systems initialized (50%)
+[10-07-2026 11:47:45] question sync: computer-networks initialized (75%)
+[10-07-2026 11:47:45] question sync: java-programming initialized (100%)
+[10-07-2026 11:47:45] question sync: finished successfully
+[10-07-2026 11:57:45] started: question sync
+[10-07-2026 11:57:45] question sync: mathematics initialized (25%)
+[10-07-2026 11:57:45] question sync: operating-systems initialized (50%)
+[10-07-2026 11:57:45] question sync: computer-networks initialized (75%)
+[10-07-2026 11:57:45] question sync: java-programming initialized (100%)
+[10-07-2026 11:57:45] question sync: finished successfully
+[10-07-2026 12:07:45] started: question sync
+[10-07-2026 12:07:45] question sync: mathematics initialized (25%)
+[10-07-2026 12:07:45] question sync: operating-systems initialized (50%)
+[10-07-2026 12:07:45] question sync: computer-networks initialized (75%)
+[10-07-2026 12:07:45] question sync: java-programming initialized (100%)
+[10-07-2026 12:07:45] question sync: finished successfully
+[10-07-2026 12:17:49] started: question sync
+[10-07-2026 12:17:49] question sync: mathematics initialized (25%)
+[10-07-2026 12:17:49] question sync: operating-systems initialized (50%)
+[10-07-2026 12:17:49] question sync: computer-networks initialized (75%)
+[10-07-2026 12:17:49] question sync: java-programming initialized (100%)
+[10-07-2026 12:17:49] question sync: finished successfully
+[10-07-2026 12:27:49] started: question sync
+[10-07-2026 12:27:49] question sync: mathematics initialized (25%)
+[10-07-2026 12:27:49] question sync: operating-systems initialized (50%)
+[10-07-2026 12:27:49] question sync: computer-networks initialized (75%)
+[10-07-2026 12:27:49] question sync: java-programming initialized (100%)
+[10-07-2026 12:27:49] question sync: finished successfully
+[10-07-2026 12:37:49] started: question sync
+[10-07-2026 12:37:49] question sync: mathematics initialized (25%)
+[10-07-2026 12:37:49] question sync: operating-systems initialized (50%)
+[10-07-2026 12:37:49] question sync: computer-networks initialized (75%)
+[10-07-2026 12:37:49] question sync: java-programming initialized (100%)
+[10-07-2026 12:37:49] question sync: finished successfully
+[10-07-2026 12:47:49] started: question sync
+[10-07-2026 12:47:49] question sync: mathematics initialized (25%)
+[10-07-2026 12:47:49] question sync: operating-systems initialized (50%)
+[10-07-2026 12:47:49] question sync: computer-networks initialized (75%)
+[10-07-2026 12:47:49] question sync: java-programming initialized (100%)
+[10-07-2026 12:47:49] question sync: finished successfully
+[10-07-2026 12:57:49] started: question sync
+[10-07-2026 12:57:49] question sync: mathematics initialized (25%)
+[10-07-2026 12:57:49] question sync: operating-systems initialized (50%)
+[10-07-2026 12:57:49] question sync: computer-networks initialized (75%)
+[10-07-2026 12:57:49] question sync: java-programming initialized (100%)
+[10-07-2026 12:57:49] question sync: finished successfully
+[10-07-2026 13:07:49] started: question sync
+[10-07-2026 13:07:49] question sync: mathematics initialized (25%)
+[10-07-2026 13:07:49] question sync: operating-systems initialized (50%)
+[10-07-2026 13:07:49] question sync: computer-networks initialized (75%)
+[10-07-2026 13:07:49] question sync: java-programming initialized (100%)
+[10-07-2026 13:07:49] question sync: finished successfully
+[10-07-2026 13:08:47] started: question sync
+[10-07-2026 13:08:47] question sync: mathematics initialized (25%)
+[10-07-2026 13:08:47] question sync: operating-systems initialized (50%)
+[10-07-2026 13:08:47] question sync: computer-networks initialized (75%)
+[10-07-2026 13:08:47] question sync: java-programming initialized (100%)
+[10-07-2026 13:08:47] question sync: finished successfully
+[10-07-2026 13:10:23] started: question sync
+[10-07-2026 13:10:23] question sync: mathematics initialized (25%)
+[10-07-2026 13:10:23] question sync: operating-systems initialized (50%)
+[10-07-2026 13:10:23] question sync: computer-networks initialized (75%)
+[10-07-2026 13:10:23] question sync: java-programming initialized (100%)
+[10-07-2026 13:10:23] question sync: finished successfully
+[10-07-2026 13:13:54] started: question sync
+[10-07-2026 13:13:54] question sync: mathematics initialized (25%)
+[10-07-2026 13:13:54] question sync: operating-systems initialized (50%)
+[10-07-2026 13:13:54] question sync: computer-networks initialized (75%)
+[10-07-2026 13:13:54] question sync: java-programming initialized (100%)
+[10-07-2026 13:13:54] question sync: finished successfully
+[10-07-2026 13:17:03] started: question sync
+[10-07-2026 13:17:03] question sync: mathematics initialized (25%)
+[10-07-2026 13:17:03] question sync: operating-systems initialized (50%)
+[10-07-2026 13:17:03] question sync: computer-networks initialized (75%)
+[10-07-2026 13:17:03] question sync: java-programming initialized (100%)
+[10-07-2026 13:17:04] question sync: finished successfully
+[10-07-2026 13:27:04] started: question sync
+[10-07-2026 13:27:04] question sync: mathematics initialized (25%)
+[10-07-2026 13:27:04] question sync: operating-systems initialized (50%)
+[10-07-2026 13:27:04] question sync: computer-networks initialized (75%)
+[10-07-2026 13:27:04] question sync: java-programming initialized (100%)
+[10-07-2026 13:27:04] question sync: finished successfully
+[10-07-2026 13:37:04] started: question sync
+[10-07-2026 13:37:04] question sync: mathematics initialized (25%)
+[10-07-2026 13:37:04] question sync: operating-systems initialized (50%)
+[10-07-2026 13:37:04] question sync: computer-networks initialized (75%)
+[10-07-2026 13:37:04] question sync: java-programming initialized (100%)
+[10-07-2026 13:37:04] question sync: finished successfully
+[10-07-2026 13:47:04] started: question sync
+[10-07-2026 13:47:04] question sync: mathematics initialized (25%)
+[10-07-2026 13:47:04] question sync: operating-systems initialized (50%)
+[10-07-2026 13:47:04] question sync: computer-networks initialized (75%)
+[10-07-2026 13:47:04] question sync: java-programming initialized (100%)
+[10-07-2026 13:47:04] question sync: finished successfully
+[10-07-2026 13:57:04] started: question sync
+[10-07-2026 13:57:04] question sync: mathematics initialized (25%)
+[10-07-2026 13:57:04] question sync: operating-systems initialized (50%)
+[10-07-2026 13:57:04] question sync: computer-networks initialized (75%)
+[10-07-2026 13:57:04] question sync: java-programming initialized (100%)
+[10-07-2026 13:57:04] question sync: finished successfully
+[10-07-2026 14:07:04] started: question sync
+[10-07-2026 14:07:04] question sync: mathematics initialized (25%)
+[10-07-2026 14:07:04] question sync: operating-systems initialized (50%)
+[10-07-2026 14:07:04] question sync: computer-networks initialized (75%)
+[10-07-2026 14:07:04] question sync: java-programming initialized (100%)
+[10-07-2026 14:07:04] question sync: finished successfully
+[10-07-2026 14:14:21] started: question sync
+[10-07-2026 14:14:21] question sync: mathematics initialized (25%)
+[10-07-2026 14:14:21] question sync: operating-systems initialized (50%)
+[10-07-2026 14:14:21] question sync: computer-networks initialized (75%)
+[10-07-2026 14:14:21] question sync: java-programming initialized (100%)
+[10-07-2026 14:14:21] question sync: finished successfully
+[10-07-2026 14:14:55] started: question sync
+[10-07-2026 14:14:55] question sync: mathematics initialized (25%)
+[10-07-2026 14:14:55] question sync: operating-systems initialized (50%)
+[10-07-2026 14:14:55] question sync: computer-networks initialized (75%)
+[10-07-2026 14:14:55] question sync: java-programming initialized (100%)
+[10-07-2026 14:14:55] question sync: finished successfully
+[10-07-2026 14:16:27] started: question sync
+[10-07-2026 14:16:27] question sync: mathematics initialized (25%)
+[10-07-2026 14:16:27] question sync: operating-systems initialized (50%)
+[10-07-2026 14:16:27] question sync: computer-networks initialized (75%)
+[10-07-2026 14:16:27] question sync: java-programming initialized (100%)
+[10-07-2026 14:16:27] question sync: finished successfully
+[10-07-2026 14:17:29] started: question sync
+[10-07-2026 14:17:29] question sync: mathematics initialized (25%)
+[10-07-2026 14:17:29] question sync: operating-systems initialized (50%)
+[10-07-2026 14:17:29] question sync: computer-networks initialized (75%)
+[10-07-2026 14:17:29] question sync: java-programming initialized (100%)
+[10-07-2026 14:17:29] question sync: finished successfully
+[10-07-2026 14:18:28] started: question sync
+[10-07-2026 14:18:28] question sync: mathematics initialized (25%)
+[10-07-2026 14:18:28] question sync: operating-systems initialized (50%)
+[10-07-2026 14:18:28] question sync: computer-networks initialized (75%)
+[10-07-2026 14:18:28] question sync: java-programming initialized (100%)
+[10-07-2026 14:18:28] question sync: finished successfully
+[10-07-2026 14:19:00] started: question sync
+[10-07-2026 14:19:00] question sync: mathematics initialized (25%)
+[10-07-2026 14:19:00] question sync: operating-systems initialized (50%)
+[10-07-2026 14:19:00] question sync: computer-networks initialized (75%)
+[10-07-2026 14:19:00] question sync: java-programming initialized (100%)
+[10-07-2026 14:19:00] question sync: finished successfully
+[10-07-2026 14:22:28] started: question sync
+[10-07-2026 14:22:28] question sync: mathematics initialized (25%)
+[10-07-2026 14:22:28] question sync: operating-systems initialized (50%)
+[10-07-2026 14:22:28] question sync: computer-networks initialized (75%)
+[10-07-2026 14:22:28] question sync: java-programming initialized (100%)
+[10-07-2026 14:22:28] question sync: finished successfully
+[10-07-2026 14:24:16] started: question sync
+[10-07-2026 14:24:16] question sync: mathematics initialized (25%)
+[10-07-2026 14:24:16] question sync: operating-systems initialized (50%)
+[10-07-2026 14:24:16] question sync: computer-networks initialized (75%)
+[10-07-2026 14:24:16] question sync: java-programming initialized (100%)
+[10-07-2026 14:24:16] question sync: finished successfully
+[10-07-2026 14:34:16] started: question sync
+[10-07-2026 14:34:16] question sync: mathematics initialized (25%)
+[10-07-2026 14:34:16] question sync: operating-systems initialized (50%)
+[10-07-2026 14:34:16] question sync: computer-networks initialized (75%)
+[10-07-2026 14:34:16] question sync: java-programming initialized (100%)
+[10-07-2026 14:34:16] question sync: finished successfully
+[10-07-2026 14:35:17] started: question sync
+[10-07-2026 14:35:17] question sync: mathematics initialized (25%)
+[10-07-2026 14:35:17] question sync: operating-systems initialized (50%)
+[10-07-2026 14:35:17] question sync: computer-networks initialized (75%)
+[10-07-2026 14:35:17] question sync: java-programming initialized (100%)
+[10-07-2026 14:35:17] question sync: finished successfully
+[10-07-2026 14:35:44] started: question sync
+[10-07-2026 14:35:44] question sync: mathematics initialized (25%)
+[10-07-2026 14:35:44] question sync: operating-systems initialized (50%)
+[10-07-2026 14:35:44] question sync: computer-networks initialized (75%)
+[10-07-2026 14:35:44] question sync: java-programming initialized (100%)
+[10-07-2026 14:35:44] question sync: finished successfully
+[10-07-2026 14:43:50] started: question sync
+[10-07-2026 14:43:50] question sync: mathematics initialized (25%)
+[10-07-2026 14:43:50] question sync: operating-systems initialized (50%)
+[10-07-2026 14:43:50] question sync: computer-networks initialized (75%)
+[10-07-2026 14:43:50] question sync: java-programming initialized (100%)
+[10-07-2026 14:43:50] question sync: finished successfully
+[10-07-2026 14:45:04] started: question sync
+[10-07-2026 14:45:04] question sync: mathematics initialized (25%)
+[10-07-2026 14:45:04] question sync: operating-systems initialized (50%)
+[10-07-2026 14:45:04] question sync: computer-networks initialized (75%)
+[10-07-2026 14:45:04] question sync: java-programming initialized (100%)
+[10-07-2026 14:45:04] question sync: finished successfully
+[10-07-2026 14:46:07] started: question sync
+[10-07-2026 14:46:07] question sync: mathematics initialized (25%)
+[10-07-2026 14:46:07] question sync: operating-systems initialized (50%)
+[10-07-2026 14:46:07] question sync: computer-networks initialized (75%)
+[10-07-2026 14:46:07] question sync: java-programming initialized (100%)
+[10-07-2026 14:46:07] question sync: finished successfully
+[10-07-2026 14:46:33] started: question sync
+[10-07-2026 14:46:33] question sync: mathematics initialized (25%)
+[10-07-2026 14:46:33] question sync: operating-systems initialized (50%)
+[10-07-2026 14:46:33] question sync: computer-networks initialized (75%)
+[10-07-2026 14:46:33] question sync: java-programming initialized (100%)
+[10-07-2026 14:46:34] question sync: finished successfully
+[10-07-2026 14:56:33] started: question sync
+[10-07-2026 14:56:33] question sync: mathematics initialized (25%)
+[10-07-2026 14:56:33] question sync: operating-systems initialized (50%)
+[10-07-2026 14:56:33] question sync: computer-networks initialized (75%)
+[10-07-2026 14:56:33] question sync: java-programming initialized (100%)
+[10-07-2026 14:56:34] question sync: finished successfully
+[10-07-2026 15:06:34] started: question sync
+[10-07-2026 15:06:34] question sync: mathematics initialized (25%)
+[10-07-2026 15:06:34] question sync: operating-systems initialized (50%)
+[10-07-2026 15:06:34] question sync: computer-networks initialized (75%)
+[10-07-2026 15:06:34] question sync: java-programming initialized (100%)
+[10-07-2026 15:06:34] question sync: finished successfully
+[10-07-2026 15:16:34] started: question sync
+[10-07-2026 15:16:34] question sync: mathematics initialized (25%)
+[10-07-2026 15:16:34] question sync: operating-systems initialized (50%)
+[10-07-2026 15:16:34] question sync: computer-networks initialized (75%)
+[10-07-2026 15:16:34] question sync: java-programming initialized (100%)
+[10-07-2026 15:16:34] question sync: finished successfully
+[10-07-2026 15:26:34] started: question sync
+[10-07-2026 15:26:34] question sync: mathematics initialized (25%)
+[10-07-2026 15:26:34] question sync: operating-systems initialized (50%)
+[10-07-2026 15:26:34] question sync: computer-networks initialized (75%)
+[10-07-2026 15:26:34] question sync: java-programming initialized (100%)
+[10-07-2026 15:26:34] question sync: finished successfully
+[10-07-2026 15:36:34] started: question sync
+[10-07-2026 15:36:34] question sync: mathematics initialized (25%)
+[10-07-2026 15:36:34] question sync: operating-systems initialized (50%)
+[10-07-2026 15:36:34] question sync: computer-networks initialized (75%)
+[10-07-2026 15:36:34] question sync: java-programming initialized (100%)
+[10-07-2026 15:36:34] question sync: finished successfully
+[10-07-2026 15:46:34] started: question sync
+[10-07-2026 15:46:34] question sync: mathematics initialized (25%)
+[10-07-2026 15:46:34] question sync: operating-systems initialized (50%)
+[10-07-2026 15:46:34] question sync: computer-networks initialized (75%)
+[10-07-2026 15:46:34] question sync: java-programming initialized (100%)
+[10-07-2026 15:46:34] question sync: finished successfully
+[10-07-2026 15:53:29] started: question sync
+[10-07-2026 15:53:29] question sync: mathematics initialized (25%)
+[10-07-2026 15:53:29] question sync: operating-systems initialized (50%)
+[10-07-2026 15:53:29] question sync: computer-networks initialized (75%)
+[10-07-2026 15:53:29] question sync: java-programming initialized (100%)
+[10-07-2026 15:53:29] question sync: finished successfully
+[10-07-2026 15:55:22] started: question sync
+[10-07-2026 15:55:22] question sync: mathematics initialized (25%)
+[10-07-2026 15:55:22] question sync: operating-systems initialized (50%)
+[10-07-2026 15:55:22] question sync: computer-networks initialized (75%)
+[10-07-2026 15:55:22] question sync: java-programming initialized (100%)
+[10-07-2026 15:55:22] question sync: finished successfully
+[10-07-2026 15:57:08] started: question sync
+[10-07-2026 15:57:08] question sync: mathematics initialized (25%)
+[10-07-2026 15:57:08] question sync: operating-systems initialized (50%)
+[10-07-2026 15:57:08] question sync: computer-networks initialized (75%)
+[10-07-2026 15:57:08] question sync: java-programming initialized (100%)
+[10-07-2026 15:57:08] question sync: finished successfully
+[10-07-2026 16:00:23] started: question sync
+[10-07-2026 16:00:23] question sync: mathematics initialized (25%)
+[10-07-2026 16:00:23] question sync: operating-systems initialized (50%)
+[10-07-2026 16:00:23] question sync: computer-networks initialized (75%)
+[10-07-2026 16:00:23] question sync: java-programming initialized (100%)
+[10-07-2026 16:00:23] question sync: finished successfully

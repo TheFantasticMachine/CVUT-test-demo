@@ -1,25 +1,46 @@
 <!DOCTYPE html>
-<html lang="en"
-      xmlns:th="http://www.thymeleaf.org">
+<html lang="cs" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+    <meta charset="UTF-8"/>
+    <title>Printable Exam Sheet</title>
+
+    <link rel="stylesheet" th:href="@{/css/test_template.css}">
 <body>
 
-<p> Varinata: <strong th:text="${testData.variant}"></strong> </p>
-<p> Předmět: <strong th:text="${testData.subjectName}"></strong> </p>
 
-<ol th:each="question : ${questions}">
-    <li>
-        <strong th:text="${question.question}"></strong>
-        <ol th:each="anwser : ${question.answers}">
-            <li th:text="${anwser}"></li>
-        </ol>
-        <strong style="color: lawngreen" th:text="${question.correctAnswer}"></strong>
-    </li>
-</ol>
 
+<table th:each="question, questionData : ${questions}">
+    <tr>
+        <th>Oprava</th>
+        <th>Odpověď</th>
+        <th th:text="${questionData.index + 1}"></th>
+        <th th:text="${question.question}"> </th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td> a </td>
+        <td th:text="${question.answers[0]}"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td> b </td>
+        <td th:text="${question.answers[1]}"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td> c </td>
+        <td th:text="${question.answers[2]}"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td> d </td>
+        <td th:text="${question.answers[3]}"></td>
+    </tr>
+</table>
 
 </body>
 </html>

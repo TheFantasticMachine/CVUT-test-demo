@@ -114,10 +114,9 @@ public class Main {
                 Subject targetSubject = subjectList.get(random.nextInt(subjectList.size()));
 
                 System.out.println("[ENGINE] Selected Target Subject Track: " + targetSubject.getSubjectName());
-
-                // Fire up your custom test generator mechanism safely
                 Test test = new Test(10, 3, 3, targetSubject);
                 test.createTest();
+
             } else {
                 System.err.println("[CRITICAL] Failed to execute generation: Global subject cache repository is empty.");
             }

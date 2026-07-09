@@ -23,6 +23,17 @@ public class TestQuestion {
         this.correctAnswer = answers.get(correctIndex);
     }
 
+    public String getCorrectAnswer() {
+        if (this.answers != null && this.correctIndex >= 0 && this.correctIndex < this.answers.size()) {
+            return this.answers.get(this.correctIndex);
+        }
+        return "No correct answer mapped";
+    }
+
+    public void setCorrectAnswer(String correctAnswer) {
+        this.correctAnswer = correctAnswer;
+    }
+
     public String getQuestion() { return question; }
     public void setQuestion(String question) { this.question = question; }
 

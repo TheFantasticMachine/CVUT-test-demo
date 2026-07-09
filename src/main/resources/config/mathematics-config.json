@@ -1,4 +1,151 @@
 {
   "subjectID" : 1,
   "subjectName" : "mathematics",
-  "lastSync"
+  "lastSync" : [ 2026, 7, 10, 16, 0, 23, 549143324 ],
+  "categories" : [ {
+    "categoryName" : "Stereometry",
+    "categoryID" : 1,
+    "questions" : [ {
+      "questionID" : 1,
+      "questionText" : "What is the volume formula for a perfect sphere with radius r?",
+      "correct" : "(4/3) * pi * r^3",
+      "wrong" : [ "4 * pi * r^2", "2 * pi * r", "pi * r^2" ]
+    }, {
+      "questionID" : 2,
+      "questionText" : "How many faces does a regular octahedron have?",
+      "correct" : "8",
+      "wrong" : [ "6", "12", "20" ]
+    }, {
+      "questionID" : 3,
+      "questionText" : "What is the total surface area formula of a cylinder?",
+      "correct" : "2 * pi * r * (r + h)",
+      "wrong" : [ "pi * r^2 * h", "2 * pi * r * h", "pi * r * s" ]
+    }, {
+      "questionID" : 4,
+      "questionText" : "How many vertices does a standard cube possess?",
+      "correct" : "8",
+      "wrong" : [ "6", "12", "16" ]
+    }, {
+      "questionID" : 5,
+      "questionText" : "What is the volume of a cone with base radius r and height h?",
+      "correct" : "(1/3) * pi * r^2 * h",
+      "wrong" : [ "pi * r^2 * h", "(4/3) * pi * r^2 * h", "2 * pi * r * h" ]
+    } ]
+  }, {
+    "categoryName" : "Planimetry",
+    "categoryID" : 2,
+    "questions" : [ {
+      "questionID" : 6,
+      "questionText" : "What is the sum of the interior angles of a regular hexagon?",
+      "correct" : "720 degrees",
+      "wrong" : [ "540 degrees", "360 degrees", "900 degrees" ]
+    }, {
+      "questionID" : 7,
+      "questionText" : "According to Brahmagupta's formula, what does it calculate?",
+      "correct" : "Area of a cyclic quadrilateral",
+      "wrong" : [ "Perimeter of an ellipse", "Area of a scalene triangle", "Volume of a pyramid" ]
+    }, {
+      "questionID" : 8,
+      "questionText" : "What is the length of the hypotenuse of a right-angled triangle with sides 5 and 12?",
+      "correct" : "13",
+      "wrong" : [ "15", "17", "14" ]
+    }, {
+      "questionID" : 9,
+      "questionText" : "What is the area of a circle with a diameter of 10?",
+      "correct" : "25 * pi",
+      "wrong" : [ "100 * pi", "50 * pi", "10 * pi" ]
+    }, {
+      "questionID" : 10,
+      "questionText" : "Which theorem states that the square of the hypotenuse is equal to the sum of squares of the other two sides?",
+      "correct" : "Pythagorean Theorem",
+      "wrong" : [ "Thales's Theorem", "Euclid's Theorem", "Ptolemy's Theorem" ]
+    } ]
+  }, {
+    "categoryName" : "Combinatorics",
+    "categoryID" : 3,
+    "questions" : [ {
+      "questionID" : 11,
+      "questionText" : "In how many ways can 4 people be seated in a straight line?",
+      "correct" : "24",
+      "wrong" : [ "12", "16", "6" ]
+    }, {
+      "questionID" : 12,
+      "questionText" : "What is the value of the combinatorial coefficient C(5, 2)?",
+      "correct" : "10",
+      "wrong" : [ "20", "5", "15" ]
+    }, {
+      "questionID" : 13,
+      "questionText" : "How many distinct subsets can be formed from a set containing 5 elements?",
+      "correct" : "32",
+      "wrong" : [ "25", "16", "64" ]
+    }, {
+      "questionID" : 14,
+      "questionText" : "Which principle is also known as the Dirichlet Box Principle?",
+      "correct" : "Pigeonhole Principle",
+      "wrong" : [ "Inclusion-Exclusion Principle", "Multiplication Principle", "Bijection Principle" ]
+    }, {
+      "questionID" : 15,
+      "questionText" : "How many unique permutations can be made from the letters in the word 'APP'?",
+      "correct" : "3",
+      "wrong" : [ "6", "9", "1" ]
+    } ]
+  }, {
+    "categoryName" : "Probability",
+    "categoryID" : 4,
+    "questions" : [ {
+      "questionID" : 16,
+      "questionText" : "What is the probability of rolling a sum of 7 with two fair six-sided dice?",
+      "correct" : "1/6",
+      "wrong" : [ "1/12", "1/36", "1/4" ]
+    }, {
+      "questionID" : 17,
+      "questionText" : "If events A and B are independent, what is P(A and B)?",
+      "correct" : "P(A) * P(B)",
+      "wrong" : [ "P(A) + P(B)", "P(A) + P(B) - P(A or B)", "P(A) / P(B)" ]
+    }, {
+      "questionID" : 18,
+      "questionText" : "What is the probability of flipping a fair coin three times and getting all heads?",
+      "correct" : "1/8",
+      "wrong" : [ "1/4", "1/6", "1/2" ]
+    }, {
+      "questionID" : 19,
+      "questionText" : "What does Bayes' Theorem calculate?",
+      "correct" : "Conditional probability",
+      "wrong" : [ "Joint probability", "Marginal probability", "Discrete distributions" ]
+    }, {
+      "questionID" : 20,
+      "questionText" : "What is the sum of probabilities of all possible mutually exclusive outcomes in a sample space?",
+      "correct" : "1",
+      "wrong" : [ "0", "100", "Infinite" ]
+    } ]
+  }, {
+    "categoryName" : "Mathematical Logic",
+    "categoryID" : 5,
+    "questions" : [ {
+      "questionID" : 21,
+      "questionText" : "Which logical connective represents an 'exclusive or' (XOR)?",
+      "correct" : "Exactly one input is true",
+      "wrong" : [ "Both inputs are true", "At least one input is true", "Both inputs are false" ]
+    }, {
+      "questionID" : 22,
+      "questionText" : "What is the negation of the statement 'All primes are odd'?",
+      "correct" : "There exists at least one prime that is not odd",
+      "wrong" : [ "No primes are odd", "All primes are even", "Some primes are odd" ]
+    }, {
+      "questionID" : 23,
+      "questionText" : "What is a logical statement called if it evaluates to true under all possible truth value assignments?",
+      "correct" : "Tautology",
+      "wrong" : [ "Contradiction", "Contingency", "Fallacy" ]
+    }, {
+      "questionID" : 24,
+      "questionText" : "If P is true and Q is false, what is the truth value of the implication P -> Q?",
+      "correct" : "False",
+      "wrong" : [ "True", "Undefined", "Contingent" ]
+    }, {
+      "questionID" : 25,
+      "questionText" : "What logic law simplifies 'not (A and B)' into '(not A) or (not B)'?",
+      "correct" : "De Morgan's Law",
+      "wrong" : [ "Commutative Law", "Distributive Law", "Associative Law" ]
+    } ]
+  } ]
+}
