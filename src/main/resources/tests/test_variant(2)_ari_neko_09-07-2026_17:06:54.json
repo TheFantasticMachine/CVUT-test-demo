@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:06:54",
+  "variant" : 2,
+  "subjectName" : "operating-systems",
+  "categories" : [ "Deadlocks & Synchronization", "File Systems", "Process Scheduling" ],
+  "questions" : [ {
+    "question" : "What is a critical section inside multi-threaded application software?",
+    "answers" : [ "A protected kernel execution memory register row", "A background process handling system initialization routines", "A critical database constraint tracking primary indexing relationships", "A block of code that accesses shared resources and must not be concurrently run" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What condition occurs when multiple threads modify shared data concurrently with output depending on execution order?",
+    "answers" : [ "Starvation anomaly", "Race Condition", "Livelock loop", "Deadlock state" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What component maps file paths to matching inode numbers in a file system directory?",
+    "answers" : [ "Master boot records (MBR)", "Virtual file layers (VFS)", "Directory entries (dentries)", "File allocation tables (FAT)" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What is a major advantage of a journaling file system like ext4?",
+    "answers" : [ "It compresses text files to half their initial disk sector allocations", "It speeds up graphics card rendering rates", "It records changes in a log to prevent corruption during sudden power losses", "It encrypts all user credentials automatically" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What does an inode store in a Unix-like file system?",
+    "answers" : [ "The literal plain-text contents of the target file", "File metadata, size, permissions, and block pointers, but not the file name", "The human-readable file name and directory path string", "The encryption keys used for secure network transmissions" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What structural pattern does a Hard Link follow compared to a Symbolic Link?",
+    "answers" : [ "Hard links require administrative privileges to execute", "A Hard Link points directly to the same inode; a Symbolic Link points to a path string", "Symbolic links can only reference binary files; hard links handle folders", "Hard links delete the original file target when broken; symbolic links do not" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What state does a process enter if it is waiting for an I/O operation to finish?",
+    "answers" : [ "Zombie state", "Blocked / Waiting state", "Ready state", "Running state" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What differentiates a process from a thread?",
+    "answers" : [ "A single thread can contain multiple independent processes", "Threads run in kernel mode; processes run in user mode", "A process has its own isolated address space; threads share address spaces", "Processes share file descriptors by default; threads do not" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "Which scheduling algorithm runs processes based on a fixed time-slice quantum rotation?",
+    "answers" : [ "Round Robin (RR)", "First-Come, First-Served (FCFS)", "Shortest Job First (SJF)", "Multilevel Feedback Queue" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is a major disadvantage of the Shortest Job First scheduling algorithm?",
+    "answers" : [ "High context-switching processing overhead", "It requires specialized graphical hardware layers", "Massive memory cache utilization footprints", "Long-running processes can suffer from starvation" ],
+    "correctIndex" : 3
+  } ]
+}
