@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en"
-xml:th="https://thymeleaf.org"
       xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +16,7 @@ xml:th="https://thymeleaf.org"
         <ol th:each="anwser : ${question.answers}">
             <li th:text="${anwser}"></li>
         </ol>
-        <strong style="color: lawngreen" th:text="question.correctAnswer"></strong>
+        <strong style="color: lawngreen" th:text="${question.correctAnswer}"></strong>
     </li>
 </ol>
 

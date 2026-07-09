@@ -59,3 +59,63 @@
 [09-07-2026 17:06:52] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
 [09-07-2026 17:06:52] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
 [09-07-2026 17:06:52] question sync: finished successfully
+[09-07-2026 17:19:51] started: question sync
+[09-07-2026 17:19:51] question sync: mathematics initialized (25%)
+[09-07-2026 17:19:51] question sync: operating-systems initialized (50%)
+[09-07-2026 17:19:51] question sync: computer-networks initialized (75%)
+[09-07-2026 17:19:51] question sync: java-programming initialized (100%)
+[09-07-2026 17:19:51] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:19:51] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:19:51] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:19:51] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:19:51] question sync: finished successfully
+[09-07-2026 17:23:48] started: question sync
+[09-07-2026 17:23:48] question sync: mathematics initialized (25%)
+[09-07-2026 17:23:48] question sync: operating-systems initialized (50%)
+[09-07-2026 17:23:48] question sync: computer-networks initialized (75%)
+[09-07-2026 17:23:48] question sync: java-programming initialized (100%)
+[09-07-2026 17:23:48] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:23:48] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:23:48] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:23:48] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:23:48] question sync: finished successfully
+[09-07-2026 17:24:40] started: question sync
+[09-07-2026 17:24:40] question sync: mathematics initialized (25%)
+[09-07-2026 17:24:40] question sync: operating-systems initialized (50%)
+[09-07-2026 17:24:40] question sync: computer-networks initialized (75%)
+[09-07-2026 17:24:40] question sync: java-programming initialized (100%)
+[09-07-2026 17:24:40] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:24:40] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:24:40] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:24:40] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:24:40] question sync: finished successfully
+[09-07-2026 17:25:37] started: question sync
+[09-07-2026 17:25:37] question sync: mathematics initialized (25%)
+[09-07-2026 17:25:37] question sync: operating-systems initialized (50%)
+[09-07-2026 17:25:37] question sync: computer-networks initialized (75%)
+[09-07-2026 17:25:37] question sync: java-programming initialized (100%)
+[09-07-2026 17:25:37] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:25:37] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:25:37] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:25:37] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:25:37] question sync: finished successfully
+[09-07-2026 17:29:05] started: question sync
+[09-07-2026 17:29:05] question sync: mathematics initialized (25%)
+[09-07-2026 17:29:05] question sync: operating-systems initialized (50%)
+[09-07-2026 17:29:05] question sync: computer-networks initialized (75%)
+[09-07-2026 17:29:05] question sync: java-programming initialized (100%)
+[09-07-2026 17:29:05] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:29:05] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:29:05] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:29:05] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:29:05] question sync: finished successfully
+[09-07-2026 17:30:01] started: question sync
+[09-07-2026 17:30:01] question sync: mathematics initialized (25%)
+[09-07-2026 17:30:01] question sync: operating-systems initialized (50%)
+[09-07-2026 17:30:01] question sync: computer-networks initialized (75%)
+[09-07-2026 17:30:01] question sync: java-programming initialized (100%)
+[09-07-2026 17:30:01] CRITICAL ERROR syncing subject computer-networks: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:30:01] CRITICAL ERROR syncing subject operating-systems: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:30:01] CRITICAL ERROR syncing subject java-programming: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:30:01] CRITICAL ERROR syncing subject mathematics: Java 8 date/time type `java.time.LocalDateTime` not supported by default: add Module "com.fasterxml.jackson.datatype:jackson-datatype-jsr310" to enable handling (through reference chain: com.testgen.demo.core.model.Subject["lastSync"])
+[09-07-2026 17:30:01] question sync: finished successfully

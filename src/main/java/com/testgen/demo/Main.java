@@ -8,6 +8,7 @@ import com.testgen.demo.core.threads.ThreadManager;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.context.annotation.ComponentScan;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
