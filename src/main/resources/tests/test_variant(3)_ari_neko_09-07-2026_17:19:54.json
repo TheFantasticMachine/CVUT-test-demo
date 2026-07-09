@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:19:54",
+  "variant" : 3,
+  "subjectName" : "computer-networks",
+  "categories" : [ "OSI Model Layers", "Network Security Basics", "Transport Layer (TCP/UDP)" ],
+  "questions" : [ {
+    "question" : "What is the core responsibility of Layer 4 (Transport Layer) inside connection pipelines?",
+    "answers" : [ "Physical line signals encoding management", "Logical path selection across separate routing nodes", "End-to-end communication flow control, segmentation, and error checking", "Mapping human-readable domains to server IP values" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "At which OSI layer do network routers primarily operate to forward packages?",
+    "answers" : [ "Layer 3 - Network Layer", "Layer 4 - Transport Layer", "Layer 2 - Data Link Layer", "Layer 1 - Physical Layer" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is the exact Protocol Data Unit (PDU) name processed at Layer 2 of the OSI model?",
+    "answers" : [ "Frame", "Packet", "Segment", "Bit data block" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "Which protocol encapsulates web traffic inside an encrypted SSL/TLS session framework layer?",
+    "answers" : [ "SFTP", "SNMP", "HTTP", "HTTPS" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What type of intrusion occurs when an attacker intercepts and modifies communications between two endpoints?",
+    "answers" : [ "Cross-Site Request Forgery (CSRF)", "Denial of Service (DDoS)", "SQL Injection (SQLi)", "Man-in-the-Middle (MitM) attack" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the primary role of a demilitarized zone (DMZ) inside an enterprise network layout?",
+    "answers" : [ "To balance bandwidth distributions across edge switch routing points", "To host local user database management tables securely", "To isolate public-facing servers from the secure internal private network infrastructure", "To store system application logs data fields away from internet paths" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What type of firewall monitors the state of active connections to determine whether to block a packet?",
+    "answers" : [ "Application Proxy Gateway", "Packet Filtering Firewall", "Stateless Lookups Interface", "Stateful Inspection Firewall" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What does the 'Sliding Window' mechanism accomplish inside a TCP session tracking pipeline?",
+    "answers" : [ "Dynamic flow control to regulate how much data a sender can transmit before an ACK is required", "Automatic file segment translations", "Cryptographic block rotations to shield payload fields", "Horizontal expansion of port bounds when traffic spikes occur" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "Which of the following traits characterizes the User Datagram Protocol (UDP) data stream?",
+    "answers" : [ "Connectionless, lightweight, and lacks delivery guarantees or sequencing", "Mandates manual packet handshakes before transmission", "Operates exclusively inside Layer 3 routing tracks", "Reliable, connection-oriented, and features heavy window sizing flows" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is the standard port allocation value for secure SSH remote shell terminal sessions?",
+    "answers" : [ "Port 23", "Port 22", "Port 443", "Port 80" ],
+    "correctIndex" : 1
+  } ]
+}

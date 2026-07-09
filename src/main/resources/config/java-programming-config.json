@@ -1,4 +1,151 @@
 {
   "subjectID" : 4,
   "subjectName" : "java-programming",
-  "lastSync"
+  "lastSync" : [ 2026, 7, 9, 18, 32, 4, 218421901 ],
+  "categories" : [ {
+    "categoryName" : "Object-Oriented Principles",
+    "categoryID" : 16,
+    "questions" : [ {
+      "questionID" : 76,
+      "questionText" : "Which pillar of OOP allows a subclass to provide a specific implementation of a method defined in its superclass?",
+      "correct" : "Polymorphism (Method Overriding)",
+      "wrong" : [ "Encapsulation", "Inheritance (Method Overloading)", "Abstraction execution rules" ]
+    }, {
+      "questionID" : 77,
+      "questionText" : "How do you enforce strict Encapsulation inside a Java POJO bean class definition?",
+      "correct" : "Declare fields private and expose access points strictly via public getter and setter methods",
+      "wrong" : [ "Mark the class structure final and avoid using constructors", "Turn all method trackers static", "Route all object initializations through separate database loaders" ]
+    }, {
+      "questionID" : 78,
+      "questionText" : "What does a class inherit when it implements a Java Interface containing default methods?",
+      "correct" : "The interface's default functional implementations without breaking backward compatibility",
+      "wrong" : [ "The concrete private instance fields", "Complete access to the abstract module's private memory", "Automated thread synchronization parameters across loop executions" ]
+    }, {
+      "questionID" : 79,
+      "questionText" : "What restriction applies to a class declared with the final modifier keyword in Java?",
+      "correct" : "The class cannot be extended or subclassed by any other class structure",
+      "wrong" : [ "The internal variables are rendered immutable values instantly", "The class cannot contain any public instance initialization constructors", "The JVM forces code tasks to run inside kernel mode" ]
+    }, {
+      "questionID" : 80,
+      "questionText" : "What separates method overriding from method overloading in Java programming execution?",
+      "correct" : "Overriding replaces a superclass method at runtime; overloading uses distinct parameters at compile-time",
+      "wrong" : [ "Overloading is exclusive to abstract interfaces", "Overriding modifies class access modifiers; overloading alters return type bounds", "Overloading forces garbage collection routines" ]
+    } ]
+  }, {
+    "categoryName" : "Exception Handling",
+    "categoryID" : 17,
+    "questions" : [ {
+      "questionID" : 81,
+      "questionText" : "What structural trait differentiates a Checked Exception from an Unchecked Exception in Java?",
+      "correct" : "Checked exceptions are verified at compile-time and must be caught or declared in the method signature",
+      "wrong" : [ "Unchecked exceptions cause physical RAM allocation failures", "Checked exceptions can only be thrown from inside static class routines", "Unchecked exceptions are skipped entirely by the JVM debugger" ]
+    }, {
+      "questionID" : 82,
+      "questionText" : "How does the try-with-resources statement handle asset hygiene automatically on block exits?",
+      "correct" : "It automatically invokes .close() on any resource object that implements AutoCloseable",
+      "wrong" : [ "It flushes the CPU cache logs to clear remaining variables", "It dispatches a dedicated Garbage Collection sweep task", "It saves an execution checkpoint status state directly back to tables" ]
+    }, {
+      "questionID" : 83,
+      "questionText" : "What block in a try-catch-finally layout is guaranteed to execute regardless of whether an exception is thrown?",
+      "correct" : "The finally block",
+      "wrong" : [ "The catch block", "The try block", "The throws block" ]
+    }, {
+      "questionID" : 84,
+      "questionText" : "What type of exception is a NullPointerException classified as inside the Java runtime architecture?",
+      "correct" : "An Unchecked Exception (RuntimeException)",
+      "wrong" : [ "A Checked Exception", "An Error exception condition", "A Compile-time syntax flag anomaly" ]
+    }, {
+      "questionID" : 85,
+      "questionText" : "What happens if a catch block intercepts an exception and rethrows a new RuntimeException wrapper?",
+      "correct" : "The current execution path breaks and the exception propagates up the thread stack frame",
+      "wrong" : [ "The JVM defaults all text inputs back to empty strings", "The active relational database transaction commits its row status", "The operating system kernel terminates the parent thread launcher instance" ]
+    } ]
+  }, {
+    "categoryName" : "Java Collections Framework",
+    "categoryID" : 18,
+    "questions" : [ {
+      "questionID" : 86,
+      "questionText" : "What is a major performance difference between an ArrayList and a LinkedList in Java?",
+      "correct" : "ArrayList provides O(1) random access time; LinkedList provides O(1) element insertion at boundaries",
+      "wrong" : [ "LinkedList consumes less memory because it drops link node pointer sets", "ArrayList resizes dynamically without duplicating its internal index arrays", "LinkedList supports horizontal clustering distributions" ]
+    }, {
+      "questionID" : 87,
+      "questionText" : "Which interface inside the Java Collections Framework guarantees that no duplicate elements can be stored?",
+      "correct" : "Set",
+      "wrong" : [ "List", "Queue", "Map entries tracker" ]
+    }, {
+      "questionID" : 88,
+      "questionText" : "How does a HashMap handle key value lookups efficiently under the hood?",
+      "correct" : "It computes the key's hashCode() to locate a bucket array slot containing data node links",
+      "wrong" : [ "It runs a full linear search loop across all entries sequentially", "It references a foreign key constraint row mapped from a local tracker", "It writes the object properties out to temporary text files" ]
+    }, {
+      "questionID" : 89,
+      "questionText" : "What behavioral trait separates a TreeMap from a standard HashMap implementation?",
+      "correct" : "TreeMap maintains its keys sorted according to their natural ordering or a custom Comparator",
+      "wrong" : [ "HashMap encrypts key fields; TreeMap leaves characters visible", "TreeMap is limited to storing integer primitive values", "TreeMap prevents asynchronous thread execution steps from accessing data" ]
+    }, {
+      "questionID" : 90,
+      "questionText" : "What performance penalty can hit a HashMap if multiple distinct keys yield identical hashCode values?",
+      "correct" : "Hash collisions increase, causing lookup speeds to degrade from O(1) toward O(N)",
+      "wrong" : [ "The JVM throws a ConcurrentModificationException and aborts the thread", "The internal memory mapping flushes all cached key allocations", "The database loader class drops its connection stream pipe instantly" ]
+    } ]
+  }, {
+    "categoryName" : "Generics & Types",
+    "categoryID" : 19,
+    "questions" : [ {
+      "questionID" : 91,
+      "questionText" : "What primary objective does Java's Type Erasure accomplish when compiling generic code architectures?",
+      "correct" : "It replaces type parameters with bounds or Object to ensure type safety without runtime overhead",
+      "wrong" : [ "It forces the compiler to duplicate class files for every unique type", "It converts object reference addresses into encrypted byte arrays", "It restricts collection instances from scaling horizontally" ]
+    }, {
+      "questionID" : 92,
+      "questionText" : "What does the wildcard bound pattern 'List<? extends Number>' accomplish inside a method signature?",
+      "correct" : "It restricts the parameter to a List containing Number or any of its subclasses",
+      "wrong" : [ "It opens the List to accept additions of any custom object structure", "It mandates that all elements in the List must carry matching static values", "It turns the List into an immutable collection" ]
+    }, {
+      "questionID" : 93,
+      "questionText" : "Why are primitive types like int or char forbidden from being passed directly as parameters to Java Generics?",
+      "correct" : "Generics require object references on the heap; primitives do not inherit from Object",
+      "wrong" : [ "Primitives consume too much L1 cache memory causing thread scheduler stalls", "The modularity guidelines written in module-info block primitive parameters", "Database drivers cannot bind primitive types to statement query parameters" ]
+    }, {
+      "questionID" : 94,
+      "questionText" : "What happens when you use a raw type instead of a parameterized generic type declaration?",
+      "correct" : "You lose compile-time type safety checking benefits and trigger compiler warning logs",
+      "wrong" : [ "The application crashes instantly with a ClassCastException upon boot paths", "The Java Virtual Machine executes the bytecode lines 50 percent slower", "Jackson's ObjectMapper becomes unable to parse JSON resource file streams" ]
+    }, {
+      "questionID" : 95,
+      "questionText" : "What does the wildcard pattern 'List<? super Integer>' signify inside type boundaries checking?",
+      "correct" : "It specifies a List that can hold Integer or any of its master superclass ancestor layers",
+      "wrong" : [ "It limits the collection strictly to elements that implement serializable", "It prevents downstream functions from executing list mutations", "It tells the system that the collection properties are bound to an index" ]
+    } ]
+  }, {
+    "categoryName" : "Multi-threading & Concurrency",
+    "categoryID" : 20,
+    "questions" : [ {
+      "questionID" : 96,
+      "questionText" : "What thread safety violation occurs when a thread caches local variable copies instead of reading from main RAM?",
+      "correct" : "Memory Visibility Problem",
+      "wrong" : [ "Race Condition anomaly", "Deadlock layout lock", "Illegal Thread State condition" ]
+    }, {
+      "questionID" : 97,
+      "questionText" : "What modifier keyword forces Java threads to read and write variable values directly from main memory?",
+      "correct" : "volatile",
+      "wrong" : [ "synchronized", "static", "transient properties tracking" ]
+    }, {
+      "questionID" : 98,
+      "questionText" : "What occurs if an execution thread invokes .wait() on an object without holding that object's monitor lock?",
+      "correct" : "It throws an immediate IllegalMonitorStateException at runtime",
+      "wrong" : [ "The thread drops into a safe background daemon sleep loop", "The underlying database statement execution rolls back its current update", "The context switch routine allocates more processing cycles" ]
+    }, {
+      "questionID" : 99,
+      "questionText" : "Which thread-safe collection from java.util.concurrent should replace a standard HashMap in high-concurrency environments?",
+      "correct" : "ConcurrentHashMap",
+      "wrong" : [ "Collections.synchronizedMap", "Hashtable", "LinkedHashMap module structure" ]
+    }, {
+      "questionID" : 100,
+      "questionText" : "What structural capability advantage does a Callable task possess compared to a standard Runnable task?",
+      "correct" : "A Callable can return a computed result value and throw checked exceptions",
+      "wrong" : [ "A Callable runs directly inside kernel privilege rings bypassing restrictions", "A Callable can be restarted multiple times within the same thread lifecycle", "A Callable does not require module-info reflection opens configurations" ]
+    } ]
+  } ]
+}

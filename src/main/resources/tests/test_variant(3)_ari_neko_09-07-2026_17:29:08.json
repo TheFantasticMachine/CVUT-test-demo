@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:29:08",
+  "variant" : 3,
+  "subjectName" : "java-programming",
+  "categories" : [ "Generics & Types", "Object-Oriented Principles", "Exception Handling" ],
+  "questions" : [ {
+    "question" : "Why are primitive types like int or char forbidden from being passed directly as parameters to Java Generics?",
+    "answers" : [ "Database drivers cannot bind primitive types to statement query parameters", "The modularity guidelines written in module-info block primitive parameters", "Generics require object references on the heap; primitives do not inherit from Object", "Primitives consume too much L1 cache memory causing thread scheduler stalls" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What primary objective does Java's Type Erasure accomplish when compiling generic code architectures?",
+    "answers" : [ "It forces the compiler to duplicate class files for every unique type", "It restricts collection instances from scaling horizontally", "It replaces type parameters with bounds or Object to ensure type safety without runtime overhead", "It converts object reference addresses into encrypted byte arrays" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What does the wildcard pattern 'List<? super Integer>' signify inside type boundaries checking?",
+    "answers" : [ "It specifies a List that can hold Integer or any of its master superclass ancestor layers", "It tells the system that the collection properties are bound to an index", "It limits the collection strictly to elements that implement serializable", "It prevents downstream functions from executing list mutations" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What happens when you use a raw type instead of a parameterized generic type declaration?",
+    "answers" : [ "You lose compile-time type safety checking benefits and trigger compiler warning logs", "Jackson's ObjectMapper becomes unable to parse JSON resource file streams", "The application crashes instantly with a ClassCastException upon boot paths", "The Java Virtual Machine executes the bytecode lines 50 percent slower" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "Which pillar of OOP allows a subclass to provide a specific implementation of a method defined in its superclass?",
+    "answers" : [ "Inheritance (Method Overloading)", "Polymorphism (Method Overriding)", "Encapsulation", "Abstraction execution rules" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What does a class inherit when it implements a Java Interface containing default methods?",
+    "answers" : [ "The concrete private instance fields", "The interface's default functional implementations without breaking backward compatibility", "Complete access to the abstract module's private memory", "Automated thread synchronization parameters across loop executions" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What block in a try-catch-finally layout is guaranteed to execute regardless of whether an exception is thrown?",
+    "answers" : [ "The throws block", "The catch block", "The try block", "The finally block" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What happens if a catch block intercepts an exception and rethrows a new RuntimeException wrapper?",
+    "answers" : [ "The active relational database transaction commits its row status", "The current execution path breaks and the exception propagates up the thread stack frame", "The operating system kernel terminates the parent thread launcher instance", "The JVM defaults all text inputs back to empty strings" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "How does the try-with-resources statement handle asset hygiene automatically on block exits?",
+    "answers" : [ "It automatically invokes .close() on any resource object that implements AutoCloseable", "It saves an execution checkpoint status state directly back to tables", "It flushes the CPU cache logs to clear remaining variables", "It dispatches a dedicated Garbage Collection sweep task" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What type of exception is a NullPointerException classified as inside the Java runtime architecture?",
+    "answers" : [ "A Checked Exception", "An Unchecked Exception (RuntimeException)", "An Error exception condition", "A Compile-time syntax flag anomaly" ],
+    "correctIndex" : 1
+  } ]
+}

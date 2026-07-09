@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:35:46",
+  "variant" : 1,
+  "subjectName" : "computer-networks",
+  "categories" : [ "Routing Protocols", "Network Security Basics", "Transport Layer (TCP/UDP)" ],
+  "questions" : [ {
+    "question" : "What is the role of a default gateway entry inside a client machine's routing profile?",
+    "answers" : [ "The local database server recording updates", "The backup DNS server utilized when primary queries fail", "The physical hardware switch port connected to the line", "The destination path used for traffic traveling outside the local network subnet boundary" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What metric parameter does the Routing Information Protocol (RIP) utilize to determine the best path?",
+    "answers" : [ "Total circuit delay latency", "Link cost speed calculations", "Bandwidth capacity", "Hop count" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What algorithm forms the mathematical engine used by OSPF to compute shortest path trees?",
+    "answers" : [ "Banker's Algorithm", "Bellman-Ford Algorithm", "Dijkstra's Algorithm", "Floyd-Warshall Routine" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "Which protocol encapsulates web traffic inside an encrypted SSL/TLS session framework layer?",
+    "answers" : [ "SNMP", "HTTP", "HTTPS", "SFTP" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What type of firewall monitors the state of active connections to determine whether to block a packet?",
+    "answers" : [ "Stateful Inspection Firewall", "Packet Filtering Firewall", "Application Proxy Gateway", "Stateless Lookups Interface" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "How does Asymmetric Encryption handle session key setup operations?",
+    "answers" : [ "It uses a public key to encrypt data and a matching separate private key to decrypt it", "It relies on a single shared symmetric key rotated periodically", "It hashes password strings using random salt variables", "It restricts traffic lanes to specific local MAC configurations" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What type of intrusion occurs when an attacker intercepts and modifies communications between two endpoints?",
+    "answers" : [ "Cross-Site Request Forgery (CSRF)", "Man-in-the-Middle (MitM) attack", "SQL Injection (SQLi)", "Denial of Service (DDoS)" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What flag sequence handles a standard connection teardown/closure inside TCP transport logic?",
+    "answers" : [ "FIN, ACK, FIN, ACK", "PSH, ACK, URG", "SYN, SYN-ACK, ACK", "RST, ACK" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What does the 'Sliding Window' mechanism accomplish inside a TCP session tracking pipeline?",
+    "answers" : [ "Cryptographic block rotations to shield payload fields", "Horizontal expansion of port bounds when traffic spikes occur", "Automatic file segment translations", "Dynamic flow control to regulate how much data a sender can transmit before an ACK is required" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "Which of the following traits characterizes the User Datagram Protocol (UDP) data stream?",
+    "answers" : [ "Operates exclusively inside Layer 3 routing tracks", "Connectionless, lightweight, and lacks delivery guarantees or sequencing", "Mandates manual packet handshakes before transmission", "Reliable, connection-oriented, and features heavy window sizing flows" ],
+    "correctIndex" : 1
+  } ]
+}

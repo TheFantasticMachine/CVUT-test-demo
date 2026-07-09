@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:35:47",
+  "variant" : 2,
+  "subjectName" : "computer-networks",
+  "categories" : [ "Routing Protocols", "Network Security Basics", "Transport Layer (TCP/UDP)" ],
+  "questions" : [ {
+    "question" : "Which of the following routing protocols operates as an Exterior Gateway Protocol (EGP) to handle internet traffic?",
+    "answers" : [ "Enhanced Interior Gateway (EIGRP)", "Open Shortest Path First (OSPF)", "Routing Information Protocol (RIP)", "Border Gateway Protocol (BGP)" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the role of a default gateway entry inside a client machine's routing profile?",
+    "answers" : [ "The destination path used for traffic traveling outside the local network subnet boundary", "The backup DNS server utilized when primary queries fail", "The local database server recording updates", "The physical hardware switch port connected to the line" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "How does Asymmetric Encryption handle session key setup operations?",
+    "answers" : [ "It uses a public key to encrypt data and a matching separate private key to decrypt it", "It restricts traffic lanes to specific local MAC configurations", "It hashes password strings using random salt variables", "It relies on a single shared symmetric key rotated periodically" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "Which protocol encapsulates web traffic inside an encrypted SSL/TLS session framework layer?",
+    "answers" : [ "SNMP", "HTTP", "SFTP", "HTTPS" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What type of firewall monitors the state of active connections to determine whether to block a packet?",
+    "answers" : [ "Stateless Lookups Interface", "Application Proxy Gateway", "Packet Filtering Firewall", "Stateful Inspection Firewall" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What type of intrusion occurs when an attacker intercepts and modifies communications between two endpoints?",
+    "answers" : [ "SQL Injection (SQLi)", "Cross-Site Request Forgery (CSRF)", "Man-in-the-Middle (MitM) attack", "Denial of Service (DDoS)" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What does the 'Sliding Window' mechanism accomplish inside a TCP session tracking pipeline?",
+    "answers" : [ "Dynamic flow control to regulate how much data a sender can transmit before an ACK is required", "Cryptographic block rotations to shield payload fields", "Horizontal expansion of port bounds when traffic spikes occur", "Automatic file segment translations" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is the standard port allocation value for secure SSH remote shell terminal sessions?",
+    "answers" : [ "Port 22", "Port 80", "Port 23", "Port 443" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What occurs when a TCP host triggers a Reset (RST) flag parameter inside its header field?",
+    "answers" : [ "The receiver reports that a data segment contains corrupt checksum blocks", "The connection is instantly terminated due to an unrecoverable error mismatch condition", "The sender requests a temporary pause in traffic flow", "The pipeline starts a context synchronization sequence" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What flag sequence handles a standard connection teardown/closure inside TCP transport logic?",
+    "answers" : [ "SYN, SYN-ACK, ACK", "PSH, ACK, URG", "FIN, ACK, FIN, ACK", "RST, ACK" ],
+    "correctIndex" : 2
+  } ]
+}

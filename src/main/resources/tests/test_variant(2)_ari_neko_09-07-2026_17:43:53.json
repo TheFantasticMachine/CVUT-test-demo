@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:43:53",
+  "variant" : 2,
+  "subjectName" : "mathematics",
+  "categories" : [ "Combinatorics", "Planimetry", "Mathematical Logic" ],
+  "questions" : [ {
+    "question" : "Which principle is also known as the Dirichlet Box Principle?",
+    "answers" : [ "Multiplication Principle", "Inclusion-Exclusion Principle", "Pigeonhole Principle", "Bijection Principle" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "In how many ways can 4 people be seated in a straight line?",
+    "answers" : [ "6", "24", "16", "12" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the sum of the interior angles of a regular hexagon?",
+    "answers" : [ "540 degrees", "720 degrees", "900 degrees", "360 degrees" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "According to Brahmagupta's formula, what does it calculate?",
+    "answers" : [ "Volume of a pyramid", "Area of a scalene triangle", "Area of a cyclic quadrilateral", "Perimeter of an ellipse" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What is the length of the hypotenuse of a right-angled triangle with sides 5 and 12?",
+    "answers" : [ "15", "14", "17", "13" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "Which theorem states that the square of the hypotenuse is equal to the sum of squares of the other two sides?",
+    "answers" : [ "Ptolemy's Theorem", "Pythagorean Theorem", "Euclid's Theorem", "Thales's Theorem" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "If P is true and Q is false, what is the truth value of the implication P -> Q?",
+    "answers" : [ "False", "True", "Contingent", "Undefined" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What logic law simplifies 'not (A and B)' into '(not A) or (not B)'?",
+    "answers" : [ "Commutative Law", "Distributive Law", "De Morgan's Law", "Associative Law" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "Which logical connective represents an 'exclusive or' (XOR)?",
+    "answers" : [ "Both inputs are false", "Both inputs are true", "At least one input is true", "Exactly one input is true" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the negation of the statement 'All primes are odd'?",
+    "answers" : [ "Some primes are odd", "No primes are odd", "There exists at least one prime that is not odd", "All primes are even" ],
+    "correctIndex" : 2
+  } ]
+}

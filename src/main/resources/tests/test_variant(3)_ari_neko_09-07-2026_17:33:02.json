@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:33:02",
+  "variant" : 3,
+  "subjectName" : "mathematics",
+  "categories" : [ "Planimetry", "Probability", "Combinatorics" ],
+  "questions" : [ {
+    "question" : "Which theorem states that the square of the hypotenuse is equal to the sum of squares of the other two sides?",
+    "answers" : [ "Thales's Theorem", "Euclid's Theorem", "Ptolemy's Theorem", "Pythagorean Theorem" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the area of a circle with a diameter of 10?",
+    "answers" : [ "50 * pi", "10 * pi", "100 * pi", "25 * pi" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "According to Brahmagupta's formula, what does it calculate?",
+    "answers" : [ "Volume of a pyramid", "Area of a cyclic quadrilateral", "Area of a scalene triangle", "Perimeter of an ellipse" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the length of the hypotenuse of a right-angled triangle with sides 5 and 12?",
+    "answers" : [ "15", "14", "17", "13" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the probability of rolling a sum of 7 with two fair six-sided dice?",
+    "answers" : [ "1/12", "1/4", "1/36", "1/6" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What does Bayes' Theorem calculate?",
+    "answers" : [ "Marginal probability", "Conditional probability", "Joint probability", "Discrete distributions" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "How many unique permutations can be made from the letters in the word 'APP'?",
+    "answers" : [ "1", "6", "3", "9" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "How many distinct subsets can be formed from a set containing 5 elements?",
+    "answers" : [ "25", "64", "32", "16" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "In how many ways can 4 people be seated in a straight line?",
+    "answers" : [ "6", "12", "16", "24" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "Which principle is also known as the Dirichlet Box Principle?",
+    "answers" : [ "Inclusion-Exclusion Principle", "Bijection Principle", "Multiplication Principle", "Pigeonhole Principle" ],
+    "correctIndex" : 3
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:30:04",
+  "variant" : 2,
+  "subjectName" : "operating-systems",
+  "categories" : [ "File Systems", "Memory Management", "Kernel Architecture" ],
+  "questions" : [ {
+    "question" : "What does an inode store in a Unix-like file system?",
+    "answers" : [ "File metadata, size, permissions, and block pointers, but not the file name", "The human-readable file name and directory path string", "The literal plain-text contents of the target file", "The encryption keys used for secure network transmissions" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What structural pattern does a Hard Link follow compared to a Symbolic Link?",
+    "answers" : [ "Hard links delete the original file target when broken; symbolic links do not", "A Hard Link points directly to the same inode; a Symbolic Link points to a path string", "Hard links require administrative privileges to execute", "Symbolic links can only reference binary files; hard links handle folders" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What component maps file paths to matching inode numbers in a file system directory?",
+    "answers" : [ "Directory entries (dentries)", "File allocation tables (FAT)", "Virtual file layers (VFS)", "Master boot records (MBR)" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is a major advantage of a journaling file system like ext4?",
+    "answers" : [ "It speeds up graphics card rendering rates", "It records changes in a log to prevent corruption during sudden power losses", "It compresses text files to half their initial disk sector allocations", "It encrypts all user credentials automatically" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What state does a system enter when it spends more time swapping pages than executing instructions?",
+    "answers" : [ "Paging", "Thrashing", "Fragmenting", "Starvation" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the main difference between internal and external fragmentation?",
+    "answers" : [ "External happens inside kernel space; internal happens in user space", "Internal occurs inside fixed allocated blocks; external occurs between variable blocks", "External happens on hard drives; internal happens inside CPU registers", "Internal is fixed by defragmentation; external requires virtual memory flushes" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What characterizes a monolithic kernel architecture?",
+    "answers" : [ "All operating system services run inside a single privileged kernel space", "OS services are moved to separate user-space modules", "It runs exclusively on virtual machines", "It eliminates context switching overhead entirely" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What happens during a hardware interrupt?",
+    "answers" : [ "The active process is terminated and marked as a zombie", "Virtual memory maps flush physical hard drive tracks", "The CPU suspends its execution stream to run an interrupt service routine", "The operating system completely reboots its kernel" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What privilege layer does the operating system kernel run in on modern CPUs?",
+    "answers" : [ "Hypervisor mode", "Safe mode", "Kernel mode (Ring 0)", "User mode (Ring 3)" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What is a major advantage of a microkernel compared to a monolithic design?",
+    "answers" : [ "Faster execution performance speeds", "Lower context switching overhead costs", "Higher system stability and isolation of corrupted drivers", "Smaller total storage size footprint" ],
+    "correctIndex" : 2
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:55:28",
+  "variant" : 3,
+  "subjectName" : "operating-systems",
+  "categories" : [ "File Systems", "Process Scheduling", "Kernel Architecture" ],
+  "questions" : [ {
+    "question" : "What structural pattern does a Hard Link follow compared to a Symbolic Link?",
+    "answers" : [ "Hard links delete the original file target when broken; symbolic links do not", "A Hard Link points directly to the same inode; a Symbolic Link points to a path string", "Hard links require administrative privileges to execute", "Symbolic links can only reference binary files; hard links handle folders" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What does an inode store in a Unix-like file system?",
+    "answers" : [ "The encryption keys used for secure network transmissions", "File metadata, size, permissions, and block pointers, but not the file name", "The human-readable file name and directory path string", "The literal plain-text contents of the target file" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the primary role of the Virtual File System (VFS) layer in a kernel?",
+    "answers" : [ "To manage virtual memory swap spaces on physical storage disks", "To buffer incoming network package flows before delivery to sockets", "To provide an abstract uniform interface for applications to access diverse file systems", "To simulate internal hard drive arrays inside local ram spaces" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What differentiates a process from a thread?",
+    "answers" : [ "A single thread can contain multiple independent processes", "A process has its own isolated address space; threads share address spaces", "Processes share file descriptors by default; threads do not", "Threads run in kernel mode; processes run in user mode" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "Which scheduling algorithm runs processes based on a fixed time-slice quantum rotation?",
+    "answers" : [ "Shortest Job First (SJF)", "First-Come, First-Served (FCFS)", "Round Robin (RR)", "Multilevel Feedback Queue" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What is a major disadvantage of the Shortest Job First scheduling algorithm?",
+    "answers" : [ "It requires specialized graphical hardware layers", "Massive memory cache utilization footprints", "Long-running processes can suffer from starvation", "High context-switching processing overhead" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What information is tracked inside a Process Control Block (PCB)?",
+    "answers" : [ "Local database storage tables metadata", "The user web browser cache profiles", "Network interface card MAC address parameters", "Process state, program counter, CPU registers, and memory boundaries" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What happens during a hardware interrupt?",
+    "answers" : [ "The operating system completely reboots its kernel", "The active process is terminated and marked as a zombie", "Virtual memory maps flush physical hard drive tracks", "The CPU suspends its execution stream to run an interrupt service routine" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What characterizes a monolithic kernel architecture?",
+    "answers" : [ "It eliminates context switching overhead entirely", "OS services are moved to separate user-space modules", "All operating system services run inside a single privileged kernel space", "It runs exclusively on virtual machines" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What is the primary purpose of a system call?",
+    "answers" : [ "To clear CPU cache configurations automatically", "To manage graphical window rendering pipelines", "To compile source code files into machine code", "To provide an interface for user programs to request services from the kernel" ],
+    "correctIndex" : 3
+  } ]
+}

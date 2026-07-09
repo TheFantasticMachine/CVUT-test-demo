@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:19:53",
+  "variant" : 1,
+  "subjectName" : "computer-networks",
+  "categories" : [ "OSI Model Layers", "Network Security Basics", "IP Addressing & Subnetting" ],
+  "questions" : [ {
+    "question" : "Which OSI layer is responsible for translating data between application formatting and network encoding?",
+    "answers" : [ "Layer 4 - Transport Layer", "Layer 6 - Presentation Layer", "Layer 5 - Session Layer", "Layer 7 - Application Layer" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the core responsibility of Layer 4 (Transport Layer) inside connection pipelines?",
+    "answers" : [ "Physical line signals encoding management", "Logical path selection across separate routing nodes", "Mapping human-readable domains to server IP values", "End-to-end communication flow control, segmentation, and error checking" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "At which OSI layer do network routers primarily operate to forward packages?",
+    "answers" : [ "Layer 2 - Data Link Layer", "Layer 3 - Network Layer", "Layer 1 - Physical Layer", "Layer 4 - Transport Layer" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the exact Protocol Data Unit (PDU) name processed at Layer 2 of the OSI model?",
+    "answers" : [ "Bit data block", "Frame", "Segment", "Packet" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What type of firewall monitors the state of active connections to determine whether to block a packet?",
+    "answers" : [ "Stateless Lookups Interface", "Packet Filtering Firewall", "Stateful Inspection Firewall", "Application Proxy Gateway" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "Which protocol encapsulates web traffic inside an encrypted SSL/TLS session framework layer?",
+    "answers" : [ "SNMP", "HTTP", "SFTP", "HTTPS" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "How does Asymmetric Encryption handle session key setup operations?",
+    "answers" : [ "It hashes password strings using random salt variables", "It uses a public key to encrypt data and a matching separate private key to decrypt it", "It restricts traffic lanes to specific local MAC configurations", "It relies on a single shared symmetric key rotated periodically" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the primary role of a demilitarized zone (DMZ) inside an enterprise network layout?",
+    "answers" : [ "To isolate public-facing servers from the secure internal private network infrastructure", "To balance bandwidth distributions across edge switch routing points", "To host local user database management tables securely", "To store system application logs data fields away from internet paths" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "How many total bit blocks form a standard IPv4 address structure?",
+    "answers" : [ "128 bits", "32 bits", "64 bits", "16 bits" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the primary role of the Address Resolution Protocol (ARP) inside a subnet?",
+    "answers" : [ "To forward data packages across different global public networks", "To map text-based domain strings", "To assign dynamic IP configurations automatically", "To discover the physical MAC address matching a known logical IP address" ],
+    "correctIndex" : 3
+  } ]
+}

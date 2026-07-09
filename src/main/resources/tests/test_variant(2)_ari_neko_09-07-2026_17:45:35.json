@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:45:35",
+  "variant" : 2,
+  "subjectName" : "computer-networks",
+  "categories" : [ "Routing Protocols", "Transport Layer (TCP/UDP)", "IP Addressing & Subnetting" ],
+  "questions" : [ {
+    "question" : "What classification defines the Open Shortest Path First (OSPF) routing protocol engine?",
+    "answers" : [ "Distance-Vector routing protocol", "Static lookup layout interface", "Path-Vector configuration format", "Link-State routing protocol" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "Which of the following routing protocols operates as an Exterior Gateway Protocol (EGP) to handle internet traffic?",
+    "answers" : [ "Enhanced Interior Gateway (EIGRP)", "Routing Information Protocol (RIP)", "Open Shortest Path First (OSPF)", "Border Gateway Protocol (BGP)" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What algorithm forms the mathematical engine used by OSPF to compute shortest path trees?",
+    "answers" : [ "Banker's Algorithm", "Floyd-Warshall Routine", "Bellman-Ford Algorithm", "Dijkstra's Algorithm" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What metric parameter does the Routing Information Protocol (RIP) utilize to determine the best path?",
+    "answers" : [ "Hop count", "Bandwidth capacity", "Total circuit delay latency", "Link cost speed calculations" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What occurs when a TCP host triggers a Reset (RST) flag parameter inside its header field?",
+    "answers" : [ "The sender requests a temporary pause in traffic flow", "The connection is instantly terminated due to an unrecoverable error mismatch condition", "The receiver reports that a data segment contains corrupt checksum blocks", "The pipeline starts a context synchronization sequence" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "Which of the following traits characterizes the User Datagram Protocol (UDP) data stream?",
+    "answers" : [ "Operates exclusively inside Layer 3 routing tracks", "Reliable, connection-oriented, and features heavy window sizing flows", "Mandates manual packet handshakes before transmission", "Connectionless, lightweight, and lacks delivery guarantees or sequencing" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What does the 'Sliding Window' mechanism accomplish inside a TCP session tracking pipeline?",
+    "answers" : [ "Cryptographic block rotations to shield payload fields", "Horizontal expansion of port bounds when traffic spikes occur", "Automatic file segment translations", "Dynamic flow control to regulate how much data a sender can transmit before an ACK is required" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What flag sequence handles a standard connection teardown/closure inside TCP transport logic?",
+    "answers" : [ "RST, ACK", "FIN, ACK, FIN, ACK", "SYN, SYN-ACK, ACK", "PSH, ACK, URG" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "If a host configuration has an IP of 192.168.1.50 with a subnet mask of /26, how many hosts are available?",
+    "answers" : [ "64 hosts", "30 hosts", "62 hosts", "126 hosts" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What is the primary role of the Address Resolution Protocol (ARP) inside a subnet?",
+    "answers" : [ "To assign dynamic IP configurations automatically", "To map text-based domain strings", "To discover the physical MAC address matching a known logical IP address", "To forward data packages across different global public networks" ],
+    "correctIndex" : 2
+  } ]
+}

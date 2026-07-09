@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:25:39",
+  "variant" : 2,
+  "subjectName" : "java-programming",
+  "categories" : [ "Exception Handling", "Generics & Types", "Multi-threading & Concurrency" ],
+  "questions" : [ {
+    "question" : "What block in a try-catch-finally layout is guaranteed to execute regardless of whether an exception is thrown?",
+    "answers" : [ "The catch block", "The finally block", "The throws block", "The try block" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What happens if a catch block intercepts an exception and rethrows a new RuntimeException wrapper?",
+    "answers" : [ "The active relational database transaction commits its row status", "The current execution path breaks and the exception propagates up the thread stack frame", "The operating system kernel terminates the parent thread launcher instance", "The JVM defaults all text inputs back to empty strings" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "How does the try-with-resources statement handle asset hygiene automatically on block exits?",
+    "answers" : [ "It saves an execution checkpoint status state directly back to tables", "It dispatches a dedicated Garbage Collection sweep task", "It automatically invokes .close() on any resource object that implements AutoCloseable", "It flushes the CPU cache logs to clear remaining variables" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What structural trait differentiates a Checked Exception from an Unchecked Exception in Java?",
+    "answers" : [ "Unchecked exceptions are skipped entirely by the JVM debugger", "Checked exceptions can only be thrown from inside static class routines", "Checked exceptions are verified at compile-time and must be caught or declared in the method signature", "Unchecked exceptions cause physical RAM allocation failures" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What happens when you use a raw type instead of a parameterized generic type declaration?",
+    "answers" : [ "Jackson's ObjectMapper becomes unable to parse JSON resource file streams", "The Java Virtual Machine executes the bytecode lines 50 percent slower", "You lose compile-time type safety checking benefits and trigger compiler warning logs", "The application crashes instantly with a ClassCastException upon boot paths" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "Why are primitive types like int or char forbidden from being passed directly as parameters to Java Generics?",
+    "answers" : [ "Database drivers cannot bind primitive types to statement query parameters", "Primitives consume too much L1 cache memory causing thread scheduler stalls", "The modularity guidelines written in module-info block primitive parameters", "Generics require object references on the heap; primitives do not inherit from Object" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What occurs if an execution thread invokes .wait() on an object without holding that object's monitor lock?",
+    "answers" : [ "It throws an immediate IllegalMonitorStateException at runtime", "The context switch routine allocates more processing cycles", "The underlying database statement execution rolls back its current update", "The thread drops into a safe background daemon sleep loop" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What thread safety violation occurs when a thread caches local variable copies instead of reading from main RAM?",
+    "answers" : [ "Race Condition anomaly", "Memory Visibility Problem", "Illegal Thread State condition", "Deadlock layout lock" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What structural capability advantage does a Callable task possess compared to a standard Runnable task?",
+    "answers" : [ "A Callable does not require module-info reflection opens configurations", "A Callable can return a computed result value and throw checked exceptions", "A Callable runs directly inside kernel privilege rings bypassing restrictions", "A Callable can be restarted multiple times within the same thread lifecycle" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "Which thread-safe collection from java.util.concurrent should replace a standard HashMap in high-concurrency environments?",
+    "answers" : [ "Collections.synchronizedMap", "LinkedHashMap module structure", "ConcurrentHashMap", "Hashtable" ],
+    "correctIndex" : 2
+  } ]
+}

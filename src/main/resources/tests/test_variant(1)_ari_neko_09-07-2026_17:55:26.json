@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:55:26",
+  "variant" : 1,
+  "subjectName" : "operating-systems",
+  "categories" : [ "File Systems", "Memory Management", "Process Scheduling" ],
+  "questions" : [ {
+    "question" : "What does an inode store in a Unix-like file system?",
+    "answers" : [ "The encryption keys used for secure network transmissions", "The literal plain-text contents of the target file", "The human-readable file name and directory path string", "File metadata, size, permissions, and block pointers, but not the file name" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is a major advantage of a journaling file system like ext4?",
+    "answers" : [ "It speeds up graphics card rendering rates", "It compresses text files to half their initial disk sector allocations", "It records changes in a log to prevent corruption during sudden power losses", "It encrypts all user credentials automatically" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What structural pattern does a Hard Link follow compared to a Symbolic Link?",
+    "answers" : [ "Hard links delete the original file target when broken; symbolic links do not", "A Hard Link points directly to the same inode; a Symbolic Link points to a path string", "Hard links require administrative privileges to execute", "Symbolic links can only reference binary files; hard links handle folders" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the primary role of the Virtual File System (VFS) layer in a kernel?",
+    "answers" : [ "To manage virtual memory swap spaces on physical storage disks", "To simulate internal hard drive arrays inside local ram spaces", "To buffer incoming network package flows before delivery to sockets", "To provide an abstract uniform interface for applications to access diverse file systems" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the role of a Translation Lookaside Buffer (TLB)?",
+    "answers" : [ "To handle network data package buffering streams", "To store execution metrics logs for background tasks", "To act as a specialized cache for virtual-to-physical address translations", "To map file allocation records sequentially on disk" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What is a page fault?",
+    "answers" : [ "A data anomaly where two files share the same sector", "A crash caused by syntax compile errors", "A physical hardware failure inside RAM modules", "An interrupt triggered when a program accesses a page not currently mapped in RAM" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What state does a system enter when it spends more time swapping pages than executing instructions?",
+    "answers" : [ "Thrashing", "Fragmenting", "Starvation", "Paging" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What information is tracked inside a Process Control Block (PCB)?",
+    "answers" : [ "The user web browser cache profiles", "Local database storage tables metadata", "Network interface card MAC address parameters", "Process state, program counter, CPU registers, and memory boundaries" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is a major disadvantage of the Shortest Job First scheduling algorithm?",
+    "answers" : [ "High context-switching processing overhead", "Long-running processes can suffer from starvation", "It requires specialized graphical hardware layers", "Massive memory cache utilization footprints" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "Which scheduling algorithm runs processes based on a fixed time-slice quantum rotation?",
+    "answers" : [ "First-Come, First-Served (FCFS)", "Shortest Job First (SJF)", "Multilevel Feedback Queue", "Round Robin (RR)" ],
+    "correctIndex" : 3
+  } ]
+}

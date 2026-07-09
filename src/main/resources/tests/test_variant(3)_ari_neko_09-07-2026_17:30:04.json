@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:30:04",
+  "variant" : 3,
+  "subjectName" : "operating-systems",
+  "categories" : [ "Memory Management", "Kernel Architecture", "Deadlocks & Synchronization" ],
+  "questions" : [ {
+    "question" : "What is the role of a Translation Lookaside Buffer (TLB)?",
+    "answers" : [ "To act as a specialized cache for virtual-to-physical address translations", "To store execution metrics logs for background tasks", "To map file allocation records sequentially on disk", "To handle network data package buffering streams" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is a page fault?",
+    "answers" : [ "A data anomaly where two files share the same sector", "An interrupt triggered when a program accesses a page not currently mapped in RAM", "A physical hardware failure inside RAM modules", "A crash caused by syntax compile errors" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is a major advantage of a microkernel compared to a monolithic design?",
+    "answers" : [ "Smaller total storage size footprint", "Faster execution performance speeds", "Higher system stability and isolation of corrupted drivers", "Lower context switching overhead costs" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What privilege layer does the operating system kernel run in on modern CPUs?",
+    "answers" : [ "Hypervisor mode", "User mode (Ring 3)", "Safe mode", "Kernel mode (Ring 0)" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the primary purpose of a system call?",
+    "answers" : [ "To manage graphical window rendering pipelines", "To provide an interface for user programs to request services from the kernel", "To compile source code files into machine code", "To clear CPU cache configurations automatically" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What characterizes a monolithic kernel architecture?",
+    "answers" : [ "OS services are moved to separate user-space modules", "It eliminates context switching overhead entirely", "It runs exclusively on virtual machines", "All operating system services run inside a single privileged kernel space" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is a binary semaphore commonly called when used strictly as a locking mechanism?",
+    "answers" : [ "Critical Section", "Monitor", "Condition Variable", "Mutex" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What condition occurs when multiple threads modify shared data concurrently with output depending on execution order?",
+    "answers" : [ "Starvation anomaly", "Race Condition", "Livelock loop", "Deadlock state" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is a critical section inside multi-threaded application software?",
+    "answers" : [ "A background process handling system initialization routines", "A block of code that accesses shared resources and must not be concurrently run", "A protected kernel execution memory register row", "A critical database constraint tracking primary indexing relationships" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "Which of the following is NOT one of the Coffman conditions required for a deadlock?",
+    "answers" : [ "Mutual Exclusion", "Hold and Wait", "Circular Wait", "Preemption" ],
+    "correctIndex" : 3
+  } ]
+}

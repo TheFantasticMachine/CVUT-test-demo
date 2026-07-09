@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:35:47",
+  "variant" : 3,
+  "subjectName" : "computer-networks",
+  "categories" : [ "OSI Model Layers", "IP Addressing & Subnetting", "Transport Layer (TCP/UDP)" ],
+  "questions" : [ {
+    "question" : "What is the core responsibility of Layer 4 (Transport Layer) inside connection pipelines?",
+    "answers" : [ "Physical line signals encoding management", "Logical path selection across separate routing nodes", "Mapping human-readable domains to server IP values", "End-to-end communication flow control, segmentation, and error checking" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "At which OSI layer do network routers primarily operate to forward packages?",
+    "answers" : [ "Layer 1 - Physical Layer", "Layer 4 - Transport Layer", "Layer 2 - Data Link Layer", "Layer 3 - Network Layer" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "Which OSI layer is responsible for translating data between application formatting and network encoding?",
+    "answers" : [ "Layer 4 - Transport Layer", "Layer 7 - Application Layer", "Layer 5 - Session Layer", "Layer 6 - Presentation Layer" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the exact Protocol Data Unit (PDU) name processed at Layer 2 of the OSI model?",
+    "answers" : [ "Frame", "Bit data block", "Packet", "Segment" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "How many total bit blocks form a standard IPv4 address structure?",
+    "answers" : [ "32 bits", "16 bits", "64 bits", "128 bits" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "If a host configuration has an IP of 192.168.1.50 with a subnet mask of /26, how many hosts are available?",
+    "answers" : [ "126 hosts", "64 hosts", "62 hosts", "30 hosts" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "Which of the following traits characterizes the User Datagram Protocol (UDP) data stream?",
+    "answers" : [ "Connectionless, lightweight, and lacks delivery guarantees or sequencing", "Reliable, connection-oriented, and features heavy window sizing flows", "Mandates manual packet handshakes before transmission", "Operates exclusively inside Layer 3 routing tracks" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is the standard port allocation value for secure SSH remote shell terminal sessions?",
+    "answers" : [ "Port 443", "Port 23", "Port 80", "Port 22" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What flag sequence handles a standard connection teardown/closure inside TCP transport logic?",
+    "answers" : [ "PSH, ACK, URG", "SYN, SYN-ACK, ACK", "RST, ACK", "FIN, ACK, FIN, ACK" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What occurs when a TCP host triggers a Reset (RST) flag parameter inside its header field?",
+    "answers" : [ "The pipeline starts a context synchronization sequence", "The connection is instantly terminated due to an unrecoverable error mismatch condition", "The receiver reports that a data segment contains corrupt checksum blocks", "The sender requests a temporary pause in traffic flow" ],
+    "correctIndex" : 1
+  } ]
+}

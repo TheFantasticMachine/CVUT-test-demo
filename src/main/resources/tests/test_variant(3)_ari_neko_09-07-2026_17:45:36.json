@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:45:36",
+  "variant" : 3,
+  "subjectName" : "computer-networks",
+  "categories" : [ "Routing Protocols", "Network Security Basics", "IP Addressing & Subnetting" ],
+  "questions" : [ {
+    "question" : "What algorithm forms the mathematical engine used by OSPF to compute shortest path trees?",
+    "answers" : [ "Banker's Algorithm", "Dijkstra's Algorithm", "Floyd-Warshall Routine", "Bellman-Ford Algorithm" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "Which of the following routing protocols operates as an Exterior Gateway Protocol (EGP) to handle internet traffic?",
+    "answers" : [ "Open Shortest Path First (OSPF)", "Routing Information Protocol (RIP)", "Enhanced Interior Gateway (EIGRP)", "Border Gateway Protocol (BGP)" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What classification defines the Open Shortest Path First (OSPF) routing protocol engine?",
+    "answers" : [ "Link-State routing protocol", "Static lookup layout interface", "Distance-Vector routing protocol", "Path-Vector configuration format" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is the role of a default gateway entry inside a client machine's routing profile?",
+    "answers" : [ "The destination path used for traffic traveling outside the local network subnet boundary", "The backup DNS server utilized when primary queries fail", "The physical hardware switch port connected to the line", "The local database server recording updates" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "How does Asymmetric Encryption handle session key setup operations?",
+    "answers" : [ "It hashes password strings using random salt variables", "It restricts traffic lanes to specific local MAC configurations", "It relies on a single shared symmetric key rotated periodically", "It uses a public key to encrypt data and a matching separate private key to decrypt it" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What type of firewall monitors the state of active connections to determine whether to block a packet?",
+    "answers" : [ "Stateless Lookups Interface", "Stateful Inspection Firewall", "Packet Filtering Firewall", "Application Proxy Gateway" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "If a host configuration has an IP of 192.168.1.50 with a subnet mask of /26, how many hosts are available?",
+    "answers" : [ "64 hosts", "30 hosts", "126 hosts", "62 hosts" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "Which mechanism enables multiple private local network clients to share a single public IP mapping parameter?",
+    "answers" : [ "Virtual Local Architecture (VLAN)", "Network Address Translation (NAT)", "Dynamic Host Configuration (DHCP)", "Domain Name Resolution (DNS)" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the primary role of the Address Resolution Protocol (ARP) inside a subnet?",
+    "answers" : [ "To forward data packages across different global public networks", "To assign dynamic IP configurations automatically", "To map text-based domain strings", "To discover the physical MAC address matching a known logical IP address" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "How many total bit blocks form a standard IPv4 address structure?",
+    "answers" : [ "16 bits", "128 bits", "64 bits", "32 bits" ],
+    "correctIndex" : 3
+  } ]
+}

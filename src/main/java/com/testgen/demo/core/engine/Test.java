@@ -4,6 +4,7 @@ import com.testgen.demo.Globals;
 import com.testgen.demo.core.config.FileHandler;
 import com.testgen.demo.core.model.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.testgen.demo.ui.controller.TestTemplateController;
 
 import java.io.File;
 import java.time.LocalDateTime;
@@ -95,6 +96,11 @@ public class Test {
 
             TestData testData = new TestData(Globals.getUserEmail(), subject.getSubjectName(), now.format(dateTimeFormatter), testVariant, questions, categoriesNames);
             ObjectMapper mapper =  Globals.getMapper();
+            mapper.findAndRegisterModules();
+
+            System.out.println(testData);
+
+            TestTemplateController.setTestData(testData);
 
             try {
                 String fileNameString = "test_variant(" + testVariant + ")_" + Globals.getUserName() + "_" + Globals.getUserSurname() + "_" + dateTimeFormatter.format(now);

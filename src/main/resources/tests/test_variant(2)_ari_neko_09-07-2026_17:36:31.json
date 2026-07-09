@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:36:31",
+  "variant" : 2,
+  "subjectName" : "operating-systems",
+  "categories" : [ "Deadlocks & Synchronization", "Kernel Architecture", "File Systems" ],
+  "questions" : [ {
+    "question" : "Which of the following is NOT one of the Coffman conditions required for a deadlock?",
+    "answers" : [ "Hold and Wait", "Preemption", "Circular Wait", "Mutual Exclusion" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is a critical section inside multi-threaded application software?",
+    "answers" : [ "A protected kernel execution memory register row", "A critical database constraint tracking primary indexing relationships", "A background process handling system initialization routines", "A block of code that accesses shared resources and must not be concurrently run" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What classical algorithm can be utilized to safely avoid deadlocks in resource allocation?",
+    "answers" : [ "Dijkstra's Shortest Path", "De Morgan's Optimization", "Round Robin Algorithm", "Banker's Algorithm" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What characterizes a monolithic kernel architecture?",
+    "answers" : [ "It runs exclusively on virtual machines", "It eliminates context switching overhead entirely", "OS services are moved to separate user-space modules", "All operating system services run inside a single privileged kernel space" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What happens during a hardware interrupt?",
+    "answers" : [ "The active process is terminated and marked as a zombie", "The operating system completely reboots its kernel", "Virtual memory maps flush physical hard drive tracks", "The CPU suspends its execution stream to run an interrupt service routine" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is a major advantage of a microkernel compared to a monolithic design?",
+    "answers" : [ "Smaller total storage size footprint", "Faster execution performance speeds", "Higher system stability and isolation of corrupted drivers", "Lower context switching overhead costs" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What is the primary role of the Virtual File System (VFS) layer in a kernel?",
+    "answers" : [ "To provide an abstract uniform interface for applications to access diverse file systems", "To manage virtual memory swap spaces on physical storage disks", "To simulate internal hard drive arrays inside local ram spaces", "To buffer incoming network package flows before delivery to sockets" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What structural pattern does a Hard Link follow compared to a Symbolic Link?",
+    "answers" : [ "A Hard Link points directly to the same inode; a Symbolic Link points to a path string", "Hard links delete the original file target when broken; symbolic links do not", "Hard links require administrative privileges to execute", "Symbolic links can only reference binary files; hard links handle folders" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is a major advantage of a journaling file system like ext4?",
+    "answers" : [ "It encrypts all user credentials automatically", "It compresses text files to half their initial disk sector allocations", "It speeds up graphics card rendering rates", "It records changes in a log to prevent corruption during sudden power losses" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What does an inode store in a Unix-like file system?",
+    "answers" : [ "The human-readable file name and directory path string", "The encryption keys used for secure network transmissions", "The literal plain-text contents of the target file", "File metadata, size, permissions, and block pointers, but not the file name" ],
+    "correctIndex" : 3
+  } ]
+}

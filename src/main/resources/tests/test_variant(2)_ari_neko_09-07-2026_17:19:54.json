@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:19:54",
+  "variant" : 2,
+  "subjectName" : "computer-networks",
+  "categories" : [ "OSI Model Layers", "Network Security Basics", "Transport Layer (TCP/UDP)" ],
+  "questions" : [ {
+    "question" : "Which OSI layer is responsible for translating data between application formatting and network encoding?",
+    "answers" : [ "Layer 7 - Application Layer", "Layer 4 - Transport Layer", "Layer 6 - Presentation Layer", "Layer 5 - Session Layer" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "At which OSI layer do network routers primarily operate to forward packages?",
+    "answers" : [ "Layer 4 - Transport Layer", "Layer 1 - Physical Layer", "Layer 2 - Data Link Layer", "Layer 3 - Network Layer" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the exact Protocol Data Unit (PDU) name processed at Layer 2 of the OSI model?",
+    "answers" : [ "Packet", "Bit data block", "Segment", "Frame" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the primary role of a demilitarized zone (DMZ) inside an enterprise network layout?",
+    "answers" : [ "To isolate public-facing servers from the secure internal private network infrastructure", "To store system application logs data fields away from internet paths", "To host local user database management tables securely", "To balance bandwidth distributions across edge switch routing points" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What type of firewall monitors the state of active connections to determine whether to block a packet?",
+    "answers" : [ "Stateful Inspection Firewall", "Packet Filtering Firewall", "Stateless Lookups Interface", "Application Proxy Gateway" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "How does Asymmetric Encryption handle session key setup operations?",
+    "answers" : [ "It hashes password strings using random salt variables", "It uses a public key to encrypt data and a matching separate private key to decrypt it", "It relies on a single shared symmetric key rotated periodically", "It restricts traffic lanes to specific local MAC configurations" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What type of intrusion occurs when an attacker intercepts and modifies communications between two endpoints?",
+    "answers" : [ "SQL Injection (SQLi)", "Denial of Service (DDoS)", "Man-in-the-Middle (MitM) attack", "Cross-Site Request Forgery (CSRF)" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What is the standard port allocation value for secure SSH remote shell terminal sessions?",
+    "answers" : [ "Port 443", "Port 23", "Port 80", "Port 22" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What occurs when a TCP host triggers a Reset (RST) flag parameter inside its header field?",
+    "answers" : [ "The connection is instantly terminated due to an unrecoverable error mismatch condition", "The pipeline starts a context synchronization sequence", "The receiver reports that a data segment contains corrupt checksum blocks", "The sender requests a temporary pause in traffic flow" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What does the 'Sliding Window' mechanism accomplish inside a TCP session tracking pipeline?",
+    "answers" : [ "Automatic file segment translations", "Cryptographic block rotations to shield payload fields", "Horizontal expansion of port bounds when traffic spikes occur", "Dynamic flow control to regulate how much data a sender can transmit before an ACK is required" ],
+    "correctIndex" : 3
+  } ]
+}

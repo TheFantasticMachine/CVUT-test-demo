@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:25:39",
+  "variant" : 1,
+  "subjectName" : "java-programming",
+  "categories" : [ "Java Collections Framework", "Exception Handling", "Generics & Types" ],
+  "questions" : [ {
+    "question" : "What behavioral trait separates a TreeMap from a standard HashMap implementation?",
+    "answers" : [ "TreeMap maintains its keys sorted according to their natural ordering or a custom Comparator", "HashMap encrypts key fields; TreeMap leaves characters visible", "TreeMap is limited to storing integer primitive values", "TreeMap prevents asynchronous thread execution steps from accessing data" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What performance penalty can hit a HashMap if multiple distinct keys yield identical hashCode values?",
+    "answers" : [ "The JVM throws a ConcurrentModificationException and aborts the thread", "Hash collisions increase, causing lookup speeds to degrade from O(1) toward O(N)", "The database loader class drops its connection stream pipe instantly", "The internal memory mapping flushes all cached key allocations" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "Which interface inside the Java Collections Framework guarantees that no duplicate elements can be stored?",
+    "answers" : [ "List", "Map entries tracker", "Set", "Queue" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "How does the try-with-resources statement handle asset hygiene automatically on block exits?",
+    "answers" : [ "It flushes the CPU cache logs to clear remaining variables", "It dispatches a dedicated Garbage Collection sweep task", "It automatically invokes .close() on any resource object that implements AutoCloseable", "It saves an execution checkpoint status state directly back to tables" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What block in a try-catch-finally layout is guaranteed to execute regardless of whether an exception is thrown?",
+    "answers" : [ "The throws block", "The try block", "The catch block", "The finally block" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What structural trait differentiates a Checked Exception from an Unchecked Exception in Java?",
+    "answers" : [ "Checked exceptions can only be thrown from inside static class routines", "Unchecked exceptions are skipped entirely by the JVM debugger", "Unchecked exceptions cause physical RAM allocation failures", "Checked exceptions are verified at compile-time and must be caught or declared in the method signature" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What primary objective does Java's Type Erasure accomplish when compiling generic code architectures?",
+    "answers" : [ "It restricts collection instances from scaling horizontally", "It converts object reference addresses into encrypted byte arrays", "It replaces type parameters with bounds or Object to ensure type safety without runtime overhead", "It forces the compiler to duplicate class files for every unique type" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What does the wildcard pattern 'List<? super Integer>' signify inside type boundaries checking?",
+    "answers" : [ "It tells the system that the collection properties are bound to an index", "It prevents downstream functions from executing list mutations", "It limits the collection strictly to elements that implement serializable", "It specifies a List that can hold Integer or any of its master superclass ancestor layers" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What does the wildcard bound pattern 'List<? extends Number>' accomplish inside a method signature?",
+    "answers" : [ "It restricts the parameter to a List containing Number or any of its subclasses", "It opens the List to accept additions of any custom object structure", "It turns the List into an immutable collection", "It mandates that all elements in the List must carry matching static values" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "Why are primitive types like int or char forbidden from being passed directly as parameters to Java Generics?",
+    "answers" : [ "Primitives consume too much L1 cache memory causing thread scheduler stalls", "Database drivers cannot bind primitive types to statement query parameters", "The modularity guidelines written in module-info block primitive parameters", "Generics require object references on the heap; primitives do not inherit from Object" ],
+    "correctIndex" : 3
+  } ]
+}

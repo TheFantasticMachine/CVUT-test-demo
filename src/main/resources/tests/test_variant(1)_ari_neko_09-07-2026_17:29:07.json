@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:29:07",
+  "variant" : 1,
+  "subjectName" : "java-programming",
+  "categories" : [ "Multi-threading & Concurrency", "Java Collections Framework", "Generics & Types" ],
+  "questions" : [ {
+    "question" : "What structural capability advantage does a Callable task possess compared to a standard Runnable task?",
+    "answers" : [ "A Callable can return a computed result value and throw checked exceptions", "A Callable does not require module-info reflection opens configurations", "A Callable runs directly inside kernel privilege rings bypassing restrictions", "A Callable can be restarted multiple times within the same thread lifecycle" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What thread safety violation occurs when a thread caches local variable copies instead of reading from main RAM?",
+    "answers" : [ "Memory Visibility Problem", "Race Condition anomaly", "Deadlock layout lock", "Illegal Thread State condition" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "Which thread-safe collection from java.util.concurrent should replace a standard HashMap in high-concurrency environments?",
+    "answers" : [ "Hashtable", "Collections.synchronizedMap", "LinkedHashMap module structure", "ConcurrentHashMap" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What behavioral trait separates a TreeMap from a standard HashMap implementation?",
+    "answers" : [ "TreeMap is limited to storing integer primitive values", "HashMap encrypts key fields; TreeMap leaves characters visible", "TreeMap prevents asynchronous thread execution steps from accessing data", "TreeMap maintains its keys sorted according to their natural ordering or a custom Comparator" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "Which interface inside the Java Collections Framework guarantees that no duplicate elements can be stored?",
+    "answers" : [ "Set", "Queue", "List", "Map entries tracker" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What performance penalty can hit a HashMap if multiple distinct keys yield identical hashCode values?",
+    "answers" : [ "The database loader class drops its connection stream pipe instantly", "The JVM throws a ConcurrentModificationException and aborts the thread", "Hash collisions increase, causing lookup speeds to degrade from O(1) toward O(N)", "The internal memory mapping flushes all cached key allocations" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "Why are primitive types like int or char forbidden from being passed directly as parameters to Java Generics?",
+    "answers" : [ "Primitives consume too much L1 cache memory causing thread scheduler stalls", "Database drivers cannot bind primitive types to statement query parameters", "Generics require object references on the heap; primitives do not inherit from Object", "The modularity guidelines written in module-info block primitive parameters" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What does the wildcard bound pattern 'List<? extends Number>' accomplish inside a method signature?",
+    "answers" : [ "It mandates that all elements in the List must carry matching static values", "It opens the List to accept additions of any custom object structure", "It turns the List into an immutable collection", "It restricts the parameter to a List containing Number or any of its subclasses" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What does the wildcard pattern 'List<? super Integer>' signify inside type boundaries checking?",
+    "answers" : [ "It specifies a List that can hold Integer or any of its master superclass ancestor layers", "It prevents downstream functions from executing list mutations", "It tells the system that the collection properties are bound to an index", "It limits the collection strictly to elements that implement serializable" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What happens when you use a raw type instead of a parameterized generic type declaration?",
+    "answers" : [ "You lose compile-time type safety checking benefits and trigger compiler warning logs", "Jackson's ObjectMapper becomes unable to parse JSON resource file streams", "The application crashes instantly with a ClassCastException upon boot paths", "The Java Virtual Machine executes the bytecode lines 50 percent slower" ],
+    "correctIndex" : 0
+  } ]
+}

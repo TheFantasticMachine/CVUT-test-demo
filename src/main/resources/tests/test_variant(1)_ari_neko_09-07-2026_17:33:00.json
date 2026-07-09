@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:33:00",
+  "variant" : 1,
+  "subjectName" : "mathematics",
+  "categories" : [ "Planimetry", "Stereometry", "Mathematical Logic" ],
+  "questions" : [ {
+    "question" : "What is the area of a circle with a diameter of 10?",
+    "answers" : [ "25 * pi", "100 * pi", "10 * pi", "50 * pi" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is the sum of the interior angles of a regular hexagon?",
+    "answers" : [ "720 degrees", "900 degrees", "360 degrees", "540 degrees" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is the length of the hypotenuse of a right-angled triangle with sides 5 and 12?",
+    "answers" : [ "13", "14", "15", "17" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "How many faces does a regular octahedron have?",
+    "answers" : [ "8", "6", "12", "20" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "How many vertices does a standard cube possess?",
+    "answers" : [ "6", "8", "16", "12" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the total surface area formula of a cylinder?",
+    "answers" : [ "2 * pi * r * (r + h)", "pi * r^2 * h", "pi * r * s", "2 * pi * r * h" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is the volume of a cone with base radius r and height h?",
+    "answers" : [ "pi * r^2 * h", "(1/3) * pi * r^2 * h", "(4/3) * pi * r^2 * h", "2 * pi * r * h" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "Which logical connective represents an 'exclusive or' (XOR)?",
+    "answers" : [ "Both inputs are true", "At least one input is true", "Both inputs are false", "Exactly one input is true" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is a logical statement called if it evaluates to true under all possible truth value assignments?",
+    "answers" : [ "Contingency", "Contradiction", "Tautology", "Fallacy" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What is the negation of the statement 'All primes are odd'?",
+    "answers" : [ "There exists at least one prime that is not odd", "No primes are odd", "Some primes are odd", "All primes are even" ],
+    "correctIndex" : 0
+  } ]
+}

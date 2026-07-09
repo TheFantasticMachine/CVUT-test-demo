@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "09-07-2026_17:24:43",
+  "variant" : 3,
+  "subjectName" : "mathematics",
+  "categories" : [ "Probability", "Combinatorics", "Mathematical Logic" ],
+  "questions" : [ {
+    "question" : "What is the sum of probabilities of all possible mutually exclusive outcomes in a sample space?",
+    "answers" : [ "Infinite", "0", "100", "1" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the probability of rolling a sum of 7 with two fair six-sided dice?",
+    "answers" : [ "1/6", "1/12", "1/36", "1/4" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is the probability of flipping a fair coin three times and getting all heads?",
+    "answers" : [ "1/8", "1/6", "1/4", "1/2" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "How many unique permutations can be made from the letters in the word 'APP'?",
+    "answers" : [ "6", "9", "1", "3" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the value of the combinatorial coefficient C(5, 2)?",
+    "answers" : [ "20", "5", "15", "10" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "How many distinct subsets can be formed from a set containing 5 elements?",
+    "answers" : [ "32", "25", "16", "64" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "In how many ways can 4 people be seated in a straight line?",
+    "answers" : [ "16", "24", "6", "12" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "Which logical connective represents an 'exclusive or' (XOR)?",
+    "answers" : [ "Exactly one input is true", "Both inputs are false", "Both inputs are true", "At least one input is true" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is the negation of the statement 'All primes are odd'?",
+    "answers" : [ "No primes are odd", "All primes are even", "There exists at least one prime that is not odd", "Some primes are odd" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "If P is true and Q is false, what is the truth value of the implication P -> Q?",
+    "answers" : [ "False", "True", "Undefined", "Contingent" ],
+    "correctIndex" : 0
+  } ]
+}
