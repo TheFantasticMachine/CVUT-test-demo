@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "10-07-2026_16:05:37",
+  "variant" : 3,
+  "subjectName" : "mathematics",
+  "categories" : [ "Mathematical Logic", "Combinatorics", "Probability" ],
+  "questions" : [ {
+    "question" : "What is a logical statement called if it evaluates to true under all possible truth value assignments?",
+    "answers" : [ "Contradiction", "Tautology", "Contingency", "Fallacy" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the negation of the statement 'All primes are odd'?",
+    "answers" : [ "There exists at least one prime that is not odd", "All primes are even", "No primes are odd", "Some primes are odd" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "Which principle is also known as the Dirichlet Box Principle?",
+    "answers" : [ "Pigeonhole Principle", "Bijection Principle", "Multiplication Principle", "Inclusion-Exclusion Principle" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "How many distinct subsets can be formed from a set containing 5 elements?",
+    "answers" : [ "25", "32", "16", "64" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "How many unique permutations can be made from the letters in the word 'APP'?",
+    "answers" : [ "9", "3", "6", "1" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "In how many ways can 4 people be seated in a straight line?",
+    "answers" : [ "6", "16", "12", "24" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "If events A and B are independent, what is P(A and B)?",
+    "answers" : [ "P(A) / P(B)", "P(A) + P(B)", "P(A) * P(B)", "P(A) + P(B) - P(A or B)" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What does Bayes' Theorem calculate?",
+    "answers" : [ "Marginal probability", "Conditional probability", "Joint probability", "Discrete distributions" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the probability of rolling a sum of 7 with two fair six-sided dice?",
+    "answers" : [ "1/4", "1/12", "1/6", "1/36" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What is the sum of probabilities of all possible mutually exclusive outcomes in a sample space?",
+    "answers" : [ "100", "Infinite", "0", "1" ],
+    "correctIndex" : 3
+  } ]
+}

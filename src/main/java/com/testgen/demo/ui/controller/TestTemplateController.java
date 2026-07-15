@@ -6,11 +6,12 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.HashMap;
 import java.util.Map;
 
 @Controller
 public class TestTemplateController {
-    private static Map<Integer, TestData> testData;
+    private static final Map<Integer, TestData> testData = new HashMap<>();
 
     public static void setTestData(int variant, TestData data) {
         testData.put(variant, data);
@@ -24,6 +25,11 @@ public class TestTemplateController {
     public String insertTestData(Model model, @RequestParam(defaultValue = "1") int variant) {
 
         TestData data = this.getTestData().get(variant);
+
+        if (data == null) {
+            return "redirect:/?error=VariantNotFound";
+        }
+
         model.addAttribute("testData", data);
         model.addAttribute("questions", data.getQuestions());
 

@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "10-07-2026_21:54:05",
+  "variant" : 3,
+  "subjectName" : "mathematics",
+  "categories" : [ "Planimetry", "Probability", "Mathematical Logic" ],
+  "questions" : [ {
+    "question" : "According to Brahmagupta's formula, what does it calculate?",
+    "answers" : [ "Volume of a pyramid", "Area of a cyclic quadrilateral", "Area of a scalene triangle", "Perimeter of an ellipse" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the area of a circle with a diameter of 10?",
+    "answers" : [ "50 * pi", "25 * pi", "10 * pi", "100 * pi" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "Which theorem states that the square of the hypotenuse is equal to the sum of squares of the other two sides?",
+    "answers" : [ "Pythagorean Theorem", "Euclid's Theorem", "Thales's Theorem", "Ptolemy's Theorem" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is the probability of rolling a sum of 7 with two fair six-sided dice?",
+    "answers" : [ "1/36", "1/4", "1/12", "1/6" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the probability of flipping a fair coin three times and getting all heads?",
+    "answers" : [ "1/8", "1/6", "1/2", "1/4" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is the sum of probabilities of all possible mutually exclusive outcomes in a sample space?",
+    "answers" : [ "100", "0", "1", "Infinite" ],
+    "correctIndex" : 2
+  }, {
+    "question" : "What logic law simplifies 'not (A and B)' into '(not A) or (not B)'?",
+    "answers" : [ "De Morgan's Law", "Distributive Law", "Commutative Law", "Associative Law" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "Which logical connective represents an 'exclusive or' (XOR)?",
+    "answers" : [ "Both inputs are false", "Exactly one input is true", "Both inputs are true", "At least one input is true" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "If P is true and Q is false, what is the truth value of the implication P -> Q?",
+    "answers" : [ "False", "Contingent", "Undefined", "True" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "What is the negation of the statement 'All primes are odd'?",
+    "answers" : [ "No primes are odd", "There exists at least one prime that is not odd", "All primes are even", "Some primes are odd" ],
+    "correctIndex" : 1
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "creator" : "ari.neko@cvut.cz",
+  "timestamp" : "10-07-2026_21:54:05",
+  "variant" : 2,
+  "subjectName" : "mathematics",
+  "categories" : [ "Combinatorics", "Mathematical Logic", "Probability" ],
+  "questions" : [ {
+    "question" : "What is the value of the combinatorial coefficient C(5, 2)?",
+    "answers" : [ "15", "10", "20", "5" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "How many distinct subsets can be formed from a set containing 5 elements?",
+    "answers" : [ "32", "64", "25", "16" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "If P is true and Q is false, what is the truth value of the implication P -> Q?",
+    "answers" : [ "Contingent", "Undefined", "True", "False" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What logic law simplifies 'not (A and B)' into '(not A) or (not B)'?",
+    "answers" : [ "De Morgan's Law", "Associative Law", "Commutative Law", "Distributive Law" ],
+    "correctIndex" : 0
+  }, {
+    "question" : "Which logical connective represents an 'exclusive or' (XOR)?",
+    "answers" : [ "Both inputs are true", "Exactly one input is true", "Both inputs are false", "At least one input is true" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the negation of the statement 'All primes are odd'?",
+    "answers" : [ "Some primes are odd", "No primes are odd", "All primes are even", "There exists at least one prime that is not odd" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "What is the sum of probabilities of all possible mutually exclusive outcomes in a sample space?",
+    "answers" : [ "0", "1", "100", "Infinite" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What does Bayes' Theorem calculate?",
+    "answers" : [ "Marginal probability", "Discrete distributions", "Joint probability", "Conditional probability" ],
+    "correctIndex" : 3
+  }, {
+    "question" : "If events A and B are independent, what is P(A and B)?",
+    "answers" : [ "P(A) + P(B) - P(A or B)", "P(A) * P(B)", "P(A) / P(B)", "P(A) + P(B)" ],
+    "correctIndex" : 1
+  }, {
+    "question" : "What is the probability of rolling a sum of 7 with two fair six-sided dice?",
+    "answers" : [ "1/12", "1/36", "1/6", "1/4" ],
+    "correctIndex" : 2
+  } ]
+}
