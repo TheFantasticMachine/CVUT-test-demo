@@ -24,7 +24,7 @@ import java.util.Scanner;
 
 @SpringBootApplication
 public class Main {
-    static Globals globals = new Globals();
+    public static Globals globals = new Globals();
 
     public static void main(String[] args) { // FIXED: Changed 'static void main' to standard 'public static void main'
         SpringApplication.run(Main.class, args);
